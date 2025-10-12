@@ -1984,5 +1984,590 @@
         ]
       }
     ]
+  },
+  "JSS 3": {
+    "THEMES": [
+      {
+        "THEME NAME": "NUMBERS AND NUMERATION",
+        "SUB THEMES": [
+          {
+            "SUB THEME NAME": "WHOLE NUMBERS",
+            "TOPICS": [
+              {
+                "TOPIC NAME": "Whole numbers",
+                "PERFORMANCE OBJECTIVES": [
+                  "revise basic operations in binary system",
+                  "convert numbers in binary numbers to other bases and vice versa",
+                  "solve quantitative aptitude problems on Binary number systems",
+                  "use computer to do simple mathematical calculations",
+                  "translate word problems into numerical expression"
+                ],
+                "CONTENT": [
+                  "Binary number system",
+                  "Using computer to do simple mathematical calculations",
+                  "Translation of word problems into numerical expressions"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Guides students to revise the basic operations in binary number system using electrical switch",
+                  "Guides students to convert numbers in binary system to other bases and vice versa",
+                  "Guides students to solve quantitative aptitude involving binary numbers system",
+                  "Guides the students to do some simple calculations on computer",
+                  "Guides students to interpret each word problem into numerical expression e.g. the difference between 7 and the sum of half of 8 and 3"
+                ],
+                "STUDENTS ACTIVITIES": [
+                  "Carryout operation in binary number system",
+                  "Convert numbers in binary system to other bases and vice versa",
+                  "Solve quantitative binary number system",
+                  "Do some simple calculations on computer",
+                  "Interpret each word problem into numerical expression"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Computer system, flash cards"
+                ],
+                "EVALUATION GUIDE": [
+                  "solve problems involving basic operations in binary number system",
+                  "convert given numbers in binary number system to other bases and vice-versa",
+                  "solve quantitative Aptitude problems",
+                  "use computer to solve given mathematical problems",
+                  "interpret and solve each given word problem into numerical expression"
+                ]
+              },
+              {
+                "TOPIC NAME": "Whole numbers contd",
+                "PERFORMANCE OBJECTIVES": [
+                  "simplify expressions involving brackets and fractions",
+                  "solve problems involving direct and inverse proportions",
+                  "apply direct and inverse proportions to practical problems",
+                  "solve problems on compound interest",
+                  "apply the use of compound interest in daily life activities"
+                ],
+                "CONTENT": [
+                  "Expressions involving brackets and fractions",
+                  "Direct and inverse proportion",
+                  "Application of direct and inverse proportions",
+                  "Compound interest"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Guides students to simplify expressions involving brackets and fractions",
+                  "Leads students to solve problem on direct and inverse proportion",
+                  "Guides students to solve practical problems in direct and inverse proportions e.g. problems on speed, productivity, consumption and reciprocals",
+                  "Guides students to revise simple interest",
+                  "Leads students to solve problems on compound interest",
+                  "Leads students to the use of compound interest in daily life e.g. in mortgages and loans and pension"
+                ],
+                "STUDENTS ACTIVITIES": [
+                  "Simplify expression involving brackets and fractions",
+                  "Solves problems on direct and inverse proportion",
+                  "Solve practical problems on direct and inverse proportion",
+                  "Revise simple interest",
+                  "Solve problems on compound interest",
+                  "Apply the use of compound interest in daily life"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Flash cards",
+                  "Direct and inverse proportion chart",
+                  "Source for relevant information on inverse/direct proportion",
+                  "Source for information on compound interest e.g. fixed deposits"
+                ],
+                "EVALUATION GUIDE": [
+                  "simplify given expressions involving brackets and fraction",
+                  "solve given problem on direct and inverse proportion",
+                  "solve given practical problem using direct and inverse proportion",
+                  "solve given problems on compound interest",
+                  "list four real-life situations where compound interest apply"
+                ]
+              },
+              {
+                "TOPIC NAME": "Rational and non-rational numbers",
+                "PERFORMANCE OBJECTIVES": [
+                  "identify rational and non-rational numbers"
+                ],
+                "CONTENT": [
+                  "rational and non - rational numbers"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Guides students to identify rational and non rational numbers",
+                  "Guides students to determine practically the approximate value number pi"
+                ],
+                "STUDENTS ACTIVITIES": [
+                  "Identify rational and non rational numbers",
+                  "Determine practically the approximate value of number pi"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Thread or string",
+                  "Table rule",
+                  "Cylindrical shaped objects"
+                ],
+                "EVALUATION GUIDE": [
+                  "identify rational and non-rational numbers",
+                  "determine practically the approximate value of number pi"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "THEME NAME": "BASIC OPERATIONS",
+        "SUB THEMES": [
+          {
+            "SUB THEME NAME": "BASIC OPERATIONS",
+            "TOPICS": [
+              {
+                "TOPIC NAME": "Addition of numbers in base 2 numerals",
+                "PERFORMANCE OBJECTIVES": [
+                  "add two or three 3-digit binary numbers"
+                ],
+                "CONTENT": [
+                  "Addition of two or three 3-digit binary numbers"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Guides students to add two or three 3-digit numbers in base 2"
+                ],
+                "STUDENTS ACTIVITIES": [
+                  "Do addition of simple two or three 3-digit binary numbers"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Counters, Sum cards"
+                ],
+                "EVALUATION GUIDE": [
+                  "Add two or three numbers involving two or three 3-digit numbers"
+                ]
+              },
+              {
+                "TOPIC NAME": "Subtraction of numbers in base 2 numerals",
+                "PERFORMANCE OBJECTIVES": [
+                  "subtract two 3-digit binary numbers"
+                ],
+                "CONTENT": [
+                  "Subtraction of two 3-digit binary numbers"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Guides students to subtract two 3-digit numbers in base 2 number system"
+                ],
+                "STUDENTS ACTIVITIES": [
+                  "Carry out subtraction of two 3-digit numbers in base 2 numbers system"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Counters"
+                ],
+                "EVALUATION GUIDE": [
+                  "Subtract two numbers involving 2-digit or 3- digit numbers"
+                ]
+              },
+              {
+                "TOPIC NAME": "Multiplication of numbers in bases 2 numerals",
+                "PERFORMANCE OBJECTIVES": [
+                  "multiply two 2-digit binary numbers"
+                ],
+                "CONTENT": [
+                  "Multiplication of two 2-digit binary numbers"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Guides students to multiply two 2-digit numbers in bases 2"
+                ],
+                "STUDENTS ACTIVITIES": [
+                  "Carry out multiplication of 2-digit numbers in base 2"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Chart showing the multiplication of two 2-digit binary numbers"
+                ],
+                "EVALUATION GUIDE": [
+                  "Multiply given 2-digit numbers"
+                ]
+              },
+              {
+                "TOPIC NAME": "Division of numbers in base 2 numerals",
+                "PERFORMANCE OBJECTIVES": [
+                  "divide two 2-digit binary numbers"
+                ],
+                "CONTENT": [
+                  "Division of two to 3-digit binary numbers"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Guides students to divide two to 3-digit binary numbers"
+                ],
+                "STUDENTS ACTIVITIES": [
+                  "Carry out division of two to 3-digit binary numbers"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Charts showing the division of two 2-digit binary numbers"
+                ],
+                "EVALUATION GUIDE": [
+                  "Divide given two 3-digit binary numbers"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "THEME NAME": "ALGEBRAIC PROCESSES",
+        "SUB THEMES": [
+          {
+            "SUB THEME NAME": "ALGEBRAIC OPERATIONS",
+            "TOPICS": [
+              {
+                "TOPIC NAME": "Factorization",
+                "PERFORMANCE OBJECTIVES": [
+                  "factorize simple algebraic expressions",
+                  "factorize quadratic algebraic expressions using quadratic equation box",
+                  "solve word problems involving factorization"
+                ],
+                "CONTENT": [
+                  "Factorization of expressions of the form: ax + ay, 3m+ pq+3p +mp, a² - b², a² - 2ab + b²",
+                  "Word problems involving factorization"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Guides students to factorize the simple algebraic expressions",
+                  "Leads students to use the quadratic equation box to factorize quadratic expressions",
+                  "Guides students to translate word problem into algebraic expression",
+                  "Leads students to factorize resulting algebraic expression"
+                ],
+                "STUDENTS ACTIVITIES": [
+                  "Factorize the given simple algebraic expressions",
+                  "Use the quadratic equation box to factorize quadratic expressions",
+                  "Translate given word problems into algebraic expression",
+                  "Factorize the resulting algebraic expression"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Quadratic equation box",
+                  "Flash cards of word problems"
+                ],
+                "EVALUATION GUIDE": [
+                  "factorize given algebraic expressions",
+                  "factorize given quadratic expressions using quadratic equation box",
+                  "translate given word problems into algebraic expressions and factorize"
+                ]
+              },
+              {
+                "TOPIC NAME": "Simple equations involving fractions",
+                "PERFORMANCE OBJECTIVES": [
+                  "solve simple equations involving fractions",
+                  "solve simple word problems on simple equations involving fractions"
+                ],
+                "CONTENT": [
+                  "Simple equations involving fractions",
+                  "Word problems leading to simple equation involving fractions"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Leads students to solve problems on simple equations involving fractions",
+                  "Guides students to translate word problem leading to simple equations with fractions",
+                  "Leads students to solve the resulting algebraic equation"
+                ],
+                "STUDENTS ACTIVITIES": [
+                  "Solve given problems on simple equations involving fractions",
+                  "Translate each word problem to algebraic equation",
+                  "Solve the resulting equation"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Flash cards of simple equations showing fractions",
+                  "Flash cards of simple squares involving fractions"
+                ],
+                "EVALUATION GUIDE": [
+                  "solve given problems on simple equations involving fractions",
+                  "translate given word problem into algebraic equation and solve them"
+                ]
+              },
+              {
+                "TOPIC NAME": "Simultaneous linear equations",
+                "PERFORMANCE OBJECTIVES": [
+                  "compile table of values for simultaneous linear functions",
+                  "solve problems involving linear simultaneous equations in two variables graphically",
+                  "solve simultaneous linear equations in two variables using elimination method",
+                  "apply elimination method to solve problems involving real life activities",
+                  "solve simultaneous linear equations in two variables using substitution method",
+                  "apply substitution method to solve problems involving real life activities"
+                ],
+                "CONTENT": [
+                  "Compilations of table of values",
+                  "Graphical solution of simultaneous linear equations in two variables",
+                  "Solution of simultaneous linear equations using elimination method",
+                  "Solution of simultaneous linear equations using substitution method"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Guides students in calculating the values of a linear equations for different values of the variables and present their solutions in a table",
+                  "Plot the points for the two linear equations on the same axes",
+                  "Locate and read points of intersection of the two graphs as the solution of the equations",
+                  "Solve given simultaneous linear equations using elimination method",
+                  "Apply elimination method to solve problems involving real life activities",
+                  "Solve given simultaneous linear equations using substitution method",
+                  "Apply substitution method to solve problems involving real life activities"
+                ],
+                "STUDENTS ACTIVITIES": [
+                  "Compute linear equations for different values for the variable",
+                  "Present calculated values in tabular form",
+                  "Plots of solutions for the two linear equations on the same axes",
+                  "Locate and read points of intersection of the two graphs as the solution of the equations",
+                  "Solve given simultaneous linear equations using elimination method",
+                  "Apply elimination method to solve problems involving real life activities",
+                  "Solve given simultaneous linear equations using substitution method",
+                  "Apply substitution method to solve problems involving real life activities"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Table of values",
+                  "Graph board, Pencil, Flash cards with simultaneous linear equations"
+                ],
+                "EVALUATION GUIDE": [
+                  "compute table of values for given linear functions",
+                  "solve a given simultaneous equations in two variables graphically",
+                  "solve given simultaneous linear equation using elimination method",
+                  "solve given simultaneous linear equations using substitution method"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "THEME NAME": "MENSURATION AND GEOMETRY",
+        "SUB THEMES": [
+          {
+            "SUB THEME NAME": "SHAPES",
+            "TOPICS": [
+              {
+                "TOPIC NAME": "Similar Shapes",
+                "PERFORMANCE OBJECTIVES": [
+                  "identify similar figures:- triangles rectangles, squares cubes and cuboids",
+                  "identify the presence of similar shapes in the environment",
+                  "enlarge figures using scale factors",
+                  "calculate lengths, areas and volumes of similar figures",
+                  "Solve problems on quantitative reasoning involving similar shapes"
+                ],
+                "CONTENT": [
+                  "Similar shapes",
+                  "Enlargements and scale factor",
+                  "Lengths, areas and volumes of similar figures"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Guides students to identify similar shapes around them",
+                  "Introduces the meaning of enlargement and scale factor",
+                  "Guides Students to enlarge shapes using scale factor",
+                  "Leads students to identify that if the length of similar figures are in ratio 1:k then areas and volumes are in ratios 1:k^2 and 1:k^3 respectively",
+                  "Leads students to solve quantitative aptitude problems involving similar shapes"
+                ],
+                "STUDENTS ACTIVITIES": [
+                  "Identify similar shapes around them",
+                  "Describe the meaning of enlargement and scale factor",
+                  "Enlarge shapes using scale factors",
+                  "Identify that if the length of similar figures are in ratio 1:k, then the areas and volumes are in ratios 1:k^2 and 1:k^3 respectively",
+                  "Solve problems on quantitative aptitude involving similar shape"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Similar shapes of triangles, rectangles, squares, cubes, cuboids"
+                ],
+                "EVALUATION GUIDE": [
+                  "identify Given similar shapes",
+                  "determine the scale factors of any given figures",
+                  "enlarge figures using the scale factors",
+                  "find the lengths, areas and volume of given similar figures",
+                  "solve problems on quantitative aptitude involving similar shape"
+                ]
+              },
+              {
+                "TOPIC NAME": "Trigonometry",
+                "PERFORMANCE OBJECTIVES": [
+                  "identify sine, cosine and tangent of an acute angle",
+                  "solve problems on applications of trigonometric ratios to finding distances and lengths",
+                  "apply trigonometric ratios in solving world problems"
+                ],
+                "CONTENT": [
+                  "The sine, cosine and tangent of an acute angle",
+                  "Applications of Trigonometric ratios"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Leads students to observe the sine, cosine, and tangent of an acute angle as ratios of sides of right angled triangle",
+                  "Leads students to use the trigonometric ratios to solve practical problems involving right-angled triangle",
+                  "Leads students to apply trigonometric ratios to solve world problems"
+                ],
+                "STUDENTS ACTIVITIES": [
+                  "Identify sine, cosine and tangent of an acute angle as ratios of sides of a right-angled triangle",
+                  "Use trigonometric ratio to solve practical problems",
+                  "Apply trigonometric ratios to solve world problems"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Model of right angled triangle",
+                  "Flash cards with different problems"
+                ],
+                "EVALUATION GUIDE": [
+                  "determine sine, cosine and tangent of an acute angle from given triangles",
+                  "solve practical problems involving trigonometric ratios"
+                ]
+              },
+              {
+                "TOPIC NAME": "Area of plane figures",
+                "PERFORMANCE OBJECTIVES": [
+                  "find areas of triangles",
+                  "find area of a parallelograms",
+                  "find areas of trapezium",
+                  "find area of circles and sectors",
+                  "Solve word problems involving areas",
+                  "solve quantitative aptitude problems on areas"
+                ],
+                "CONTENT": [
+                  "Area of triangles",
+                  "Area of parallelogram",
+                  "Area of trapezium",
+                  "Areas of circles",
+                  "Word problems involving area"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Leads students to derive formula for areas of triangles",
+                  "Guides students to use the obtained formula to find the area of triangle",
+                  "Leads students to derive the formula for area of parallelogram",
+                  "Guides students to use the derived formula to find the area of parallelogram",
+                  "Leads students to derive the formula for area of trapezium",
+                  "Guides students to solve problems on area of trapezium using the derived formula",
+                  "Leads students to derive the formula for area of circles and the sectors",
+                  "Guides students to use the derived formula to find the area of circles and sectors",
+                  "Guides students to interpret and Solve world problems involving areas",
+                  "Guide students to solve quantitative aptitude problem an area of figures"
+                ],
+                "STUDENTS ACTIVITIES": [
+                  "Derive formula for areas of triangles",
+                  "Use the formula to find the area of triangle",
+                  "Derive the formula for area of parallelogram",
+                  "Use the derived formula to find the area of a parallelogram",
+                  "Derive the formula to find the area of a trapezium",
+                  "Find the area of trapezium",
+                  "Derive the formula for area of circles and sectors",
+                  "Use the derived formula to find the area of circles",
+                  "Interpret and solve world problems involving areas",
+                  "Solve quantitative aptitude problems on areas"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Triangular shapes",
+                  "Models of parallelogram",
+                  "Models of trapezium",
+                  "Model of circles and sectors",
+                  "Flash cards with word problems"
+                ],
+                "EVALUATION GUIDE": [
+                  "find the area of given triangles",
+                  "find the area of given parallelograms",
+                  "find areas of given trapeziums",
+                  "find the areas of given circles and sectors",
+                  "solve given world problems involving area"
+                ]
+              },
+              {
+                "TOPIC NAME": "Construction",
+                "PERFORMANCE OBJECTIVES": [
+                  "construct angle 45°",
+                  "construct angles 30°",
+                  "use a pair of compasses to copy a given angle",
+                  "construct simple shapes"
+                ],
+                "CONTENT": [
+                  "Construction of angle 45°",
+                  "Construction of angles 30°",
+                  "Copying given angles",
+                  "Construction of simple plane shapes"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Leads students to construct angles 45°",
+                  "Leads students to construct angles 30°",
+                  "Leads students to copy a given angle",
+                  "Guides students to Construct simple plane shapes"
+                ],
+                "STUDENTS ACTIVITIES": [
+                  "Construct angles 45°",
+                  "Construct angles 30°",
+                  "Copy a given angle"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Mathematical set"
+                ],
+                "EVALUATION GUIDE": [
+                  "construct angle 45°",
+                  "construct angles 30°",
+                  "copy a given angle",
+                  "construct simple plane shapes"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "THEME NAME": "EVERYDAY STATISTICS",
+        "SUB THEMES": [
+          {
+            "SUB THEME NAME": "DATA COLLECTION AND PRESENTATION",
+            "TOPICS": [
+              {
+                "TOPIC NAME": "Measure of central tendency",
+                "PERFORMANCE OBJECTIVES": [
+                  "review their previous work on mean, mode and median",
+                  "calculate the median of a given data",
+                  "find the mode of given data",
+                  "calculate the mean of any given data",
+                  "find the range of any given data",
+                  "apply measures of central tendency to analyze any given information"
+                ],
+                "CONTENT": [
+                  "Revision of previous work on mean, median and mode",
+                  "Median",
+                  "Mode",
+                  "Mean",
+                  "Range",
+                  "application of measures of central tendency to analyze any given information"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Guides students to review the previous work on mean, median and mode of data",
+                  "Guides students to find the median of ungrouped data",
+                  "Guides students to find the mode of ungrouped data",
+                  "Leads students to calculate the means of a given data",
+                  "Leads students to find the range of any given data",
+                  "Leads students to analyze any given data using the measures of central tendency"
+                ],
+                "STUDENTS ACTIVITIES": [
+                  "Review the meaning of mean, median and mode of data",
+                  "Find the median of ungrouped data",
+                  "Find the mode of ungrouped data",
+                  "Calculate the mean of a given data",
+                  "Find the range of any given data",
+                  "Analyze given data using the measures of central tendency"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Demographic data",
+                  "Source data from Federal /State/Local Government Agencies"
+                ],
+                "EVALUATION GUIDE": [
+                  "carryout review exercises on mean, mode and median",
+                  "find the median of a given set of data",
+                  "find the mode in any given data",
+                  "calculate the mean of any given data",
+                  "find the range of any given data",
+                  "use measures of central tendency to analyze any given data"
+                ]
+              },
+              {
+                "TOPIC NAME": "Data presentation",
+                "PERFORMANCE OBJECTIVES": [
+                  "represent and interpret an information on pie charts"
+                ],
+                "CONTENT": [
+                  "Pie Charts"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Leads students to represent and interpret data in pie charts"
+                ],
+                "STUDENTS ACTIVITIES": [
+                  "Represent and interpret data on a pie chart",
+                  "Represent data on pie charts"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Pie charts, Mathematical set, Data chart on activities"
+                ],
+                "EVALUATION GUIDE": [
+                  "Students to represent data from his environment on a pie chart"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 }
