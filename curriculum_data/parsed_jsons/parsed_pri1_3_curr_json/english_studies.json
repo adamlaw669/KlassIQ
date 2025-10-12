@@ -5,87 +5,48 @@
         "THEME NAME": "READING",
         "SUB THEMES": [
           {
-            "SUB THEME NAME": "PHONOLOGICAL AND PHONEMIC AWARENESS",
+            "SUB THEME NAME": "Phonological and Phonemic Awareness",
             "TOPICS": [
               {
-                "TOPIC NAME": "Animal Sounds and Phonological Awareness",
+                "TOPIC NAME": "Phonological Awareness",
                 "PERFORMANCE OBJECTIVES": [
                   "Identify and name sounds made by various animals",
-                  "Reproduce sounds made by animals",
-                  "Produce and identify basic sounds correctly",
-                  "Distinguish sounds of different letters of the alphabet",
-                  "Reproduce sounds of letters of the alphabet"
+                  "Reproduce sounds made by animals"
                 ],
                 "CONTENT": [
-                  "Sounds of domestic animals",
-                  "Production of basic sounds in given words",
-                  "Sounds of letters of the alphabet"
+                  "Auditory perception and discrimination - Sounds of domestic animals such as cat, horse, dog, cock, cow, goat, etc."
                 ],
                 "TEACHER ACTIVITIES": [
-                  "Identifies sounds of various animals",
-                  "Asks pupils to imitate animal sounds",
-                  "Presents and pronounces basic sounds correctly",
-                  "Guides pupils to distinguish alphabet sounds"
+                  "Identifies the sounds of various animals",
+                  "Asks pupils to imitate the sound of the various animals"
                 ],
                 "PUPILS ACTIVITIES": [
-                  "Identify animal sounds",
-                  "Try to produce various animal sounds",
-                  "Produce sounds and pronounce letters correctly",
-                  "Identify sounds of given alphabets"
+                  "Identify the sounds of the various animals as listed by the teacher",
+                  "Try to produce the various sounds"
                 ],
                 "TEACHING AND LEARNING RESOURCES": [
                   "Picture books",
                   "Pictures of animals",
-                  "Flash cards/Alphabet charts",
-                  "Tape recording/Sound charts"
+                  "Appropriate rhymes",
+                  "Teacher's demonstration"
                 ],
                 "EVALUATION GUIDE": [
                   "Name various sounds that animals make",
-                  "Mimic sounds made by animals",
-                  "Pronounce sounds of letters correctly",
-                  "Identify letters and sounds in given words"
+                  "Mimic sounds made by animals"
                 ]
               },
               {
-                "TOPIC NAME": "Word Sounds and Syllables",
+                "TOPIC NAME": "Phonemic Awareness",
                 "PERFORMANCE OBJECTIVES": [
+                  "Produce and identify basic sounds correctly",
+                  "Distinguish the sounds of the different letters of the alphabet correctly",
+                  "Reproduce sounds of letters of the alphabet",
                   "Listen to one-syllable words and recognize words that begin with same letter sounds",
                   "Recognize words that end with same letter sounds",
                   "Identify rhyming words",
                   "Identify beginning and end sounds",
                   "Blend sounds to form one-syllable words",
-                  "Segment one syllable words into separate letter sounds"
-                ],
-                "CONTENT": [
-                  "Word Sounds and Syllables"
-                ],
-                "TEACHER ACTIVITIES": [
-                  "Uses pictures to identify beginning and ending sounds",
-                  "Guides pupils to identify and count sounds in syllables",
-                  "Guides blending and segmenting of sounds"
-                ],
-                "PUPILS ACTIVITIES": [
-                  "Identify sounds of letters in words",
-                  "Clap to syllables in words",
-                  "Build new words by blending letter sounds",
-                  "Distinguish between sounds at beginning, middle and end of words"
-                ],
-                "TEACHING AND LEARNING RESOURCES": [
-                  "Word Cards",
-                  "Audio Tape",
-                  "Tape Recorders",
-                  "Listening Games"
-                ],
-                "EVALUATION GUIDE": [
-                  "Identify beginning and ending sounds in one syllable words",
-                  "Clap to number of syllables in words",
-                  "Form three-letter words by blending letter sounds",
-                  "Recognize letter sounds at beginning, middle and ending of words"
-                ]
-              },
-              {
-                "TOPIC NAME": "Songs and Rhymes",
-                "PERFORMANCE OBJECTIVES": [
+                  "Segment one-syllable words into separate letter sounds",
                   "Sing songs taught",
                   "Recite rhymes",
                   "Identify letter sounds in songs and rhymes",
@@ -93,29 +54,59 @@
                   "Build rhyming word families"
                 ],
                 "CONTENT": [
+                  "Sounds of letters: Production of basic sounds in given words correctly",
+                  "Word Sounds and Syllables",
                   "Songs and Rhymes"
                 ],
                 "TEACHER ACTIVITIES": [
-                  "Sings songs and recites rhymes with pupils",
-                  "Guides pupils to repeat sounds of rhyming words",
-                  "Writes word sets on board for identification",
-                  "Uses Pocket Chart to build rhyming word families"
+                  "Presents and pronounces basic sounds correctly",
+                  "Presents and pronounces letters of the alphabet correctly",
+                  "Guides pupils to distinguish sounds of different alphabets correctly",
+                  "Guides pupils to pronounce the letters of the alphabet correctly",
+                  "Sings songs and recites rhymes with the pupils",
+                  "Guides the pupils to repeat sounds of rhyming words in the songs and rhymes",
+                  "Writes down sets of words on the board and lead pupils to identify word sets that rhyme",
+                  "Uses Pocket Chart to help pupils build rhyming word families"
                 ],
                 "PUPILS ACTIVITIES": [
-                  "Sing songs and recite rhymes after teacher",
-                  "Reproduce sounds of rhyming words",
+                  "Produce sounds and pronounce letters correctly",
+                  "Listen to teacher's pronunciation of letters of the alphabet",
+                  "Identify sounds of given alphabets",
+                  "Reproduce sounds of letters",
+                  "Take turns to identify sounds of letters in words",
+                  "Listen to sentences and clap to each syllable in a word",
+                  "Build new words by blending letter sounds",
+                  "Distinguish between sounds at the beginning, middle and end of words",
+                  "Play Listening games",
+                  "Sing songs and recite rhymes after the teacher",
+                  "Reproduce sounds of rhyming words in songs and rhymes",
                   "Match rhyming words to given word",
                   "Build families of words that rhyme"
                 ],
                 "TEACHING AND LEARNING RESOURCES": [
+                  "Flash cards/Alphabet charts",
+                  "Toys",
+                  "Pictures/Drawing",
+                  "Real objects",
+                  "Tape recording / Sound charts",
+                  "Word Cards",
+                  "Audio Tape",
+                  "Tape Recorders",
+                  "Listening Game",
                   "Charts",
                   "Picture books with rhymes and songs",
                   "Flash cards",
                   "Tape recorder"
                 ],
                 "EVALUATION GUIDE": [
+                  "Pronounce sounds of the letters of the alphabet correctly",
+                  "Identify letters and sounds in given words",
+                  "Identify beginning and ending sounds in one syllable words",
+                  "Clap to the number of syllables in words",
+                  "Form three-letter words by blending letter sounds",
+                  "Recognize letter sounds at the beginning, middle and ending of one syllable words",
                   "Recite rhymes and sing songs",
-                  "Make letter sounds in rhymes and songs",
+                  "Make the letter sounds in rhymes and songs",
                   "Match rhyming words to given word",
                   "Form new rhyming word sets"
                 ]
@@ -123,227 +114,380 @@
             ]
           },
           {
-            "SUB THEME NAME": "PHONICS AND ALPHABET",
+            "SUB THEME NAME": "Phonics",
             "TOPICS": [
               {
-                "TOPIC NAME": "Alphabet Sounds and Recognition",
+                "TOPIC NAME": "Phonics - Alphabet and Blending",
                 "PERFORMANCE OBJECTIVES": [
-                  "Say sounds of the alphabet correctly",
-                  "Recognize sounds of different letters",
-                  "Describe shapes of letters of the Alphabet",
-                  "Arrange letters in correct order"
+                  "Say the sounds of the alphabet correctly",
+                  "Recognize sounds of different letters of the alphabet",
+                  "Describe the shapes of letters of the Alphabet",
+                  "Arrange the letters of the alphabet in the correct order",
+                  "Build words by blending the sounds of letters of the alphabets",
+                  "Read familiar words and text",
+                  "Compare words with similar sounds",
+                  "Apply long and short vowel rule correctly",
+                  "Decode one-syllable word",
+                  "Monitor own reading and self corrects",
+                  "Use sounds of letters to form three-letter words",
+                  "Break large words into smaller words",
+                  "Break words into sounds",
+                  "Break words into smaller words",
+                  "Break words into parts and identify the word parts",
+                  "Use letter-sound correspondence to build and read unfamiliar words",
+                  "Recognize and use vowel digraphs and r-controlled letter sounds to read unfamiliar words"
                 ],
                 "CONTENT": [
-                  "Sounds of letters of the alphabet",
-                  "Names of uppercase and lowercase letters",
-                  "Alphabetical Order"
+                  "The Alphabet: /a/ - /z/, Names of all uppercase and lower case letters of the alphabet, Alphabetical Order",
+                  "Blending sounds of Letters to form words",
+                  "Identification of familiar sounds in words",
+                  "Combining sounds to form two and three letter words",
+                  "Decoding Strategies: Sounding out words in text, Break words into smaller words, Words parts (compound words, digraphs), Apply long and short vowels"
                 ],
                 "TEACHER ACTIVITIES": [
-                  "Says sounds of the alphabets",
-                  "Guides pupils to say alphabet sounds"
+                  "Says the sounds of the alphabets",
+                  "Guides pupils to say the sounds of the alphabets",
+                  "Prepare Pocket Charts",
+                  "Makes sounds of letters of the alphabet for pupils to imitate",
+                  "Guides pupils to blend the sounds of letters to form words",
+                  "Guides and directs drill exercises on blending sounds of letters to make new words",
+                  "Guides pupils to track familiar sounds from words read aloud, when reading own writing, and in spoken words",
+                  "Provides pupils with appropriate drills and exercises to improve their reading",
+                  "Reads given words emphasizing the sounds in the words",
+                  "Guide pupils to read given three letter words using sounds",
+                  "Guides pupils to match pictures to words read aloud",
+                  "Teachers correct pronunciation of words syllable by syllable while clapping and counting syllables in words",
+                  "Guides pupils to separate words into consonant and vowel sounds / parts",
+                  "Build words by blending word parts to form new words"
                 ],
                 "PUPILS ACTIVITIES": [
-                  "Listen to teacher say alphabet sounds",
-                  "Participate in saying alphabet sounds"
+                  "Listen to teacher say the sounds of the alphabets",
+                  "Participate in saying the sounds of the letters of the alphabets",
+                  "Imitate sounds of letters",
+                  "Participate in class drills and exercises",
+                  "Build new words by blending sounds of the alphabets",
+                  "Track sounds in spoken words in texts read",
+                  "Participate in reading drills and activities and self corrects own reading",
+                  "Read assigned books and stories",
+                  "Practise by imitating teacher's action",
+                  "Read given two and three letter words",
+                  "Clap to the number of syllables in a word",
+                  "Match pictures to words read aloud",
+                  "Listen and clap to syllables in words",
+                  "Use pronunciation and listening games",
+                  "Read English words with punctuation and writing",
+                  "Identify word parts",
+                  "Break words into small parts, build and read unfamiliar words",
+                  "Identify, read and build compound words"
                 ],
                 "TEACHING AND LEARNING RESOURCES": [
-                  "Cut-out letters of alphabet",
+                  "Cut-out letters of the alphabet",
                   "Sounds chart",
-                  "Flash cards"
+                  "Pocket Chart",
+                  "Picture cards",
+                  "Letter Cards",
+                  "Word Charts",
+                  "Flash cards of given three letter words",
+                  "Chart of common three letter words",
+                  "Class text",
+                  "Listening Games",
+                  "Tape Recorders Audio Tapes",
+                  "Flash Cards Word walls"
                 ],
                 "EVALUATION GUIDE": [
-                  "Recognize and say sounds of letters correctly"
+                  "Recognise and say sounds of the letters correctly",
+                  "Pronounce the sounds of the alphabets correctly",
+                  "Blend the sounds to build three letter words",
+                  "Build sounds of the alphabets to build at least five new, but simple, words",
+                  "Track familiar sounds in words",
+                  "Identify sounds when re-reading own writing",
+                  "Read and self-correct own reading",
+                  "Read given three letter words and correctly using sounds",
+                  "Sound out words they listen to",
+                  "Identify smaller word in compound words",
+                  "Identify the word parts in speech, words read aloud, etc.",
+                  "Build and read compound words and contractions"
                 ]
-              },
+              }
+            ]
+          },
+          {
+            "SUB THEME NAME": "Fluency",
+            "TOPICS": [
               {
-                "TOPIC NAME": "Blending Sounds to Form Words",
+                "TOPIC NAME": "Reading Fluency",
                 "PERFORMANCE OBJECTIVES": [
-                  "Build words by blending sounds of letters"
+                  "Correctly read letters of the alphabets",
+                  "Read given text with fluency and expression",
+                  "Reflect appropriate pacing, intonation, punctuation when reading orally",
+                  "Sight-read about 100-300 easily sounded words",
+                  "Read accurately without hesitations, omissions, repetitions, or mispronunciations",
+                  "Recognise common words by sight",
+                  "Read class appropriate texts and sentences accurately without hesitation",
+                  "Use decoding to identify new words in reading passages"
                 ],
                 "CONTENT": [
-                  "Blending sounds of letters to form words"
+                  "Reading Aloud with: Pacing, Intonation, Punctuations",
+                  "Reading Variety of texts (poems, fantasy, etc.)",
+                  "Independent Reading",
+                  "Recognition of common One-letter words, two-letter, and three-letter words"
                 ],
                 "TEACHER ACTIVITIES": [
-                  "Prepares Pocket Charts",
-                  "Makes sounds for pupils to imitate",
-                  "Guides blending of sounds to form words",
-                  "Directs drill exercises on blending"
+                  "Prepare Pocket Charts",
+                  "Makes sounds of letters of the alphabet for pupils to imitate",
+                  "Guides pupils to the letters of the Alphabet fluently with in the correct order",
+                  "Helps pupils reflect pacing, punctuation and correct intonation while reading given text",
+                  "Gives class appropriate reading assignments to pupils to build speed and vocabulary",
+                  "Writes common One-letter, two-letter, and three-letter words on the board"
                 ],
                 "PUPILS ACTIVITIES": [
                   "Imitate sounds of letters",
-                  "Participate in class drills",
-                  "Build new words by blending sounds"
+                  "Participate in class drills and exercises on reading",
+                  "Read a variety of texts (story books, newspapers, etc.)",
+                  "Identifies and practice correct pronunciation of new words",
+                  "Pronounce given words correctly",
+                  "Use words in own speech",
+                  "Participate in drill exercises involving sight-reading of simple words and sentences"
                 ],
                 "TEACHING AND LEARNING RESOURCES": [
                   "Pocket Chart",
                   "Picture cards",
                   "Letter Cards",
-                  "Word Charts"
+                  "Word Charts",
+                  "Story books",
+                  "News Papers",
+                  "Magazines",
+                  "Charts",
+                  "Content Specific Texts",
+                  "Pupil textbooks",
+                  "Story books"
                 ],
                 "EVALUATION GUIDE": [
-                  "Pronounce alphabet sounds correctly",
-                  "Blend sounds to build three letter words",
-                  "Build at least five new simple words"
-                ]
-              },
-              {
-                "TOPIC NAME": "Word Decoding and Reading",
-                "PERFORMANCE OBJECTIVES": [
-                  "Read familiar words and text",
-                  "Compare words with similar sounds",
-                  "Apply long and short vowel rule",
-                  "Decode one-syllable words",
-                  "Monitor own reading and self correct"
-                ],
-                "CONTENT": [
-                  "Identification of familiar sounds in words",
-                  "Combining sounds to form two and three letter words"
-                ],
-                "TEACHER ACTIVITIES": [
-                  "Guides tracking familiar sounds in words",
-                  "Provides reading drills and exercises",
-                  "Reads given words emphasizing sounds",
-                  "Guides reading of three letter words"
-                ],
-                "PUPILS ACTIVITIES": [
-                  "Track sounds in spoken words",
-                  "Participate in reading drills",
-                  "Read assigned books and stories",
-                  "Clap to syllables in words"
-                ],
-                "TEACHING AND LEARNING RESOURCES": [
-                  "Pocket Chart",
-                  "Flash cards of three letter words",
-                  "Chart of common three letter words"
-                ],
-                "EVALUATION GUIDE": [
-                  "Track familiar sounds in words",
-                  "Identify sounds when re-reading own writing",
-                  "Read and self-correct own reading",
-                  "Read given three letter words using sounds"
+                  "Read the alphabets in the correct order without hesitation",
+                  "Pronounce the sounds of the alphabets correctly",
+                  "Recognise and express appropriate pacing, punctuations and intonation in reading",
+                  "Sight-read high frequency words in texts",
+                  "Sight-read common one-letter, two-letter and three-letter words correctly",
+                  "Use words in own speech",
+                  "Sight-read simple sentences accurately without hesitation"
                 ]
               }
             ]
           },
           {
-            "SUB THEME NAME": "FLUENCY AND COMPREHENSION",
+            "SUB THEME NAME": "Comprehension",
             "TOPICS": [
               {
-                "TOPIC NAME": "Reading Fluency",
+                "TOPIC NAME": "Listening and Reading Comprehension",
                 "PERFORMANCE OBJECTIVES": [
-                  "Correctly read letters of the alphabet",
-                  "Read given text with fluency and expression",
-                  "Reflect appropriate pacing, intonation, punctuation",
-                  "Sight-read 100-300 easily sounded words",
-                  "Read accurately without hesitations"
+                  "Identify main characters and setting of a story",
+                  "Correctly answer questions about texts or stories read aloud",
+                  "Explain sequence of events in stories and indicate first, second, last, etc",
+                  "Re-tell and dramatises stories and parts of stories",
+                  "Describe information gained from texts in own words",
+                  "Answer written comprehension questions based on materials read",
+                  "Make predictions based on illustrations in stories or portions of stories",
+                  "Justify predictions of events in stories",
+                  "Explain simple written instructions",
+                  "Recognise main ideas drawn from looking at pictures, illustrations, tables, charts, graphs, etc.",
+                  "Make predictions based on information contained in texts",
+                  "Justify predictions of events in stories"
                 ],
                 "CONTENT": [
-                  "Reading Aloud with pacing, intonation, punctuation",
-                  "Reading variety of texts",
-                  "Independent Reading"
+                  "Listening: Answering questions from stories, Making connections and responding to story themes, plots and settings",
+                  "Written Comprehension: Making connections and responding to story themes, plots and settings",
+                  "Reading informational text: pictures, illustrations, Tables, Charts, Graphs, etc."
                 ],
                 "TEACHER ACTIVITIES": [
-                  "Prepares Pocket Charts",
-                  "Guides fluent reading of alphabet",
-                  "Helps reflect pacing and intonation",
-                  "Gives reading assignments"
+                  "Reads a story to the class and guides pupils to identify characters in the story, explain sequence of events",
+                  "Guides pupils to read a text or story, and explain in own words the instructions and message in the text or story, answer questions based on what is read, make connections between story themes, characters in the story and life experiences",
+                  "Guides pupils to read and explain in own words the instructions and message in the text, answer questions based on what is read, Interprets to the class appropriate Charts, Graphs, Tables, etc., make predictions based on information contained in Tables, graphs, Charts, etc, and justify such predictions"
                 ],
                 "PUPILS ACTIVITIES": [
-                  "Imitate sounds of letters",
-                  "Participate in reading drills",
-                  "Read variety of texts",
-                  "Practice correct pronunciation"
-                ],
-                "TEACHING AND LEARNING RESOURCES": [
-                  "Pocket Chart",
-                  "Story books",
-                  "Newspapers",
-                  "Magazines"
-                ],
-                "EVALUATION GUIDE": [
-                  "Read alphabets in correct order",
-                  "Pronounce alphabet sounds correctly",
-                  "Express appropriate pacing and intonation",
-                  "Sight-read high frequency words"
-                ]
-              },
-              {
-                "TOPIC NAME": "Reading Comprehension",
-                "PERFORMANCE OBJECTIVES": [
-                  "Identify main characters and setting of stories",
-                  "Answer questions about texts read aloud",
-                  "Explain sequence of events in stories",
-                  "Re-tell and dramatize stories"
-                ],
-                "CONTENT": [
-                  "Listening Comprehension",
-                  "Answering questions from stories",
-                  "Making connections to story themes"
-                ],
-                "TEACHER ACTIVITIES": [
-                  "Reads stories to class",
-                  "Guides identification of characters",
-                  "Explains sequence of events",
-                  "Guides re-telling and dramatization"
-                ],
-                "PUPILS ACTIVITIES": [
-                  "Listen to stories",
-                  "Identify characters and settings",
-                  "Answer story questions",
-                  "Re-tell and dramatize stories"
+                  "Listen to story read by the teacher",
+                  "Identify characters and settings in a story",
+                  "Answer questions based on story",
+                  "Re-tell parts of the story",
+                  "Dramatise the story",
+                  "Read stories or texts from books",
+                  "Explain in own words instructions in texts or story",
+                  "Answer questions based on text or story",
+                  "Dramatise the story and connect information in story to life experiences",
+                  "Read and interpret given pictures, graphs, tables, charts, etc.",
+                  "Explain given instructions in own words",
+                  "Answer questions based on materials read",
+                  "Make and justify predictions about events based on contents of given Tables, Charts, Graphs, etc."
                 ],
                 "TEACHING AND LEARNING RESOURCES": [
                   "Story books",
-                  "School Library"
+                  "School Library",
+                  "Pupils text books",
+                  "Charts",
+                  "Graphs",
+                  "Tables"
                 ],
                 "EVALUATION GUIDE": [
-                  "Answer questions based on stories",
-                  "Describe sequence of events",
-                  "Retell stories",
-                  "Dramatize parts of stories"
+                  "Answer questions based on stories read to them",
+                  "Describe sequence of events in a story",
+                  "Dramatise parts of a story",
+                  "Draw pictures that depict events in the story",
+                  "Explain in own words meaning of information in print texts",
+                  "Predict events based on illustrations in texts or stories",
+                  "Justify predictions with information from the text or story",
+                  "Carry out simple instructions correctly",
+                  "Interpret information contained in Pictures Tables, Charts, Graphs, etc.",
+                  "Predict events based on illustrations in texts and other given materials",
+                  "Justify predictions with information from the text"
                 ]
               }
             ]
           },
           {
-            "SUB THEME NAME": "VOCABULARY DEVELOPMENT",
+            "SUB THEME NAME": "Vocabulary Acquisition",
             "TOPICS": [
               {
-                "TOPIC NAME": "Word Categories and Abbreviations",
+                "TOPIC NAME": "Word Categories and Building",
                 "PERFORMANCE OBJECTIVES": [
-                  "Name basic word categories correctly",
-                  "Sort pictures and words into categories",
-                  "Recognize and use abbreviations",
-                  "Add endings to base words"
+                  "Name some basic words categories correctly",
+                  "Sort pictures and words into basic word categories",
+                  "Recognise and use abbreviations in simple sentences",
+                  "Recognise and explain common abbreviations",
+                  "Use abbreviations appropriately in sentences",
+                  "Correctly add endings to base word",
+                  "Explain the concept of synonyms and antonyms",
+                  "Identify antonyms and synonyms correctly in own speech and in written texts and stories",
+                  "Identify homonyms",
+                  "Explain meaning of new words in content-specific texts correctly",
+                  "Use of new Vocabulary and grammatical constructions in own speech",
+                  "Recognises and understand the meaning of 100-300 new words",
+                  "Manipulate word families"
                 ],
                 "CONTENT": [
-                  "Word Categories: Colors, Shapes, Foods, Animals, Toys",
-                  "Abbreviations and word endings",
-                  "Symbols"
+                  "Word Categories: Colours, Shapes, Foods, Animals, Toys, etc.",
+                  "Abbreviation and word endings: Mr. Mrs. Dr. Rev. etc., -s, -ed, -es, -ing, etc., Symbols",
+                  "Synonyms Antonyms, Homonyms",
+                  "Content Specific Vocabulary: numeracy, science, health, etc."
                 ],
                 "TEACHER ACTIVITIES": [
-                  "Uses pictures to identify word categories",
-                  "Reads stories and checks understanding",
-                  "Explains meaning of abbreviations",
-                  "Guides adding endings to base words"
+                  "Uses pictures to lead pupils to identify word categories, and groups words into the different categories",
+                  "Read stories to pupils and check their understanding by making them use key words in the story in a new sentence",
+                  "Explains the meaning of abbreviations, like Mr. Mrs. Dr. Rev. etc.",
+                  "Guides pupils to identify common word endings and add endings to base word",
+                  "Guides pupils to identify words with similar meanings and opposite meanings",
+                  "Gives the synonyms and antonyms of common word",
+                  "Identifies synonyms, antonyms and homonyms in stories",
+                  "Guides pupils to identify new and unfamiliar words in texts and stories read, find the meaning of the new words, and correctly use the new words in own speech"
                 ],
                 "PUPILS ACTIVITIES": [
-                  "Match pictures to words",
-                  "Identify word families",
-                  "Construct sentences using key words",
-                  "Participate in drills on abbreviations"
+                  "Match pictures to words read aloud",
+                  "Participates in Picture-Word matching game",
+                  "Identify word families and sort words into categories/ families",
+                  "Construct sentences using key words in the stories read",
+                  "Listens to teacher explanations",
+                  "Construct words using abbreviations",
+                  "Participate in drills and exercises involving abbreviations and adding endings to common words",
+                  "Listen to the Teacher's explanations",
+                  "Take turns to give the synonyms and antonyms of common words",
+                  "Participate in drill exercises",
+                  "Find out the meaning of words in a dictionary",
+                  "Participate in discussing new words and their meanings",
+                  "Use words in new sentences"
                 ],
                 "TEACHING AND LEARNING RESOURCES": [
                   "Story books",
                   "Text books",
                   "Picture books",
-                  "Word Cards"
+                  "Word Cards",
+                  "Poems",
+                  "Dictionaries"
                 ],
                 "EVALUATION GUIDE": [
                   "Identify word categories",
-                  "Group words based on categories",
-                  "Use simple titles and abbreviations",
-                  "Add endings to build new words"
+                  "Group words based on word categories correctly",
+                  "Use simple titles and abbreviations in sentences",
+                  "Identify and use abbreviations of common words",
+                  "Correctly add endings to words to build new words",
+                  "Explain the concept of synonyms and antonyms",
+                  "Identify antonyms and synonyms correctly in own speech and in written texts and stories",
+                  "Explain the meaning of words",
+                  "Correctly use new words in own speech",
+                  "Demonstrate correct use of 100 -300 words in own speech"
+                ]
+              }
+            ]
+          },
+          {
+            "SUB THEME NAME": "Concepts of Print",
+            "TOPICS": [
+              {
+                "TOPIC NAME": "Book Parts and Print Awareness",
+                "PERFORMANCE OBJECTIVES": [
+                  "Identify the front cover, back cover, Title, Author of a book, etc.",
+                  "Identify upper and lowercase letters in printed words and sentences",
+                  "Name upper and lowercase letters in printed words and sentences",
+                  "Recognize and name upper and lower case letters in words and sentences",
+                  "Recognise that groups of words make sentences",
+                  "Identify common punctuation marks in books and other printed materials",
+                  "Identify the beginning and end of written words and sentences",
+                  "Recognise that sentences are read from the top to the bottom of the page",
+                  "Recognize that books are read from the front to the back",
+                  "Identify words that begin and end sentences"
+                ],
+                "CONTENT": [
+                  "Parts of a book: Front Cover, Title, pages, Author, etc.",
+                  "The Alphabets A-Z",
+                  "Identification of Upper and Lower case Letters",
+                  "Punctuation Marks: comma, full-stop, question mark",
+                  "Eye movement: reading from left to right; top to bottom, etc.",
+                  "Matching oral words to print"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Reads a story to pupils and guides them to identify parts of the book",
+                  "Writes words on the board and call on pupils to name letters in the word",
+                  "Writes sentences on the board and lets pupils name letters in the sentence",
+                  "Frames a word in a sentence and guides pupils to name letters in the word",
+                  "Guides pupils to identify and name all upper case letters and lower case letters",
+                  "Writes common punctuation signs on the board and explains the meanings of the signs",
+                  "Guides pupils to locate common punctuations in printed texts",
+                  "Guides pupils to identify first and last word on a page and where to begin reading of printed words on a page",
+                  "Writes some familiar words on the board and guide the pupils to read and point at the words as they read from left to right",
+                  "Reads a story to the class and lets the pupils identify where the story start and ends in the book",
+                  "Displays word chart on the wall and call on pupils to match words printed on flash cards to the words on the wall"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Listen attentively to the story",
+                  "Take turns to identify parts of the book",
+                  "Points to and name letters in a word",
+                  "Take turns to frame printed words and name letters in the word",
+                  "Trace and letters in sand trays",
+                  "Trace letters in writing books",
+                  "Identify upper and lower case letters correctly",
+                  "Listen to the teacher's explanations",
+                  "Identify punctuations in textbooks and other printed materials",
+                  "Make correct eye movement and hold their reading materials correctly",
+                  "Listen to story read and identify words that start the story, end the story, etc.",
+                  "Read and point to words",
+                  "Listen to words being read and identify words on word chart",
+                  "Read words written on flash cards, find and match them to printed words in a book"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Simple story books",
+                  "Pupils' text books",
+                  "School Library",
+                  "Frames",
+                  "Word Charts",
+                  "Sand Trays",
+                  "Word Charts",
+                  "Flash Cards",
+                  "Books and reading materials"
+                ],
+                "EVALUATION GUIDE": [
+                  "Name the parts of a book and identify contents of the different parts",
+                  "Name the letters in given prints and match letters printed on cards to names of the alphabet",
+                  "Identify upper case and lower case letters in words and sentences and match letters printed on cards to names of the upper case and lower case letters",
+                  "Identify sentences in printed materials and recognise and name punctuation marks in books and other printed materials",
+                  "Read printed words correctly from left to right and from top to bottom",
+                  "Read words that begin and end sentences in books; flash cards, wall charts"
                 ]
               }
             ]
@@ -354,118 +498,219 @@
         "THEME NAME": "LISTENING AND SPEAKING",
         "SUB THEMES": [
           {
-            "SUB THEME NAME": "BASIC COMMUNICATION",
+            "SUB THEME NAME": "Sounds and Communication",
             "TOPICS": [
               {
-                "TOPIC NAME": "Greetings and Commands",
+                "TOPIC NAME": "Sounds and Letters",
+                "PERFORMANCE OBJECTIVES": [
+                  "Produce and identify basic sounds correctly",
+                  "Pronounce letters of the alphabet correctly"
+                ],
+                "CONTENT": [
+                  "Production of basic sounds in given words correctly",
+                  "Correct pronunciation of letters of the alphabet"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Presents and pronounces basic sounds correctly",
+                  "Guides pupils to pronounce and identify basic sounds correctly",
+                  "Presents and pronounces letters of the alphabet correctly",
+                  "Guides pupils to pronounce the letters of the alphabet correctly"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Produce sounds and pronounce letters correctly",
+                  "Identify sounds of given words",
+                  "Listen to the teacher's pronunciation of letters of the alphabet"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Flash cards/Alphabet charts",
+                  "Toys",
+                  "Pictures/ Drawing",
+                  "Real objects",
+                  "Tape recording / Sound charts"
+                ],
+                "EVALUATION GUIDE": [
+                  "Pronounce sounds of the letters of the alphabet correctly",
+                  "Identify letters and sounds in given words"
+                ]
+              },
+              {
+                "TOPIC NAME": "Songs and Rhymes",
+                "PERFORMANCE OBJECTIVES": [
+                  "Listen to songs and rhymes attentively",
+                  "Sing songs taught",
+                  "Recite rhymes"
+                ],
+                "CONTENT": [
+                  "Clear recitation of various rhymes depicting nature, care, kindness and love",
+                  "Short songs which appeal to children's sentiments"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Presents a rhyme reads it aloud, pronouncing the words clearly",
+                  "Writes the rhyme on the chalk board and encourages pupils to recite the rhyme clearly",
+                  "Introduces song by singing it clearly and encourages pupils to sing the song"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Listen while teacher recites rhymes",
+                  "Recite rhymes after the teacher",
+                  "Recite rhymes alone sounding words clearly"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Charts",
+                  "Picture books with rhymes and songs",
+                  "Flash cards",
+                  "Tape recorder"
+                ],
+                "EVALUATION GUIDE": [
+                  "Listen to rhymes attentively",
+                  "Recite rhymes and sing songs with demonstration where appropriate"
+                ]
+              }
+            ]
+          },
+          {
+            "SUB THEME NAME": "Social Communication",
+            "TOPICS": [
+              {
+                "TOPIC NAME": "Simple greetings and Commands",
                 "PERFORMANCE OBJECTIVES": [
                   "Greet and respond to simple greetings with appropriate tones",
                   "Give and carry out simple commands",
                   "Differentiate between tones in greetings and commands"
                 ],
                 "CONTENT": [
-                  "Greetings at home, school and community",
-                  "Simple commands at home and school"
+                  "Greetings at home and appropriate time for particular greetings",
+                  "Greetings at school",
+                  "Greetings in the community, neighbours, elders/clan heads, nurse, doctor",
+                  "Simple commands at home"
                 ],
                 "TEACHER ACTIVITIES": [
-                  "Creates role play scenarios",
-                  "Demonstrates appropriate greetings",
-                  "Gives commands and demands responses"
+                  "Creates home and school atmosphere through role play characters",
+                  "Demonstrates appropriate greeting for each character",
+                  "Encourages pupils to greet one another with appropriate gestures",
+                  "Gives commands and demands appropriate responses from pupils"
                 ],
                 "PUPILS ACTIVITIES": [
-                  "Role-play family and community members",
-                  "Demonstrate appropriate greetings",
-                  "Obey teacher's commands"
+                  "Role-play members of the family, home, school and class community",
+                  "Demonstrate appropriate greetings for different people",
+                  "Greet and respond to greetings from colleagues",
+                  "Obey the teacher's commands",
+                  "Model giving and obeying commands in pairs"
                 ],
                 "TEACHING AND LEARNING RESOURCES": [
-                  "Pictures depicting greeting modes",
+                  "Pictures depicting modes of greeting among various groups",
                   "Charts"
                 ],
                 "EVALUATION GUIDE": [
                   "Greet and respond to simple greetings",
-                  "Give and respond to commands using appropriate tone"
+                  "Give and respond to commands using the appropriate tone"
                 ]
               },
               {
-                "TOPIC NAME": "Identification and Description",
+                "TOPIC NAME": "Identification of persons, objects, colours and animals",
                 "PERFORMANCE OBJECTIVES": [
-                  "Identify self, family members and objects",
-                  "Identify primary colors and associate with objects",
+                  "Identify self, family members",
+                  "Identify named objects: at home, on the way to and from school, and in the school compound",
+                  "Identify primary colours associating them with objects appropriately",
                   "Identify named animals",
-                  "Clearly pronounce names of objects and persons"
+                  "Clearly pronounce names of objects, persons, colours identified"
                 ],
                 "CONTENT": [
-                  "Introductions and identification",
-                  "Major colors and description",
-                  "Domestic and wild animals"
+                  "Introductions",
+                  "Identification of objects at home",
+                  "Identification of major colors",
+                  "Description of things according to their colours",
+                  "Identification of animals - Domestic animals and Wild animals"
                 ],
                 "TEACHER ACTIVITIES": [
-                  "Introduces self to class",
-                  "Presents household and classroom objects",
-                  "Associates colors with objects",
-                  "Guides identification of animals"
+                  "Introduces himself to the class",
+                  "Asks different pupils their names, names of family members",
+                  "Guides different pairs of children to introduce themselves to one another",
+                  "Presents different household, classroom, and school objects, and guides pupils to identify them by name",
+                  "Associates colours with objects in the classroom",
+                  "Guides pupils to identify objects of named colors"
                 ],
                 "PUPILS ACTIVITIES": [
-                  "Say names and family members",
+                  "Say their names and those of family and class members clearly",
                   "Participate in self introduction",
-                  "Identify objects by names and colors",
-                  "Explain domestic and non-domestic animals"
+                  "Identify given objects by names and colours",
+                  "Explain what domestic and non-domestic animals are with examples"
                 ],
                 "TEACHING AND LEARNING RESOURCES": [
                   "Pictures",
                   "Charts",
                   "Real objects",
-                  "Colored picture books"
+                  "Brightly coloured picture books"
                 ],
                 "EVALUATION GUIDE": [
                   "Introduce themselves",
                   "Identify persons by names",
-                  "Identify major colors",
-                  "Name domestic and wild animals"
+                  "Identify major colours",
+                  "Name some domestic and wild animals"
                 ]
-              }
-            ]
-          },
-          {
-            "SUB THEME NAME": "LANGUAGE STRUCTURES",
-            "TOPICS": [
+              },
               {
-                "TOPIC NAME": "Possession and Gratitude",
+                "TOPIC NAME": "Expressing possession",
                 "PERFORMANCE OBJECTIVES": [
-                  "Use singular forms of possessives to express ownership",
+                  "Use singular forms of possessives to express ownership"
+                ],
+                "CONTENT": [
+                  "Using the possessives my, yours, his, hers, in simple correct sentences"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Explains possessive forms: forms that show ownership",
+                  "Lists possessive words",
+                  "Uses possessives in sentences and encourages pupils to repeat his examples",
+                  "Asks pupils to make their own sentences"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Listen to teacher's explanation",
+                  "Repeat teacher's examples",
+                  "Make their own sentences using possessives in clear correct sentences"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Real objects",
+                  "Picture of objects",
+                  "Course book"
+                ],
+                "EVALUATION GUIDE": [
+                  "Use singular forms of possessives to express ownership"
+                ]
+              },
+              {
+                "TOPIC NAME": "Expressing gratitude and farewell",
+                "PERFORMANCE OBJECTIVES": [
                   "Express gratitude correctly",
                   "Say farewell to people correctly"
                 ],
                 "CONTENT": [
-                  "Using possessives: my, yours, his, hers",
-                  "Expressing gratitude and farewell"
+                  "Expressing gratitude through role play",
+                  "Expressing farewell in various ways and situations"
                 ],
                 "TEACHER ACTIVITIES": [
-                  "Explains possessive forms",
-                  "Uses possessives in sentences",
-                  "Leads discussion on expressing gratitude",
-                  "Makes sentences expressing farewell"
+                  "Leads pupils to mention occasions when we should express gratitude",
+                  "Makes sentences expressing gratitude to children, parents, elders",
+                  "Asks pupils to repeat the sentences",
+                  "Guides children to role play a situation which allows them to express gratitude",
+                  "Makes sentences expressing farewell in various ways"
                 ],
                 "PUPILS ACTIVITIES": [
-                  "Repeat teacher's examples",
-                  "Make own sentences using possessives",
-                  "Dramatize situations for using thank you",
-                  "Role play farewell"
+                  "Listen to teacher and repeat the teacher's expression",
+                  "Dramatise different situations for using 'thank you'",
+                  "Role play 'farewell'"
                 ],
                 "TEACHING AND LEARNING RESOURCES": [
-                  "Real objects",
-                  "Pictures of objects",
-                  "Course book"
+                  "Pictures depicting relevant situations",
+                  "Wall charts",
+                  "Course books",
+                  "Audio/video tapes"
                 ],
                 "EVALUATION GUIDE": [
-                  "Name some possessives",
-                  "Use singular possessives in simple sentences",
-                  "Express gratitude to peers correctly",
-                  "Say farewell correctly"
+                  "Express gratitude correctly",
+                  "Say farewell to people correctly"
                 ]
               },
               {
-                "TOPIC NAME": "Question and Answer",
+                "TOPIC NAME": "Asking and Answering Questions",
                 "PERFORMANCE OBJECTIVES": [
                   "Ask simple questions using 'what'",
                   "Answer simple questions correctly"
@@ -474,22 +719,23 @@
                   "Simple questions and answers using 'what'"
                 ],
                 "TEACHER ACTIVITIES": [
-                  "Asks simple questions using 'what'",
-                  "Leads pupils to give correct answers",
-                  "Pairs pupils for question practice"
+                  "Asks simple questions from pupils using 'what'",
+                  "Leads them to give correct answers to the questions",
+                  "Pairs pupils and guides them as they take turns to ask one another questions and answer them"
                 ],
                 "PUPILS ACTIVITIES": [
                   "Answer teacher's questions",
-                  "Ask one another simple questions"
+                  "Ask one another simple questions, giving correct answers to the questions"
                 ],
                 "TEACHING AND LEARNING RESOURCES": [
                   "Charts",
                   "Flannel graph",
-                  "Real objects"
+                  "Real objects",
+                  "Audio-visual materials"
                 ],
                 "EVALUATION GUIDE": [
                   "Answer two simple questions correctly",
-                  "Ask two simple questions using 'what'"
+                  "Ask two simple questions correctly using 'what'"
                 ]
               }
             ]
@@ -500,20 +746,21 @@
         "THEME NAME": "GRAMMATICAL ACCURACY",
         "SUB THEMES": [
           {
-            "SUB THEME NAME": "PARTS OF SPEECH",
+            "SUB THEME NAME": "Basic Grammar Concepts",
             "TOPICS": [
               {
-                "TOPIC NAME": "Nouns and Pronouns",
+                "TOPIC NAME": "Introducing Nouns and Pronouns",
                 "PERFORMANCE OBJECTIVES": [
-                  "Identify nouns and pronouns in phrases and sentences",
+                  "Identify Nouns and pronouns in phrases and sentences",
                   "Correctly use nouns and pronouns in sentences"
                 ],
                 "CONTENT": [
-                  "Nouns and Pronouns"
+                  "Nouns: e.g. Lagos, house, Hauwa, etc",
+                  "Pronouns: e.g. she, they he, it etc."
                 ],
                 "TEACHER ACTIVITIES": [
                   "Explains nouns and pronouns and their uses",
-                  "Guides identification and use in sentences"
+                  "Guides pupils to identify and use nouns and pronouns in sentences"
                 ],
                 "PUPILS ACTIVITIES": [
                   "Identify nouns and pronouns",
@@ -523,63 +770,59 @@
                   "Course book",
                   "Real objects",
                   "Pictures",
-                  "Flash cards"
+                  "Flash card"
                 ],
                 "EVALUATION GUIDE": [
                   "Identify nouns and pronouns in phrases/sentences",
-                  "Use nouns and pronouns in own sentences"
+                  "Use nouns and pronouns in phrases and single sentences of their own"
                 ]
               },
               {
-                "TOPIC NAME": "Singular and Plural Forms",
+                "TOPIC NAME": "Indicating Singular/ Plural forms",
                 "PERFORMANCE OBJECTIVES": [
                   "Identify singular forms of objects",
-                  "Identify plural forms of objects"
+                  "Identify Plural forms of object"
                 ],
                 "CONTENT": [
-                  "Singular and plural forms"
+                  "Singular forms e.g. ball, boy, girl",
+                  "Plural forms e.g. balls, boys, girls"
                 ],
                 "TEACHER ACTIVITIES": [
-                  "Gives examples of singular forms",
-                  "Gives examples of plural forms"
+                  "Gives examples of Singular forms",
+                  "Gives examples of Plural forms"
                 ],
                 "PUPILS ACTIVITIES": [
-                  "Identify singular forms",
-                  "Identify plural forms"
+                  "Identify Singular forms",
+                  "Identify plural forms of objects"
                 ],
                 "TEACHING AND LEARNING RESOURCES": [
                   "Real objects",
                   "Wall charts",
-                  "Pictures"
+                  "Pictures",
+                  "Flash card"
                 ],
                 "EVALUATION GUIDE": [
                   "Identify singular forms",
                   "Identify plural forms",
-                  "Use real objects to show singular and plural"
+                  "Use real objects to show singular and plural forms"
                 ]
-              }
-            ]
-          },
-          {
-            "SUB THEME NAME": "TENSES AND ARTICLES",
-            "TOPICS": [
+              },
               {
-                "TOPIC NAME": "Articles and Tenses",
+                "TOPIC NAME": "Use of Articles 'A' and 'An'",
                 "PERFORMANCE OBJECTIVES": [
-                  "Identify objects that use articles 'A' or 'An'",
-                  "Identify present and past actions"
+                  "Identify objects that use articles 'A' or 'An'"
                 ],
                 "CONTENT": [
-                  "Use of articles 'a' and 'an'",
-                  "Present and past actions"
+                  "Identification of objects using articles 'a'",
+                  "Identification of objects using articles 'an'"
                 ],
                 "TEACHER ACTIVITIES": [
-                  "Gives examples using articles",
-                  "Gives examples of present and past actions"
+                  "Gives examples of objects using articles 'a'",
+                  "Gives examples of those using article 'an'"
                 ],
                 "PUPILS ACTIVITIES": [
-                  "Identify objects using articles",
-                  "Identify present and past actions"
+                  "Identify objects using article 'a'",
+                  "Identify objects using article 'an'"
                 ],
                 "TEACHING AND LEARNING RESOURCES": [
                   "Real objects",
@@ -587,152 +830,873 @@
                   "Toys"
                 ],
                 "EVALUATION GUIDE": [
-                  "Identify objects using article 'a'",
-                  "Identify objects using article 'an'",
+                  "Identify objects that use article 'a'",
+                  "Identify objects that use article 'an'"
+                ]
+              },
+              {
+                "TOPIC NAME": "Present and Past Actions",
+                "PERFORMANCE OBJECTIVES": [
+                  "Identify Present and Past actions"
+                ],
+                "CONTENT": [
+                  "Identification of Present and Past actions"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Gives examples of present and past actions"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Identify present and past actions"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Wall charts",
+                  "Pictures"
+                ],
+                "EVALUATION GUIDE": [
                   "Orally express present and past actions"
                 ]
               }
             ]
           }
         ]
-      }
-    ]
-  },
+      },
+  {
   "PRIMARY 2": {
     "THEMES": [
       {
         "THEME NAME": "READING",
         "SUB THEMES": [
           {
-            "SUB THEME NAME": "PHONEMIC AWARENESS AND PHONICS",
+            "SUB THEME NAME": "Phonemic Awareness and Phonics",
             "TOPICS": [
               {
-                "TOPIC NAME": "Sounds Through Songs and Phonics",
+                "TOPIC NAME": "Advanced Phonemic Awareness",
                 "PERFORMANCE OBJECTIVES": [
                   "Learn sounds through songs",
                   "Repeat sounds they hear",
-                  "Produce vowel sounds correctly",
+                  "Produce the vowel sounds correctly",
                   "Pronounce words correctly",
                   "Use combination of sounds to produce words"
                 ],
                 "CONTENT": [
-                  "Using songs and rhymes to identify sounds",
-                  "Production of vowel sounds",
-                  "Pronunciation of given words"
+                  "Using Songs and Rhymes to identify sounds",
+                  "Using Sounds and Combinations of Sounds to decode unknown words",
+                  "Pronunciation of given words correctly"
                 ],
                 "TEACHER ACTIVITIES": [
-                  "Teaches relevant songs involving sounds",
-                  "Writes sounds in isolation on board",
-                  "Produces sounds in words",
-                  "Guides pronunciation and identification"
+                  "Teaches relevant songs to the pupils involving particular sounds",
+                  "Writes the sounds in isolation on the board",
+                  "Produces the sound in the words",
+                  "Asks the pupils to pronounce after him",
+                  "Guides the pupils to identify the sound in given words"
                 ],
                 "PUPILS ACTIVITIES": [
-                  "Listen attentively to teacher",
-                  "Sing songs with emphasis on sounds",
-                  "Say sounds after teacher",
-                  "Identify sounds on chalkboard"
+                  "Listen attentively to the teacher",
+                  "Sing the song with emphasis on the sounds taught",
+                  "Listen to the teacher as he pronounces sounds",
+                  "Say them after the teacher",
+                  "Identify each of the sounds on the chalkboard"
                 ],
                 "TEACHING AND LEARNING RESOURCES": [
-                  "Wall charts showing rhymes",
-                  "Flash cards of key words",
-                  "Sound charts and flash cards"
+                  "Wall chart showing the rhyme",
+                  "Flash card showing the key words in the songs",
+                  "Approved course book",
+                  "Sound charts and flash cards",
+                  "Wall chart containing words with sounds"
                 ],
                 "EVALUATION GUIDE": [
-                  "Sing songs to emphasize given sounds",
-                  "Pronounce sounds in isolation",
-                  "Pronounce words containing sounds",
-                  "Make sentences with given words containing sounds"
+                  "Sing songs to emphasize some given sounds",
+                  "Pronounce the sounds in isolation",
+                  "Pronounce words that contain the sounds",
+                  "Make simple sentences with given words containing sounds"
                 ]
               },
               {
-                "TOPIC NAME": "Consonants and Syllables",
+                "TOPIC NAME": "Advanced Phonics",
                 "PERFORMANCE OBJECTIVES": [
-                  "Pronounce consonant sounds in isolation, words and sentences",
-                  "Differentiate between words in pairs",
+                  "Pronounce consonants sounds in isolation, in words and in sentences correctly",
+                  "Differentiate between words in each pair in isolation and in sentence context",
                   "Produce consonant clusters correctly",
-                  "Identify mono and bi-syllabic words",
-                  "Read multi-syllabic words using prefixes and suffixes"
+                  "Identify mono and bi-syllabic word",
+                  "Read multi-syllabic words using prefixes, suffixes and known words parts",
+                  "Apply basic syllabication rules",
+                  "Use structural analysis to decode words"
                 ],
                 "CONTENT": [
                   "Pronunciation of consonants and consonant clusters",
-                  "Identification of mono, bi-syllabic and multi-syllabic words",
-                  "Basic syllabication rules"
+                  "Production of consonant sounds in isolation, words and in context",
+                  "Identification of mono, bi-syllabic and multi syllabic words",
+                  "Basic syllabication rules",
+                  "Basic decoding skills"
                 ],
                 "TEACHER ACTIVITIES": [
-                  "Writes words and sounds on board",
-                  "Demonstrates correct articulation",
-                  "Provides simple words for reading",
-                  "Guides application of syllabication rules"
+                  "Writes the words and the sounds on the board",
+                  "Demonstrates correct articulation of the sounds",
+                  "Asks pupils to repeat the sounds after him",
+                  "Corrects identified pupils' problems with the sounds",
+                  "Provides simple words for pupils to read",
+                  "Guides pupils to apply basic syllabication rules",
+                  "Guides pupils to use structural analysis to decode words"
                 ],
                 "PUPILS ACTIVITIES": [
-                  "Copy articulation into books",
-                  "Pronounce words after teacher",
-                  "Practice correct pronunciation",
-                  "Apply basic syllabication rules"
+                  "Copy the articulation of the sounds into their books",
+                  "Pronounce the words after the teacher",
+                  "Have more practice in pronouncing such words for the teacher to assess",
+                  "Pronounce the words correctly",
+                  "Read the sentences individually and in parts",
+                  "Apply basic syllabication rules",
+                  "Use structural analysis to decode words"
                 ],
                 "TEACHING AND LEARNING RESOURCES": [
                   "Objects",
                   "Pictures of objects",
                   "Flash cards",
-                  "Flannel board"
+                  "Flannel board",
+                  "Wall charts",
+                  "Course book",
+                  "Teacher-made words and sentences",
+                  "Words in flash cards"
                 ],
                 "EVALUATION GUIDE": [
-                  "Pronounce consonant sounds correctly",
-                  "Differentiate between sounds in word pairs",
-                  "Pronounce words correctly",
+                  "Pronounce consonant sounds in isolation, in words and in sentences correctly",
+                  "Differentiate between sounds in pairs of words correctly",
+                  "Pronounce the correct words",
+                  "Read the sentences correctly",
                   "Decode words using structural analysis"
+                ]
+              }
+            ]
+          },
+          {
+            "SUB THEME NAME": "Fluency Development",
+            "TOPICS": [
+              {
+                "TOPIC NAME": "Reading Fluency and Comprehension",
+                "PERFORMANCE OBJECTIVES": [
+                  "Read different kinds of texts with fluency and confidence",
+                  "Read class appropriate passages accurately with expression and appropriate speed",
+                  "Recall information in the texts",
+                  "Identify keywords related to the topic of the passages and find out meanings",
+                  "Answer questions based on the passages"
+                ],
+                "CONTENT": [
+                  "Reading different kinds of texts: fiction, non-fiction, informational, etc.",
+                  "Repeated reading and fluency building strategies",
+                  "Reading class appropriate passages",
+                  "Answering factual questions on the passages"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Explains the meaning of the different texts",
+                  "Asks pupils to read the texts",
+                  "Provides simple passages on HIV/AIDS and drug abuse",
+                  "Reads the passages in class",
+                  "Guides pupils to read the passages",
+                  "Asks questions based on the passages"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Read the texts after teacher's sample reading",
+                  "Recall information in the texts",
+                  "Read the passages in class fluently",
+                  "Identify keywords related to the topic of the passages and find out meanings",
+                  "Answer questions based on the passages"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Texts with illustration on charts",
+                  "Cardboard",
+                  "Chalkboard",
+                  "Children's text",
+                  "Pictures and drawings",
+                  "Selected reading passages on HIV/AIDS and drug abuse",
+                  "Charts and pictures to the passages"
+                ],
+                "EVALUATION GUIDE": [
+                  "Read given texts and recall information in them",
+                  "Read the passages fluently",
+                  "Identify key words",
+                  "Say the meanings of key words",
+                  "Answer questions on the passages"
+                ]
+              }
+            ]
+          },
+          {
+            "SUB THEME NAME": "Comprehension Skills",
+            "TOPICS": [
+              {
+                "TOPIC NAME": "Listening and Reading Comprehension",
+                "PERFORMANCE OBJECTIVES": [
+                  "Listen to passages/rhymes/stories",
+                  "Answer questions involving the identification of facts and meaning of what they listened to",
+                  "Identify main ideas and supporting facts in stories",
+                  "State the title of their story",
+                  "Identify the characters in the story",
+                  "Listen to class appropriate passages read to them",
+                  "Retell the story in the passages",
+                  "Answer simple comprehension questions",
+                  "Read simple sentences and answer factual questions on them"
+                ],
+                "CONTENT": [
+                  "Answering Factual Questions from class appropriate Passages, Stories/Rhymes",
+                  "Listening to and retelling stories",
+                  "Oral Comprehension/ Games",
+                  "Reading class appropriate texts"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Reads the passages to pupils on the need to wash hands before and after eating",
+                  "Emphasises the pronunciation of the key words",
+                  "Demonstrates stories/rhymes to pupils",
+                  "Asks pupils questions on what they have listened to",
+                  "Asks pupils to narrate stories in turns",
+                  "Guides them in the narration",
+                  "Explains the characters of the story and their actions",
+                  "Reads interesting passages to the pupils, emphasising important words",
+                  "Provides simple sentences for pupils to read",
+                  "Asks factual questions based on the sentences"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Listen to the teacher",
+                  "Pronounce the key words",
+                  "Retell the story in the passage",
+                  "Answer questions on what they have heard",
+                  "Narrate a story with the teacher's guide",
+                  "Mention the characters in the story",
+                  "Answer questions on a given story",
+                  "Listen carefully to the passage read by the teacher",
+                  "Retell the story in the passage",
+                  "Read the sentences silently and aloud",
+                  "Find answers to factual questions individually, in pairs or in groups"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Supplementary readers",
+                  "Pupils' course book",
+                  "Wall chart showing poems or rhymes",
+                  "Flash cards showing the key words",
+                  "Picture showing a story teller and his audience",
+                  "Different pictures to illustrate the story",
+                  "Pictures of objects and persons",
+                  "Charts",
+                  "Selected sentences from various sources",
+                  "Flip charts and cardboards",
+                  "Supplementary reading materials"
+                ],
+                "EVALUATION GUIDE": [
+                  "Answer the factual questions from what the teacher reads out to them",
+                  "Narrate a story correctly",
+                  "State the title of their story",
+                  "Identify characters in the story",
+                  "State the moral of story",
+                  "Retell the story in the passage",
+                  "Answer given questions from the story",
+                  "Read out the sentences correctly",
+                  "Answer questions correctly"
+                ]
+              },
+              {
+                "TOPIC NAME": "Advanced Comprehension Skills",
+                "PERFORMANCE OBJECTIVES": [
+                  "Read the passages correctly",
+                  "Identify facts and other kinds of information in the passages",
+                  "Read the given narrative and expository passages fluently",
+                  "Answer questions on the passages",
+                  "Dramatize the story in the given passages",
+                  "Make predictions",
+                  "Recall sequence of events",
+                  "Draw conclusions",
+                  "Recognize cause and effect"
+                ],
+                "CONTENT": [
+                  "Reading class appropriate passages and identifying facts and other kinds of information",
+                  "Application of comprehensive passages to both narrative and expository passages",
+                  "Reading simple passages based on narrative and expository texts"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Provides relevant passages",
+                  "Guides pupils to read the passages fluently",
+                  "Explains to pupils how to find facts and other kinds of information from passages",
+                  "Asks pupils to identify facts and other kinds of information",
+                  "Reads the passages for pupils",
+                  "Ask questions from the passages",
+                  "Guides pupils to dramatise the stories in the passages",
+                  "Guides pupils to recognise cause and effect in a passage"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Read silently and aloud",
+                  "Identify facts and other information in passages individually, in pairs or in groups",
+                  "Read orally and aloud the given passages",
+                  "Answer questions on the passages",
+                  "Dramatise the stories on the passages",
+                  "Recognise cause and effect in a passage"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Selected passages from supplementary readers and course book",
+                  "Flip charts and cardboards",
+                  "Chalk/white board",
+                  "Selected narrative and expository passages by the teacher",
+                  "Supplementary readers"
+                ],
+                "EVALUATION GUIDE": [
+                  "Read passages and identify facts and other kinds of information",
+                  "Read the given passages fluently",
+                  "Answer questions from the passages",
+                  "Dramatise the stories from the passages"
+                ]
+              }
+            ]
+          },
+          {
+            "SUB THEME NAME": "Vocabulary Development",
+            "TOPICS": [
+              {
+                "TOPIC NAME": "Vocabulary Expansion",
+                "PERFORMANCE OBJECTIVES": [
+                  "Increase their vocabulary through the knowledge of antonyms and synonyms",
+                  "Use antonym and synonym words in sentences",
+                  "Read passages on registers based on different subjects",
+                  "Identify new words from such passages",
+                  "Explain the meaning of new words",
+                  "Recognize and understand between 250 to 100 new vocabulary words",
+                  "Understand multiple meaning words"
+                ],
+                "CONTENT": [
+                  "Antonyms and Synonyms",
+                  "Registers in different subjects",
+                  "Multiple meaning words"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Provides simple passages containing antonyms and synonyms",
+                  "Guides pupils to read the passages",
+                  "Identifies antonyms and synonyms words",
+                  "Guides pupils to read simple sentences on synonyms and antonyms",
+                  "Guides pupils to make their own sentences with antonyms and synonyms",
+                  "Provides reading passages on various registers",
+                  "Guides pupils to read the passages",
+                  "Guides them to identify new words in the passages",
+                  "Explains the meaning of new words",
+                  "Guides pupils to understand multiple meaning words"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Read simple passages on antonyms and synonyms",
+                  "Read simple sentences given by the teacher",
+                  "Make their own sentences",
+                  "Pupils read the passages on various registers",
+                  "Identify new words",
+                  "Explain the meaning of new word",
+                  "Give examples of multiple meaning words"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Teacher-prepared passages on antonyms and synonyms",
+                  "Teacher's examples of antonyms and synonyms on charts",
+                  "Passages on different registers",
+                  "New words from the passages",
+                  "Readers on various registers"
+                ],
+                "EVALUATION GUIDE": [
+                  "Read passages on antonyms and synonyms",
+                  "Read sentences on antonyms and synonyms",
+                  "Make their own sentences orally on antonyms and synonyms",
+                  "Read passages on various registers correctly",
+                  "Identify new words in the given passages",
+                  "Explain correctly the meaning of new words",
+                  "Give at least 3 examples of multiple meaning words"
+                ]
+              }
+            ]
+          },
+          {
+            "SUB THEME NAME": "Print Concepts",
+            "TOPICS": [
+              {
+                "TOPIC NAME": "Advanced Print Concepts",
+                "PERFORMANCE OBJECTIVES": [
+                  "Recognise different print resources",
+                  "Interpret information from diagrams, charts and graph",
+                  "Recognise parts of a book-title, author, and illustration",
+                  "Recognize that a group of sentences make up a paragraph and paragraphs make a story",
+                  "Identify colour of things",
+                  "Observe objects and describe them",
+                  "List names of the principal colours",
+                  "Describe objects with reference to their colours"
+                ],
+                "CONTENT": [
+                  "Basic concepts of print",
+                  "Description of objects according to their colours"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Explains the basic concepts of print",
+                  "Guides pupils to recognise signs, diagrams, charts and graphs",
+                  "Guides pupils to interpret the signs, charts diagrams",
+                  "Guides pupils to recognise parts of a book",
+                  "Guides pupils to recognise what makes a paragraph and a passage",
+                  "Provides many objects with different colours",
+                  "Describes objects according to their colours",
+                  "Guides students to name the colours of these objects",
+                  "Asks pupils the colour of the different objects"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Listen to the teachers explanations on concepts of print",
+                  "Identify signs, diagrams, charts and graphs",
+                  "Interpret the signs, charts and diagrams",
+                  "Recognise parts of a book",
+                  "Identify a paragraph and a passage",
+                  "Observe and listen to the teacher presenting and describing real objects in terms of colours",
+                  "Repeat after the teacher",
+                  "Describe objects or pictures with regard to their colours",
+                  "Write sentences to describe objects by colour"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Charts",
+                  "Graphs",
+                  "Diagrams",
+                  "Road signs",
+                  "Newspapers",
+                  "Books",
+                  "Real objects of different colours",
+                  "Picture/charts of different objects in their different colours"
+                ],
+                "EVALUATION GUIDE": [
+                  "Explain the concept of print",
+                  "Identify signs, diagrams, charts and graphs",
+                  "Interpret signs, charts and diagrams",
+                  "Mention the different parts of a book",
+                  "Define a paragraph",
+                  "Identify colours",
+                  "Observe objects and describe them",
+                  "List names of principal colours",
+                  "Write the description of objects with reference to their colours"
                 ]
               }
             ]
           }
         ]
-      }
-    ]
-  },
-  "PRIMARY 3": {
-    "THEMES": [
+      },
       {
-        "THEME NAME": "READING",
+        "THEME NAME": "LISTENING AND SPEAKING",
         "SUB THEMES": [
           {
-            "SUB THEME NAME": "PHONEMIC AWARENESS AND PHONICS",
+            "SUB THEME NAME": "Review and Reinforcement",
             "TOPICS": [
               {
-                "TOPIC NAME": "Vowel Sounds and Diphthongs",
+                "TOPIC NAME": "Year One Review",
                 "PERFORMANCE OBJECTIVES": [
-                  "Pronounce and distinguish between sounds in words and sentences",
-                  "Use correct stress and intonation",
-                  "Produce vowel sounds and diphthongs correctly",
-                  "Distinguish between vowels and diphthongs"
+                  "Use the structures learned in year one appropriately"
                 ],
                 "CONTENT": [
-                  "Aural discrimination of sounds",
-                  "Pronunciation of vowels and diphthongs",
-                  "Production of vowels and diphthongs in words and sentences"
+                  "Review of work in the first year"
                 ],
                 "TEACHER ACTIVITIES": [
-                  "Reads sentences containing sounds",
-                  "Distinguishes between sounds",
-                  "Pronounces words with correct stress and intonation",
-                  "Demonstrates and pronounces words"
+                  "Give oral test to find out areas where pupils need more support"
                 ],
                 "PUPILS ACTIVITIES": [
-                  "Listen to and repeat after teacher",
-                  "Distinguish between sounds",
-                  "Pronounce words",
-                  "Read sentences following teacher's example"
+                  "Listen to the teacher",
+                  "Practice the exercise given by the teacher"
                 ],
                 "TEACHING AND LEARNING RESOURCES": [
-                  "Flash cards",
-                  "Sentence strips",
-                  "Flannel board",
+                  "Relevant instructional materials for teaching the structure, pronunciation and speech patterns identified by the teacher"
+                ],
+                "EVALUATION GUIDE": [
+                  "Answer oral questions correctly"
+                ]
+              },
+              {
+                "TOPIC NAME": "Sound Production and Spelling",
+                "PERFORMANCE OBJECTIVES": [
+                  "Produce the vowel sounds correctly",
+                  "Pronounce words correctly",
+                  "Use combination of sounds to produce words"
+                ],
+                "CONTENT": [
+                  "Production of sound /a/ as in bag; /a:/ as in bark",
+                  "Spelling and pronunciation of given words correctly"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Writes the sounds in isolation on the board",
+                  "Produces the sound in the words",
+                  "Asks the pupils to pronounce after him",
+                  "Guides the pupils to identify the sound in given words"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Listen to the teacher as he pronounces the sounds",
+                  "Say it after the teacher",
+                  "Identify each of the sounds on the board"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Sound charts and flash cards",
+                  "Wall chart containing sounds and words",
                   "Course book"
                 ],
                 "EVALUATION GUIDE": [
-                  "Pronounce given words using appropriate sounds",
-                  "Distinguish between sounds using correct stress and intonation",
-                  "Pronounce vowels and diphthongs correctly",
-                  "Write words containing vowels and diphthongs"
+                  "Pronounce the sound in isolation",
+                  "Pronounce words that contain the sounds",
+                  "Make simple sentences with given words containing the sounds"
+                ]
+              },
+              {
+                "TOPIC NAME": "Factual Question Answering",
+                "PERFORMANCE OBJECTIVES": [
+                  "Listen to passages/rhymes/stories",
+                  "Answer questions involving the identification of facts and meaning of what they listened to"
+                ],
+                "CONTENT": [
+                  "A simple passage from the course book",
+                  "A short poem or rhymes"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Reads the passages to pupils",
+                  "Emphasize the pronunciation of the key words",
+                  "Demonstrate stories/rhymes to pupils",
+                  "Asks pupils questions on what they have listened to in the passage/stories and rhymes"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Listen to the teacher",
+                  "Pronounce the key words",
+                  "Retell the story in the passage",
+                  "Answer questions on what they have heard"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Supplementary reader",
+                  "Pupils course book",
+                  "Wall chart showing poems or rhymes",
+                  "Flash cards showing the key words"
+                ],
+                "EVALUATION GUIDE": [
+                  "Answer the factual questions from what the teacher read to them"
+                ]
+              }
+            ]
+          },
+          {
+            "SUB THEME NAME": "Advanced Communication Skills",
+            "TOPICS": [
+              {
+                "TOPIC NAME": "Tense-based Question Answering",
+                "PERFORMANCE OBJECTIVES": [
+                  "Answer questions on present actions",
+                  "Answer questions on past actions",
+                  "Answer questions on future actions",
+                  "Respond to 'what' questions on the above actions"
+                ],
+                "CONTENT": [
+                  "Questions and answers on present, past and future actions"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Provides 'what' questions for the pupils",
+                  "Guides the pupils to answer the questions",
+                  "Correct the pupils' oral works"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Listen to the teacher's questions about present, past and future actions",
+                  "Answer questions on present, past and future actions",
+                  "Ask and answer question in groups and in pairs"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Sentence strips",
+                  "Pictures showing various actions"
+                ],
+                "EVALUATION GUIDE": [
+                  "Answer questions on various actions either present, past and future"
+                ]
+              },
+              {
+                "TOPIC NAME": "Ownership Expression",
+                "PERFORMANCE OBJECTIVES": [
+                  "Use possessive pronouns correctly",
+                  "Use the structures in meaningful situations to indicate possession"
+                ],
+                "CONTENT": [
+                  "Using possessive pronouns as singular and plurals"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Makes some sentences using the structure",
+                  "Uses simple drills to provide practicing exercises for pupils",
+                  "Guides the pupils' activities"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Repeat the sentences after the teacher",
+                  "Answer questions individually and in pairs",
+                  "Express possessive words in sentences",
+                  "Identify possessive words in given sentences"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Pictures",
+                  "Real objects sentence-strips showing possessive pronouns",
+                  "Flash cards",
+                  "Approved course book"
+                ],
+                "EVALUATION GUIDE": [
+                  "Participate in oral questions and answer session",
+                  "Use possessive word correctly",
+                  "Express possessions correctly in meaningful situation"
+                ]
+              },
+              {
+                "TOPIC NAME": "Songs and Rhymes Mastery",
+                "PERFORMANCE OBJECTIVES": [
+                  "Read simple rhymes fluently",
+                  "Memorize the rhyme after discussing the content",
+                  "Learn sounds through songs",
+                  "Recite rhymes using the appropriate intonations"
+                ],
+                "CONTENT": [
+                  "Rhymes based on some virtues",
+                  "Songs that can help the pupils to learn sounds in words"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Read the rhyme(s) slowly to the pupils",
+                  "Demonstrate the action involved in the rhymes",
+                  "Explain the message in the rhyme to the pupils",
+                  "Teach relevant song to the pupils involving particular sounds"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Listen attentively to the teacher",
+                  "Read the rhymes aloud together, in groups and individually",
+                  "Listen to the teacher's explanation",
+                  "Sing the song with emphasis on the sounds taught",
+                  "Memorize the rhyme"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Wall chart showing the rhyme",
+                  "Flash card showing the key words in the rhymes",
+                  "Approved course book"
+                ],
+                "EVALUATION GUIDE": [
+                  "Read simple rhymes correctly",
+                  "Sing song to emphasize some given sounds"
+                ]
+              },
+              {
+                "TOPIC NAME": "Storytelling Skills",
+                "PERFORMANCE OBJECTIVES": [
+                  "Tell a story",
+                  "State the title of their story",
+                  "Identify the characters in the story",
+                  "State the moral of the story"
+                ],
+                "CONTENT": [
+                  "Telling story using an appropriate style of narration",
+                  "Identifying the characters and events in the story",
+                  "Explaining the beginning content and closing of a story"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Asks pupils to narrate stories in turns",
+                  "Guides them in the narration",
+                  "Explains the characters of the story and their actions to them",
+                  "Asks them questions based on a given story"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Narrate a story with the teacher's guide",
+                  "Mention the characters in a story",
+                  "Answer questions on a given story",
+                  "Explain the moral lessons in the story"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Picture showing a story teller and his audience",
+                  "Different pictures to illustrate the story"
+                ],
+                "EVALUATION GUIDE": [
+                  "Narrate a story correctly",
+                  "State the title of their story",
+                  "Identify characters in the story",
+                  "State the moral of story"
+                ]
+              },
+              {
+                "TOPIC NAME": "Oral Comprehension",
+                "PERFORMANCE OBJECTIVES": [
+                  "Listen to a short passage read to them",
+                  "Retell the story as it was read to them",
+                  "Answer simple comprehension questions"
+                ],
+                "CONTENT": [
+                  "Reading passages that will interest the pupils",
+                  "Reading short stories to the pupils"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Reads interesting passages to the pupils, emphasizing important words",
+                  "Tells a story to the pupils",
+                  "Selects some pupils to re-tell the story",
+                  "Asks pupils simple questions based on the story"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Listen carefully to the passage read by the teacher",
+                  "Retell the story to teacher and other pupils",
+                  "Answer simple questions based on the story"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Pictures of objects and persons",
+                  "Charts",
+                  "Course book"
+                ],
+                "EVALUATION GUIDE": [
+                  "Listen attentively to a given passage/story",
+                  "Retell the story directly",
+                  "Answer given questions from the story"
+                ]
+              },
+              {
+                "TOPIC NAME": "Social Introductions",
+                "PERFORMANCE OBJECTIVES": [
+                  "Introduce themselves individually",
+                  "Introduce themselves in pairs by using appropriate words"
+                ],
+                "CONTENT": [
+                  "Guiding pupils to introduce themselves",
+                  "Using words for introduction"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Introduces him/herself to the pupils",
+                  "Emphasises on the words that make introduction",
+                  "Asks pupils to introduce themselves individually"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Introduces themselves individually by mentioning their names",
+                  "Introduce themselves to their partners in pairs"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Pupils in the class",
+                  "Picture that shows two people introducing themselves",
+                  "Course book"
+                ],
+                "EVALUATION GUIDE": [
+                  "Make correct introduction of themselves"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "THEME NAME": "GRAMMATICAL ACCURACY",
+        "SUB THEMES": [
+          {
+            "SUB THEME NAME": "Grammar Fundamentals",
+            "TOPICS": [
+              {
+                "TOPIC NAME": "Adjectives and Adverbs",
+                "PERFORMANCE OBJECTIVES": [
+                  "Identify and correctly use adjectives and adverbs"
+                ],
+                "CONTENT": [
+                  "Adjectives and Adverbs usage"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Presents Adjectives and Adverbs",
+                  "Guides pupils on the correct use of Adjectives and Adverbs",
+                  "Leads pupils to identify adjectives and Adverbs in short sentences"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Read adjectives and adverbs presented by the teacher",
+                  "Identify them in sentences"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Course book",
+                  "Charts",
+                  "Chalk board"
+                ],
+                "EVALUATION GUIDE": [
+                  "Identify adjectives and adverbs in sentences"
+                ]
+              },
+              {
+                "TOPIC NAME": "Regular and Irregular Plurals",
+                "PERFORMANCE OBJECTIVES": [
+                  "Identify regular and irregular plurals",
+                  "Use regular and irregular plurals in simple sentences"
+                ],
+                "CONTENT": [
+                  "Regular plurals with 's' ending",
+                  "Irregular plurals"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Writes out on the board examples of regular and irregular plurals",
+                  "Guides them in the formation of plurals"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Reproduce in writing teacher's examples of regular and irregular plurals",
+                  "Form regular and irregular plurals"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Charts",
+                  "Chalkboard",
+                  "Pictures",
+                  "Flash cards"
+                ],
+                "EVALUATION GUIDE": [
+                  "Give the plural forms of five words"
+                ]
+              },
+              {
+                "TOPIC NAME": "Verb Tenses",
+                "PERFORMANCE OBJECTIVES": [
+                  "Identify and use simple past and present tense of common verbs"
+                ],
+                "CONTENT": [
+                  "Production of simple present and past tense of common verbs in tabular form"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Presents and demonstrates use of simple present and past tense of common verbs in tabular form",
+                  "Guides pupils to use present and past tense of common verbs in sentences"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Reproduce in writing teacher's examples of simple present and past tense of common verbs in tabular form",
+                  "Produce their own sentences using the present and past tense of common verbs"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Chalkboard",
+                  "Pupils charts on display"
+                ],
+                "EVALUATION GUIDE": [
+                  "Correctly identify and produce a list of simple present and past tense of common verbs",
+                  "Make simple sentences using present and past tense of common verbs"
+                ]
+              },
+              {
+                "TOPIC NAME": "Apostrophe Usage",
+                "PERFORMANCE OBJECTIVES": [
+                  "Correctly use apostrophes in possessives"
+                ],
+                "CONTENT": [
+                  "Apostrophes in possessives"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Presents and demonstrates use of apostrophes in possessives",
+                  "Leads pupils to use apostrophes in simple sentences"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Listen to teacher's presentation on the use of apostrophes in possessives",
+                  "Produce their own sentences using apostrophes in possessives"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Chalkboard",
+                  "Pupils charts on display"
+                ],
+                "EVALUATION GUIDE": [
+                  "Correctly identify apostrophes in possessives",
+                  "Use apostrophes in possessives"
+                ]
+              },
+              {
+                "TOPIC NAME": "Present Continuous Tense",
+                "PERFORMANCE OBJECTIVES": [
+                  "Identify and use present continuous tense correctly"
+                ],
+                "CONTENT": [
+                  "Identification and use of present continuous tense"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Guides pupils to identify present continuous tense in sentences",
+                  "Leads them to make sentences using present continuous tense"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Identify present continuous tense in sentences",
+                  "Use present continuous tense correctly in sentences"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Chalkboard",
+                  "Pupils charts on display"
+                ],
+                "EVALUATION GUIDE": [
+                  "Identify present continuous tense in sentences",
+                  "Make four sentences using the present continuous tense"
                 ]
               }
             ]
@@ -742,3 +1706,961 @@
     ]
   }
 }
+    ]
+},
+
+  "PRIMARY 3": {
+    "THEMES": [
+      {
+        "THEME NAME": "READING",
+        "SUB THEMES": [
+          {
+            "SUB THEMES NAME": "Phonemic Awareness and Phonics",
+            "TOPICS": [
+              {
+                "TOPIC NAME": "Advanced Sound Discrimination",
+                "PERFORMANCE OBJECTIVES": [
+                  "Pronounce and distinguish between the sounds in words and sentences using the correct stress and intonation"
+                ],
+                "CONTENT": [
+                  "Aural discrimination of the sounds /3/ and /^/",
+                  "Aural discrimination of the sounds /D/ and /O:/"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Reads the sentences containing the sounds",
+                  "Distinguishes between the sounds",
+                  "Pronounces the words paying attention to the stress and intonation",
+                  "Asks pupils to repeat after him"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Listen to and repeat after the teacher",
+                  "Distinguish between the sounds",
+                  "Pronounce the words",
+                  "Read the sentences following the teacher's example"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Flash cards",
+                  "Sentence strips",
+                  "Flannel board",
+                  "Course book"
+                ],
+                "EVALUATION GUIDE": [
+                  "Pronounce given words using the appropriate sounds",
+                  "Distinguish between the sounds in words and in sentences using the correct stress and intonation"
+                ]
+              },
+              {
+                "TOPIC NAME": "Vowels and Diphthongs",
+                "PERFORMANCE OBJECTIVES": [
+                  "Produce vowel sounds and diphthongs correctly",
+                  "Distinguish between vowels and diphthongs by pronouncing them correctly in words and in sentence contexts",
+                  "Produce multi syllable words 2 and 3 syllable words",
+                  "Identify 2 and 3 syllable words",
+                  "Complete 2 and 3 syllable words"
+                ],
+                "CONTENT": [
+                  "Pronunciation of vowels and diphthongs",
+                  "Production of Multi-syllable words",
+                  "Identification of the words in sentences",
+                  "Completion of 2 and 3 syllable words"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Demonstrates and pronounces the words containing the vowels and diphthongs",
+                  "Shows objects or their pictures while repeating the words correctly",
+                  "Engages pupils in role play",
+                  "Dictates words containing vowels and diphthongs for pupils to copy",
+                  "Explains with examples 2 and 3 syllable words",
+                  "Leads pupils to give and pronounce 2 and 3 syllable words",
+                  "Identifies 2 and 3 syllable words in sentences",
+                  "Guides pupils to complete 2 and 3 syllable words"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Produces the sounds in each of the words correctly",
+                  "Write dictations based on the use of these words",
+                  "Listen attentively",
+                  "Produce 2 and 3 syllable words",
+                  "Identify 2 and 3 syllable words in sentences",
+                  "Complete 2 and 3 syllable words"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Relevant pictures of objects",
+                  "Flash cards",
+                  "Flannel board",
+                  "Course book"
+                ],
+                "EVALUATION GUIDE": [
+                  "Pronounce the sounds correctly",
+                  "Write correctly the words containing the vowels and diphthongs dictated by the teacher",
+                  "Produce 2 and 3 syllable words",
+                  "Identify 2 and 3 syllable words in sentences",
+                  "Complete 2 and 3 syllable words"
+                ]
+              },
+              {
+                "TOPIC NAME": "Plurals and Fluency",
+                "PERFORMANCE OBJECTIVES": [
+                  "Identify regular and irregular plurals",
+                  "Use regular and irregular plurals in simple sentences",
+                  "Read simple sentences correctly with the appropriate stress and intonation",
+                  "Respond to simple commands appropriately"
+                ],
+                "CONTENT": [
+                  "Use of Regular and Irregular Plurals",
+                  "Responding to simple commands with emphasis on stress and intonation"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Writes out examples of regular and irregular plurals",
+                  "Guides pupils in the formation of plurals",
+                  "Reads simple sentences with the appropriate stress and intonation",
+                  "Gives commands to pupils, paying attention to the correct stress and intonation",
+                  "Guides pupils in making sentences and responding to commands"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Reproduce in writing teacher's examples of regular and irregular plurals",
+                  "Form regular and irregular plurals",
+                  "Listen to teacher's sentences and commands",
+                  "Repeat the sentences after the teacher",
+                  "Follow teacher's commands appropriately"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Charts",
+                  "Chalkboard",
+                  "Pictures",
+                  "Flash cards",
+                  "Course book",
+                  "Supplementary text",
+                  "Charts containing simple sentences"
+                ],
+                "EVALUATION GUIDE": [
+                  "Give the plural forms of five words",
+                  "Read simple sentences with the appropriate stress and intonation",
+                  "Respond to given commands correctly"
+                ]
+              }
+            ]
+          },
+          {
+            "SUB THEME NAME": "Fluency and Comprehension",
+            "TOPICS": [
+              {
+                "TOPIC NAME": "Reading Fluency",
+                "PERFORMANCE OBJECTIVES": [
+                  "Read class appropriate stories and poems",
+                  "Identify values and lessons in given stories and poems"
+                ],
+                "CONTENT": [
+                  "Reading class appropriate stories and poems on discipline, courage, courtesy, road safety etc."
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Presents class appropriate story and poem for pupils to read",
+                  "Leads pupils to read and retell what they have read",
+                  "Explains the meaning of the poem to pupils",
+                  "Guides pupils to dramatize the story",
+                  "Leads pupils to identify the values and lessons in the stories and poems"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Participate in reading the story and poem",
+                  "Dramatize the poem",
+                  "Identify values and lessons in pairs or in groups"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Poetry and story books",
+                  "A flannel board containing the poem to be taught",
+                  "Pictures depicting values in the poem",
+                  "Posters",
+                  "Flash cards"
+                ],
+                "EVALUATION GUIDE": [
+                  "Read given simple stories and poems",
+                  "Identify values/lessons learnt"
+                ]
+              },
+              {
+                "TOPIC NAME": "Comprehension Skills",
+                "PERFORMANCE OBJECTIVES": [
+                  "Listen carefully to a story",
+                  "Answer questions on the main points in the story in their own words",
+                  "Re-tell the story in their own words",
+                  "Read simple non-fiction passages correctly",
+                  "Answer questions on the passages",
+                  "Explain the meaning of difficult words in the passage",
+                  "Identify and discuss issues of national values in a given passage",
+                  "Read simple poems and identify values and lessons",
+                  "Read folktales/stories correctly and identify values in the folktales/lessons learnt"
+                ],
+                "CONTENT": [
+                  "Oral Comprehension based on Stories",
+                  "Reading class appropriate passages (non-fiction) and answering questions on them",
+                  "Reading simple poems",
+                  "Folktales and short stories"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Tells a story slowly, stressing important points with the correct intonation",
+                  "Asks questions and gives pupils the opportunity to re-tell the story",
+                  "Guides and supervises pupils' activities",
+                  "Guides pupils to read a given passage silently individually or aloud in turns",
+                  "Asks questions and guides pupils to answer them",
+                  "Guides pupils to identify and explain the meaning of difficult words",
+                  "Leads pupils to use new words in the passage in sentences",
+                  "Guides pupils to identify and discuss national values in the passage",
+                  "Presents a relevant poem",
+                  "Guides pupils to read and dramatise the poem",
+                  "Explains the meaning of the poem to pupils",
+                  "Leads pupils to identify the values and lessons",
+                  "Guides pupils to read the given folktales/short stories",
+                  "Explains the meaning of folktales and their sources",
+                  "Guides pupils to discuss the folktales/short stories—characters, lessons learnt, etc.",
+                  "Guides pupils to recall the folktales/ short stories"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Listen attentively to the teacher telling or reading the story",
+                  "Re-tell the story",
+                  "Answer questions on the story",
+                  "Read the passage silently to get the main ideas contained in it",
+                  "Read it again to get the details",
+                  "Identify and explain the meaning of difficult words in the passage",
+                  "Identify and discuss national values in the passage",
+                  "Answer the comprehension questions",
+                  "Participate in reading the poem",
+                  "Dramatise the poem",
+                  "Identify values and lessons in pairs or in groups",
+                  "Read given folktales/short stories",
+                  "Discuss the characters and lessons learnt etc. in pairs or groups and make presentations",
+                  "Recall folktales/ short stories"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Course book or Supplementary Readers",
+                  "Relevant pictures or real objects",
+                  "Course book",
+                  "Simple passages from magazines and other relevant materials",
+                  "List of new words to learn from passage on flip chart or chalk board",
+                  "Poetry books",
+                  "A flannel board containing the poem to be taught",
+                  "Pictures depicting values in the poem",
+                  "Posters",
+                  "Flash cards",
+                  "Collection of popular folktales/short stories",
+                  "Course book",
+                  "Flash cards of new words",
+                  "Chalk/white board"
+                ],
+                "EVALUATION GUIDE": [
+                  "Answer questions on the main points in the story",
+                  "Relate a story in their own words",
+                  "Read given passages correctly",
+                  "Answer questions on the passage",
+                  "Read a given simple poem",
+                  "Identify values/lessons learnt",
+                  "Read folktales/short stories",
+                  "Recall the folktales/short stories"
+                ]
+              },
+              {
+                "TOPIC NAME": "Information Comprehension",
+                "PERFORMANCE OBJECTIVES": [
+                  "Read information on charts, diagrams, calendars, etc.",
+                  "Obtain information from charts, diagrams and calendars",
+                  "Write answers to questions based on a passage",
+                  "Read simple passages effectively",
+                  "Skim simple passages for main ideas",
+                  "Read selected stories on their own",
+                  "Retell the stories",
+                  "Describe a simple event or a natural disaster and explain the probable cause(s) of such event"
+                ],
+                "CONTENT": [
+                  "Reading charts, diagrams, graphs, calendars etc. to obtain information",
+                  "Written Comprehension",
+                  "Extensive/ independent Reading",
+                  "Descriptive Comprehension"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Shows pupils relevant charts, graphs, diagrams, calendars etc.",
+                  "Illustrates to pupils how information can be obtained from the above",
+                  "Asks questions and guides pupils to find answers to them from the charts, graphs, diagrams, calendars etc.",
+                  "Presents short comprehension passages and guides pupils to study the passages",
+                  "Asks questions on them",
+                  "Tells pupils to write the answers in their exercise books",
+                  "Selects appropriate fictional materials and chapters from books for pupils to read",
+                  "Asks questions on the books read",
+                  "Leads discussion on a given topic",
+                  "Asks pupils to describe an event or a natural disaster witnessed",
+                  "Guides pupils to explain the probable cause(s)"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Observe charts, graphs, diagrams, calendars presented by teacher",
+                  "Answer teacher's questions individually, in pairs or in groups",
+                  "Read the passages silently and quickly for the first time after teacher's pattern reading and explanation",
+                  "Read them slowly the second time, noting the main points and details",
+                  "Answer the questions provided in their own handwriting on the chalkboard and into their exercise books",
+                  "Read selected material independently",
+                  "Answer questions on what they have read",
+                  "Describe an event or a natural disaster witnessed",
+                  "Explain the causes of the event or natural disaster"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Calendars",
+                  "Course book",
+                  "Relevant charts, diagrams, graphs",
+                  "Course book",
+                  "Supplementary Readers",
+                  "Any other relevant material",
+                  "Supplementary reading materials",
+                  "Pictures showing the effect of an event or a natural disaster",
+                  "Real objects"
+                ],
+                "EVALUATION GUIDE": [
+                  "Read charts, diagrams, graphs, calendars etc.",
+                  "Answer questions on charts, diagrams, graphs and calendars",
+                  "Write answers to a few questions based on a passage they read",
+                  "Skim given passage for main ideas",
+                  "Read given materials correctly",
+                  "Answer questions on the materials correctly",
+                  "Describe an event or a natural disaster witnessed"
+                ]
+              }
+            ]
+          },
+          {
+            "SUB THEME NAME": "Vocabulary and Print Concepts",
+            "TOPICS": [
+              {
+                "TOPIC NAME": "Vocabulary Development",
+                "PERFORMANCE OBJECTIVES": [
+                  "Substitute words in poems",
+                  "Explain the relationship between words",
+                  "Develop new words"
+                ],
+                "CONTENT": [
+                  "Vocabulary Acquisition using poems on discipline, courage, courtesy, road safety etc.",
+                  "Substitution of words in poems",
+                  "Explanation of the relationship between words",
+                  "Development of new words"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Presents a class appropriate poem",
+                  "Guides pupils to read the poem",
+                  "Guides pupils to substitute words in the poems with appropriate words",
+                  "Explains relationship between words to pupils",
+                  "Guides pupils to develop new words"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Participate in reading the poem",
+                  "Read the poem",
+                  "Substitute words in the poems with appropriate words",
+                  "Explain the relationship between words",
+                  "Develop new words"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Poetry books",
+                  "A flannel board containing the poem to be taught",
+                  "Pictures depicting values in the poem",
+                  "Posters",
+                  "Flash cards"
+                ],
+                "EVALUATION GUIDE": [
+                  "Read given simple poems",
+                  "Explain the relationship between words",
+                  "Substitute four words in the poem with others"
+                ]
+              },
+              {
+                "TOPIC NAME": "Advanced Print Concepts",
+                "PERFORMANCE OBJECTIVES": [
+                  "Recognise that title page, illustrations, margins, pictures, diagrams are components of printed materials, etc",
+                  "Obtain information from charts, diagrams and calendars etc.",
+                  "Correctly recognize reading materials e.g newspapers, journals, magazine, reference books, ICT, etc."
+                ],
+                "CONTENT": [
+                  "Recognition of title page, margins, illustrations, pictures, diagrams, labels, etc. in printed texts/materials",
+                  "Recognition of reading materials e.g. newspapers, journals, magazines, reference books, ICT etc"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Shows pupils title page, illustrations, margins, picture, charts, graphs, diagrams, etc in texts",
+                  "Illustrates to pupils how information can be obtained from the above",
+                  "Asks questions and guides pupils to identify graphs, diagrams, pictures etc.",
+                  "Provides samples of reading materials e.g newspapers, journals, magazines, reference books, ICT",
+                  "Leads pupils to identify the materials",
+                  "Explain their special features"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Observe, graphs, diagrams, labels etc in texts presented by teacher",
+                  "Answer teacher's questions individually, in pairs or in groups",
+                  "Observe reading materials and explain their special features"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Supplementary Readers",
+                  "Course book",
+                  "Relevant charts, diagrams, graphs, Labels, Signs etc.",
+                  "Selected reading materials",
+                  "Course book"
+                ],
+                "EVALUATION GUIDE": [
+                  "Identify diagrams, graphs, title page, illustrations, margins, pictures ,etc in texts etc",
+                  "List and explain the features of some reading materials"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "THEME NAME": "WRITING",
+        "SUB THEMES": [
+          {
+            "SUB THEME NAME": "Writing Mechanics",
+            "TOPICS": [
+              {
+                "TOPIC NAME": "Capitalization and Punctuation",
+                "PERFORMANCE OBJECTIVES": [
+                  "Get an understanding that 'capital letters' and 'higher cases' mean the same thing",
+                  "Use capital letters/higher cases correctly",
+                  "Use the punctuation marks e.g. comma, semi-colon, exclamation marks, etc correctly"
+                ],
+                "CONTENT": [
+                  "Various uses of capital letters/higher cases",
+                  "Uses of full stop and comma"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Writes sample sentences using higher cases, punctuation marks such as full stop, comma, colon, semi-colon, etc.",
+                  "Explains various uses of comma",
+                  "Asks pupils to give similar examples",
+                  "Asks them to write their own examples in their books"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Read the examples given by the teacher",
+                  "Listen to teacher's explanation",
+                  "Make similar sentences of their own",
+                  "Write teacher's examples in their books",
+                  "Do several exercises on the use of capital letters and punctuation marks"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Selected passages from course book",
+                  "Sample sentences showing the various uses of capital/higher cases and the punctual marks"
+                ],
+                "EVALUATION GUIDE": [
+                  "Use the capital letters/higher cases and punctuation marks correctly"
+                ]
+              },
+              {
+                "TOPIC NAME": "Sentence Writing",
+                "PERFORMANCE OBJECTIVES": [
+                  "Use habitual sentences in both present and past tenses"
+                ],
+                "CONTENT": [
+                  "Writing three to four sentences on habitual activities using present and past tenses"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Explains what habitual sentences mean",
+                  "Writes samples of habitual sentences in present tenses as well as in past tenses"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Listen to the teacher's explanation",
+                  "Write examples of habitual sentences in their book",
+                  "Write similar sentences as homework"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Charts on sample tenses",
+                  "Work book",
+                  "Any other relevant materials"
+                ],
+                "EVALUATION GUIDE": [
+                  "Write habitual sentences correctly"
+                ]
+              },
+              {
+                "TOPIC NAME": "Handwriting Practice",
+                "PERFORMANCE OBJECTIVES": [
+                  "Read simple passages on the content column",
+                  "Copy the passage into their exercise books in their own handwriting",
+                  "Write clearly and legibly",
+                  "Observe the spacing between letters in a word and words in a sentence"
+                ],
+                "CONTENT": [
+                  "Passages highlighting national values e.g. discipline, honesty and courage"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Reads to give a model example",
+                  "Writes passage on the board",
+                  "Guides the pupils to identify some difficult words in the passage",
+                  "Shows them the spacing between letters in a word and words in a sentence",
+                  "Asks pupils to copy passage into their notebooks",
+                  "Supervises and makes corrections where necessary"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Listen to teacher's reading",
+                  "Read the passage following teacher's example",
+                  "Identify some difficult words in the passage",
+                  "Observe the spacing between letters in a word and words in a sentence",
+                  "Copy the passage into their writing exercise book",
+                  "Do corrections where necessary"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Passages under content column",
+                  "Any other relevant reference materials"
+                ],
+                "EVALUATION GUIDE": [
+                  "Read given passages correctly",
+                  "Copy correctly the given passage into their exercise books"
+                ]
+              },
+              {
+                "TOPIC NAME": "Comprehension Writing",
+                "PERFORMANCE OBJECTIVES": [
+                  "Write answers to questions based on a passage",
+                  "Read simple passages effectively",
+                  "Skim simple passages for main ideas",
+                  "Identify words and verbs already learnt"
+                ],
+                "CONTENT": [
+                  "Writing answers to comprehension passages from the course book, supplementary readers and any other structures",
+                  "Identifying structural words and verb forms already dealt with",
+                  "Copying identified words and structures in legible handwriting"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Presents short comprehension passages and guides pupils to study the passages",
+                  "Asks questions on them",
+                  "Tells pupils to write the answers in their exercise books"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Read the passages silently and quickly for the first time after teacher's pattern reading and explanation",
+                  "Read it slowly the second time, noting the main points and details",
+                  "Answer questions on it orally",
+                  "Copy in their own handwriting on the chalkboard and into their exercise books"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Course book",
+                  "Supplementary readers",
+                  "Any other relevant material"
+                ],
+                "EVALUATION GUIDE": [
+                  "Write answers to a few questions based on a passage they read",
+                  "Skim given passage for general ideas",
+                  "Identify words and structures already learnt"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "THEME NAME": "LISTENING AND SPEAKING",
+        "SUB THEMES": [
+          {
+            "SUB THEME NAME": "Pronunciation and Communication",
+            "TOPICS": [
+              {
+                "TOPIC NAME": "Consonant Pronunciation",
+                "PERFORMANCE OBJECTIVES": [
+                  "Pronounce consonants sounds in isolation, in words and in sentences correctly",
+                  "Differentiate between words in each pair in isolation and in sentence context",
+                  "Produce consonant clusters correctly"
+                ],
+                "CONTENT": [
+                  "Production of consonant sounds in isolation, words and in context",
+                  "Pronunciation practice on consonant clusters"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Writes the words and the sounds on the board",
+                  "Demonstrates correct articulation of the sounds",
+                  "Asks pupils to repeat the sounds after him",
+                  "Corrects identified pupils' problems with the sounds"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Watch the teacher write the sounds on the board",
+                  "Copy the articulation of the sounds into their books",
+                  "Pronounce the words after the teacher",
+                  "Practice the correct pronunciation of the words/sounds in sentence context",
+                  "Have more practice in pronouncing such words for the teacher to assess"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Objects",
+                  "Pictures of objects",
+                  "Flash cards",
+                  "Flannel board",
+                  "Wall charts",
+                  "Course book"
+                ],
+                "EVALUATION GUIDE": [
+                  "Pronounce consonants sounds in isolation, in words and in sentences correctly",
+                  "Differentiate between sounds in pairs of words correctly"
+                ]
+              },
+              {
+                "TOPIC NAME": "Statements and Commands",
+                "PERFORMANCE OBJECTIVES": [
+                  "Make simple statements correctly with the appropriate stress and intonation",
+                  "Respond to simple commands appropriately"
+                ],
+                "CONTENT": [
+                  "Making simple statements using the appropriate stress and intonation",
+                  "Responding to simple commands appropriately"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Makes model statements with the appropriate stress and intonation",
+                  "Gives commands to pupils, paying attention to the correct stress and intonation",
+                  "Guides pupils in making statements and responding to commands"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Listen to teacher's Statements and commands",
+                  "Repeat the statements after the teacher",
+                  "Follow teacher's commands appropriately"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Course book",
+                  "Supplementary text",
+                  "Charts containing simple sentences"
+                ],
+                "EVALUATION GUIDE": [
+                  "Construct simple sentences with the appropriate stress and intonation",
+                  "Respond to given commands correctly"
+                ]
+              },
+              {
+                "TOPIC NAME": "Dialogues and Conversations",
+                "PERFORMANCE OBJECTIVES": [
+                  "Participate in simple dialogues using present, past and future tenses",
+                  "Ask and answer simple questions correctly using present, past and future tenses",
+                  "Practise the use of the rising and falling tones in questions and answers correctly"
+                ],
+                "CONTENT": [
+                  "Simple dialogues in present, past and future actions",
+                  "Asking and answering simple questions using present, past and future tenses with the appropriate intonation"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Explains what dialogue is",
+                  "Gives examples of dialogue shown in the content column",
+                  "Gets pupils to engage in dialogues in present, past and future tenses, ensuring that the correct stress and intonations are observed",
+                  "Guides pupils to practice the use of the rising and falling tones correctly"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Listen to teacher's explanation",
+                  "Repeat the dialogues after the teacher observing the correct stress and intonation (rising and falling tones)",
+                  "Practice the dialogues in twos and in groups, both inside and outside the classroom"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Course book",
+                  "Sentence strip",
+                  "A volunteer pupil for rehearsal",
+                  "Other suitable materials"
+                ],
+                "EVALUATION GUIDE": [
+                  "Ask two questions and answer them correctly through simple dialogues",
+                  "Engage in dialogues using the rising and falling tones"
+                ]
+              },
+              {
+                "TOPIC NAME": "Oral Comprehension",
+                "PERFORMANCE OBJECTIVES": [
+                  "Listen carefully to a story",
+                  "Answer questions on the main points in the story in their own words",
+                  "Re-tell the story in their own words",
+                  "Tell similar stories"
+                ],
+                "CONTENT": [
+                  "A story that will interest the pupils but built on any topic such as Road Safety, National Values, Disaster Risk Reduction, Drug Abuse, HIV/AIDS etc.",
+                  "Provide stories that will encourage them to tell their own stories in simple English",
+                  "Prepare them for future life"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Tells the story slowly, stressing important points with the correct intonation",
+                  "Asks questions",
+                  "Gives pupils the opportunity to tell their own stories",
+                  "Guides and supervise pupils' activities"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Listen attentively to the teacher telling or reading the story",
+                  "Re-tell the story",
+                  "Answer questions on the story",
+                  "Tell similar stories in groups, about children's club or society they know, orally"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Course book or Supplementary Readers",
+                  "Relevant pictures or real objects"
+                ],
+                "EVALUATION GUIDE": [
+                  "Answer questions on the main points in the story",
+                  "Relate story in their own words",
+                  "Participate in telling similar stories"
+                ]
+              },
+              {
+                "TOPIC NAME": "Vowel and Diphthong Pronunciation",
+                "PERFORMANCE OBJECTIVES": [
+                  "Produce vowel sounds and diphthongs correctly",
+                  "Distinguish between vowels and diphthongs by pronouncing them correctly in words and sentence contexts"
+                ],
+                "CONTENT": [
+                  "Pronunciation practice of vowels and diphthongs"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Demonstrates and pronounce the words or show objects or their pictures while repeating the words correctly",
+                  "Lets the pupils imitate him",
+                  "Engages pupils in drills, using the minimal pair",
+                  "Dictates words to the pupils to copy"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Listen attentively to the teacher",
+                  "Produce the sounds used in each pair of words correctly",
+                  "Write dictation based on the use of these words"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Relevant pictures of objects",
+                  "Flash cards",
+                  "Flannel board",
+                  "Course book"
+                ],
+                "EVALUATION GUIDE": [
+                  "Distinguish between the sounds by pronouncing them Correctly",
+                  "Write correctly five words dictated by the teacher"
+                ]
+              },
+              {
+                "TOPIC NAME": "Aural Discrimination",
+                "PERFORMANCE OBJECTIVES": [
+                  "Pronounce and distinguish between the sounds in words and sentences using the correct stress and intonation",
+                  "Distinguish between the different sounds in words and sentences"
+                ],
+                "CONTENT": [
+                  "Aural discrimination of various sound pairs"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Reads the sentences containing the sounds",
+                  "Distinguishes between the sounds",
+                  "Pronounces the words paying attention to the stress and intonation",
+                  "Asks pupils to repeat after him"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Listen to teacher's reading",
+                  "Repeat after teacher",
+                  "Distinguish between the sounds",
+                  "Pronounce the words",
+                  "Read the sentences following teacher's example"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Flash cards",
+                  "Sentence strips",
+                  "Flannel board",
+                  "Course book"
+                ],
+                "EVALUATION GUIDE": [
+                  "Pronounce given words using the appropriate sounds",
+                  "Distinguish between the sounds in words and sentences using the correct stress and intonation"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "THEME NAME": "GRAMMATICAL ACCURACY",
+        "SUB THEMES": [
+          {
+            "SUB THEME NAME": "Advanced Grammar",
+            "TOPICS": [
+              {
+                "TOPIC NAME": "Plurals Usage",
+                "PERFORMANCE OBJECTIVES": [
+                  "Identify regular and irregular plurals",
+                  "Use regular and irregular plurals in simple sentences"
+                ],
+                "CONTENT": [
+                  "Regular plurals",
+                  "Irregular plurals"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Presents the correct use of regular and irregular plurals in speeches",
+                  "Presents the correct use of irregular and irregular plurals in writing"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Identify regular and irregular plurals in speeches and writings",
+                  "Use regular and irregular plurals in speeches and writings"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Real objects",
+                  "Pictures of objects",
+                  "Charts",
+                  "Flash cards"
+                ],
+                "EVALUATION GUIDE": [
+                  "Identify regular and irregular plurals in speeches and writings",
+                  "Use regular and irregular plurals in speeches and writings"
+                ]
+              },
+              {
+                "TOPIC NAME": "Auxiliary Verbs",
+                "PERFORMANCE OBJECTIVES": [
+                  "Identify auxiliary verbs in sentences",
+                  "Use auxiliary verbs in sentences"
+                ],
+                "CONTENT": [
+                  "Auxiliary verbs e.g. may, can, will"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Presents and demonstrates the correct use of auxiliary verbs in sentences",
+                  "Facilitates flash card games to aid pupils understanding of auxiliary verbs"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Identify auxiliary verbs in sentences",
+                  "Play games with flash cards as facilitated by teacher",
+                  "Correctly use auxiliary verbs"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Charts",
+                  "Flash card games"
+                ],
+                "EVALUATION GUIDE": [
+                  "Identify auxiliary verbs in sentences",
+                  "Use auxiliary verbs in sentences"
+                ]
+              },
+              {
+                "TOPIC NAME": "Future Tense Negation",
+                "PERFORMANCE OBJECTIVES": [
+                  "Make correct sentences in the simple future tense",
+                  "Respond correctly to interrogative sentences using contracted forms of 'will' and 'shall'"
+                ],
+                "CONTENT": [
+                  "Expressing future actions in the negative"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Explains and demonstrates what future action is",
+                  "Gives examples and asks questions in the future tense"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Listen to the teacher's explanation",
+                  "Give examples themselves",
+                  "Ask and answer teacher's questions"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Sentence strips",
+                  "Course book",
+                  "Other supplementary resources like newspapers or magazines"
+                ],
+                "EVALUATION GUIDE": [
+                  "Use future actions in the negative through sentence construction",
+                  "Respond correctly to interrogative sentences using contracted forms of 'will' and 'shall'"
+                ]
+              },
+              {
+                "TOPIC NAME": "Past Continuous Tense",
+                "PERFORMANCE OBJECTIVES": [
+                  "Identify past continuous tense in sentences",
+                  "Use past continuous tense in sentences"
+                ],
+                "CONTENT": [
+                  "Past continuous tense"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Explains past continuous tense",
+                  "Demonstrates the correct use of past continuous tense in sentences"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Listen to teacher's explanation",
+                  "Use past continuous tense in sentences"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Course book",
+                  "Supplementary materials",
+                  "Charts"
+                ],
+                "EVALUATION GUIDE": [
+                  "Identify past continuous tense in sentences",
+                  "Use past continuous tense in sentences"
+                ]
+              },
+              {
+                "TOPIC NAME": "Present Perfect Tense",
+                "PERFORMANCE OBJECTIVES": [
+                  "Identify present perfect using -ed ending",
+                  "Identify present perfect using -en ending",
+                  "Express correct use of present perfect with -ed ending",
+                  "Express correct use of present perfect with -en ending"
+                ],
+                "CONTENT": [
+                  "Present Perfect using -ed ending",
+                  "Present Perfect using -en ending"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Explains present perfect using both -ed and -en endings",
+                  "Leads pupils in constructing sentences in the present perfect tense"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Identify correctly present perfect tense in sentences",
+                  "Use present perfect tense in sentences"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Chalkboard",
+                  "Course book",
+                  "Supplementary materials"
+                ],
+                "EVALUATION GUIDE": [
+                  "Identify present perfect tense in sentences",
+                  "Express correct use of present perfect in sentences"
+                ]
+              },
+              {
+                "TOPIC NAME": "Present Perfect with Since and For",
+                "PERFORMANCE OBJECTIVES": [
+                  "Identify present perfect with 'since'",
+                  "Identify present perfect with 'for'",
+                  "Express correct use of present perfect with 'since'",
+                  "Express correct use of present perfect with 'for'"
+                ],
+                "CONTENT": [
+                  "Present Perfect with 'since'",
+                  "Present perfect with 'for'"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Explains the correct use of present perfect with 'since' and 'for'"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Correctly use present perfect with 'since' and 'for' following teacher's examples"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Course book",
+                  "Charts",
+                  "Supplementary materials"
+                ],
+                "EVALUATION GUIDE": [
+                  "Identify present perfect with 'since' and 'for'",
+                  "Use 'since' and 'for' in sentence construction"
+                ]
+              },
+              {
+                "TOPIC NAME": "Interrogation with Present Perfect",
+                "PERFORMANCE OBJECTIVES": [
+                  "Use present perfect tense in question forms correctly",
+                  "Give appropriate responses to such question forms orally in writing"
+                ],
+                "CONTENT": [
+                  "Interrogation and Responses using present perfect"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Makes series of statements using the present perfect tense",
+                  "Transforms each statement into a question",
+                  "Gives the appropriate answer to pupils"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Say the statement after the teacher using the present perfect tense",
+                  "Repeat series of statements using the present perfect tense of verbs after the teacher",
+                  "Transforms each statement into questions again following teacher's example"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Course book",
+                  "Charts",
+                  "Supplementary materials"
+                ],
+                "EVALUATION GUIDE": [
+                  "Use present perfect tense in question forms correctly",
+                  "Give appropriate responses to such question forms orally and in writing"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
+
+
