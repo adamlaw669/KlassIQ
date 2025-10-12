@@ -55,47 +55,6 @@ def health_check():
         }
 
 
-@app.get("/debug/test-curriculum")
-def test_curriculum():
-    """Debug endpoint to test curriculum functionality."""
-    try:
-        # Test getting grades
-        grades_result = get_grades()
-        
-        if not grades_result.get("grades"):
-            return {"error": "No grades found"}
-            
-        test_grade = grades_result["grades"][0]
-        
-        # Test getting subjects
-        subjects_result = get_subjects_for_grade(test_grade)
-        
-        if not subjects_result.get("subjects"):
-            return {"error": f"No subjects found for {test_grade}"}
-            
-        test_subject = subjects_result["subjects"][0]
-        
-        # Test curriculum objectives
-        curriculum_result = get_curriculum_objectives(test_grade, test_subject, "test")
-        
-        return {
-            "status": "success",
-            "test_grade": test_grade,
-            "test_subject": test_subject,
-            "available_grades": len(grades_result["grades"]),
-            "available_subjects": len(subjects_result["subjects"]),
-            "curriculum_test": type(curriculum_result).__name__,
-            "has_objectives": "objectives" in curriculum_result
-        }
-        
-    except Exception as e:
-        import traceback
-        return {
-            "error": str(e),
-            "traceback": traceback.format_exc()
-        }
-
-
 @app.get("/get-subjects")
 def get_subjects():
     """Get available subjects for each grade level."""
@@ -211,28 +170,12 @@ def get_curriculum_topic_data(req: CurriculumRequest):
 def generate_plan(req: LessonRequest):
     """Generate a lesson plan based on curriculum objectives."""
     try:
-        print(f"DEBUG: Received lesson plan request - Grade: {req.grade}, Subject: {req.subject}, Topic: {req.topic}")
-        
         # Check if curriculum file exists
         curriculum_path = Path(__file__).resolve().parent / "data" / "curriculum_map.json"
         if not curriculum_path.exists():
-            print(f"ERROR: Curriculum map not found at {curriculum_path}")
-            raise HTTPException(status_code=500, detail=f"Curriculum map not found at {curriculum_path}")
-        
-        print("DEBUG: Curriculum map file exists")
-        
-        # Test curriculum objectives retrieval first
-        try:
-            curriculum_objectives = get_curriculum_objectives(req.grade, req.subject, req.topic)
-            print(f"DEBUG: Curriculum objectives retrieved: {type(curriculum_objectives)}")
-            if "error" in curriculum_objectives:
-                print(f"DEBUG: Curriculum retrieval error: {curriculum_objectives['error']}")
-        except Exception as e:
-            print(f"ERROR: Failed to retrieve curriculum objectives: {str(e)}")
-            raise HTTPException(status_code=500, detail=f"Curriculum retrieval failed: {str(e)}")
+            raise HTTPException(status_code=500, detail="Curriculum map not found")
         
         # Generate the lesson plan (this will auto-retrieve curriculum objectives)
-        print("DEBUG: Starting lesson plan generation...")
         result = generate_lesson_plan(
             subject=req.subject,
             grade=req.grade,
@@ -240,17 +183,13 @@ def generate_plan(req: LessonRequest):
             teacher_input=req.teacher_input
         )
         
-        print(f"DEBUG: Lesson plan generation completed. Result type: {type(result)}")
-        
         if not result:
-            raise HTTPException(status_code=500, detail="Lesson plan generation returned empty result")
+            raise HTTPException(status_code=500, detail="Lesson plan generation failed")
             
         if "error" in result.get("result", {}):
-            error_detail = result["result"]["error"]
-            print(f"ERROR: Lesson generation error: {error_detail}")
-            raise HTTPException(status_code=500, detail=error_detail)
+            raise HTTPException(status_code=500, detail=result["result"]["error"])
             
-        response = {
+        return {
             "grade": req.grade,
             "subject": req.subject,
             "topic": req.topic,
@@ -258,17 +197,10 @@ def generate_plan(req: LessonRequest):
             "from_cache": result.get("from_cache", False)
         }
         
-        print("DEBUG: Successfully created response")
-        return response
-        
     except HTTPException:
         raise
     except Exception as e:
-        error_msg = f"Error generating lesson plan: {str(e)}"
-        print(f"FATAL ERROR: {error_msg}")
-        import traceback
-        traceback.print_exc()
-        raise HTTPException(status_code=500, detail=error_msg)
+        raise HTTPException(status_code=500, detail=f"Error generating lesson plan: {str(e)}")
 
 
 # Additional utility endpoints

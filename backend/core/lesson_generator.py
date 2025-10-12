@@ -32,6 +32,86 @@ if not LLM_API_URL or not LLM_API_KEY:
     print("Warning: LLM_API_URL or LLM_API_KEY not configured. The lesson generator will use a local fallback.")
 
 
+def normalize_grade(grade: str) -> str:
+    """
+    Normalize grade input to match curriculum structure.
+    
+    Args:
+        grade: Input grade (e.g., "JSS 1", "Primary 4", "Junior Secondary 1")
+        
+    Returns:
+        str: Normalized grade matching curriculum structure
+    """
+    grade_lower = grade.lower().strip()
+    
+    # JSS mappings
+    if any(term in grade_lower for term in ['jss', 'junior secondary', 'js']):
+        return "Junior Secondary 1–3"
+    
+    # Primary mappings
+    if 'primary' in grade_lower or 'pri' in grade_lower:
+        # Extract number if present
+        for char in grade_lower:
+            if char.isdigit():
+                num = int(char)
+                if num in [1, 2, 3]:
+                    return "Primary 1–3"
+                elif num in [4, 5, 6]:
+                    return "Primary 4–6"
+                break
+        # Default to Primary 1-3 if no number found
+        return "Primary 1–3"
+    
+    # Direct matches
+    grade_mappings = {
+        "junior secondary 1–3": "Junior Secondary 1–3",
+        "primary 1–3": "Primary 1–3", 
+        "primary 4–6": "Primary 4–6"
+    }
+    
+    return grade_mappings.get(grade_lower, grade)
+
+
+def normalize_subject(subject: str) -> str:
+    """
+    Normalize subject input to match curriculum structure.
+    
+    Args:
+        subject: Input subject name
+        
+    Returns:
+        str: Normalized subject name
+    """
+    subject_lower = subject.lower().strip()
+    
+    # Subject mappings
+    subject_mappings = {
+        'english': 'english_studies',
+        'mathematics': 'maths',
+        'math': 'maths',
+        'science': 'basic_science_technology',
+        'basic science': 'basic_science_technology',
+        'technology': 'basic_science_technology',
+        'creative arts': 'cca',
+        'arts': 'cca',
+        'cca': 'cca',
+        'christian religious studies': 'crs',
+        'crs': 'crs',
+        'islamic studies': 'islamic',
+        'islamic': 'islamic',
+        'hausa': 'hausa',
+        'igbo': 'igbo',
+        'yoruba': 'yoruba',
+        'french': 'french',
+        'arabic': 'arabic',
+        'history': 'history',
+        'nvc': 'nvc',
+        'prevoc': 'prevoc'
+    }
+    
+    return subject_mappings.get(subject_lower, subject)
+
+
 def get_curriculum_objectives(grade: str, subject: str, topic: str) -> Dict[str, Union[List[str], str]]:
     """
     Fetch curriculum objectives for a specific grade, subject, and topic.
@@ -45,6 +125,10 @@ def get_curriculum_objectives(grade: str, subject: str, topic: str) -> Dict[str,
         Dict containing objectives, content, activities, and resources or error message
     """
     try:
+        # Normalize inputs
+        grade = normalize_grade(grade)
+        subject = normalize_subject(subject)
+        
         # Load the merged curriculum map
         curriculum_path = Path(__file__).resolve().parents[1] / "data" / "curriculum_map.json"
         
@@ -305,7 +389,7 @@ EXAMPLE 1:
    "objectives":["Understand halves and quarters", "Use everyday objects to demonstrate fractions"],
    "learning_outcomes":["Divide an object into 2 equal parts","Identify halves in pictures"],
    "introduction":"Ask pupils if they have shared food... (short)",
-   "activities":[{"step":"Starter","time":"5 min","activity":"Show a mango, cut into halves. Discuss."}, ...],
+   "activities":["Starter (5 min): Show a mango, cut into halves. Discuss.", "Main activity: Practice dividing objects", "Conclusion: Review key concepts"],
    "differentiation":["Pair weaker learners with stronger peers","Use larger concrete objects for low-vision pupils"],
    "materials":["mango or orange, paper, chalk"],
    "assessment":["Group show-and-tell","Short board exercise: draw half of the shape"],
