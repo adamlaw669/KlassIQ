@@ -1,0 +1,890 @@
+{
+  "PRIMARY 4": {
+    "THEMES": [
+      {
+        "THEME NAME": "ASỤSỤ (LANGUAGE)",
+        "SUB THEMES": [
+          {
+            "SUB THEME NAME": "IGE NTỊ NA IKWU OKWU (LISTENING AND SPEAKING)",
+            "TOPICS": [
+              {
+                "TOPIC NAME": "ỌNỤỌGỤGỤ (1-200) (COUNTING 1-200)",
+                "MBUNUCHE (PERFORMANCE OBJECTIVES)": [
+                  "Ịgụtalị ọnụọgụgụ site n’otu ruo narị abụọ.",
+                  "Iji ọnụọgụgụ ndị a sụọ asụsụ.",
+                  "Idetalị ọnụọgụgụ ndị a."
+                ],
+                "NDỊNISIOKWU (CONTENT)": [
+                  "Ọnụọgụgụ site n’otu ruo na narị abụọ (1-200).",
+                  "Odide ọnụọgụgụ.",
+                  "Asụsụ nabatara ọnụọgụgụ."
+                ],
+                "IHE ỤMỤAKWỤKWỌ GA-EME (STUDENTS ACTIVITIES)": [
+                  "Ịgụpụta ọnụọgụgụ.",
+                  "Idepụta ọnụọgụgụ.",
+                  "Iji ọnụọgụgụ sụọ asụsụ.",
+                  "Ịmakọta nọmba na ọnụọgụgụ."
+                ],
+                "NKA NKỤZI (TEACHER ACTIVITIES)": [
+                  "Ọgụgụ.",
+                  "Ngosipụta.",
+                  "Ọmụmaatụ.",
+                  "Nkọwa.",
+                  "Odide.",
+                  "Mmakọta."
+                ],
+                "NGWA NKỤZI (TEACHING AND LEARNING RESOURCES)": [
+                  "Ngwa e ji agụ ọnụọgụgụ dịka: ukwu osisi e kere na narị na narị.",
+                  "Chaati.",
+                  "Kaadị ọnụọgụgụ."
+                ],
+                "NNWALE (EVALUATION GUIDE)": [
+                  "Ịza azịza.",
+                  "Ịgụ ihe.",
+                  "Ide ọnụọgụgụ 1-200.",
+                  "Ịmakọ nọmba na ọnụọgụgụ."
+                ]
+              },
+              {
+                "TOPIC NAME": "ỊKỌWAPỤTA IHE (DESCRIBING THINGS)",
+                "MBUNUCHE (PERFORMANCE OBJECTIVES)": [
+                  "Ịkọwatalị ihe.",
+                  "Ikwulite n’ụzọ dị were were ọdịdị ihe ha na-ahụ anya, nụrụ na ntị, siri n’imi, na metụrụ aka.",
+                  "Izipụta ndịiche dị n’etiti ihe ha nụrụ na ntị, hụrụ n’anya, siri n’imi na metụrụ aka."
+                ],
+                "NDỊNISIOKWU (CONTENT)": [
+                  "Nkọwa ọdịdị ihe dị iche iche: Ọrụ nka dị iche iche dịka ihe e sere ese, ihe a kpụrụ akpụ, ihe a tụrụ atụ, ihe a kpara akpa wdg.",
+                  "Ihe dị ndụ dịka: anụmanụ, osisi, mmadụ wdg.",
+                  "Ụzụ dị iche iche dịka: ụda egbe, ụgbọala, okwu, ube nnụnụ / anụmanụ."
+                ],
+                "IHE ỤMỤAKWỤKWỌ GA-EME (STUDENTS ACTIVITIES)": [
+                  "Ijụ na ịza ajụjụ.",
+                  "Ịkọwa etu ihe dị.",
+                  "Ige ntị.",
+                  "Ikwu ndịiche dị n’etiti ihe ha nụrụ na ntị, hụrụ n’anya, siri n’imi na metụrụ aka."
+                ],
+                "NKA NKỤZI (TEACHER ACTIVITIES)": [
+                  "Nkọwa.",
+                  "Ejije.",
+                  "Ịjụ ajụjụ.",
+                  "Mmetụ aka.",
+                  "Isi n’imi.",
+                  "Mkpagharị (gburugburu ụlọakwụkwọ)."
+                ],
+                "NGWA NKỤZI (TEACHING AND LEARNING RESOURCES)": [
+                  "Eserese.",
+                  "Ọrụ nka dị iche iche.",
+                  "Anụmanụ na osisi.",
+                  "Redio na Tepurekọda.",
+                  "Ngwa mmetụaka na nsinimi."
+                ],
+                "NNWALE (EVALUATION GUIDE)": [
+                  "Ịkọwalite ihe.",
+                  "Ije ejije.",
+                  "Ide ihe.",
+                  "Ise ihe."
+                ]
+              }
+            ]
+          },
+          {
+            "SUB THEME NAME": "ỌGỤGỤ (READING)",
+            "TOPICS": [
+              {
+                "TOPIC NAME": "ỌGỤGỤ NA AGHỌTAAZAA DỊ MFE (READING AND COMPREHENSION)",
+                "MBUNUCHE (PERFORMANCE OBJECTIVES)": [
+                  "Ịgụ ederede dị mfe.",
+                  "Ịchọpụta mkpụrụokwu ndị tara akpụ.",
+                  "Ịkọwa ha site n’iji ọkọwa okwu Igbo.",
+                  "Ịza ajụjụ sitere n’ederede ha gụrụ."
+                ],
+                "NDỊNISIOKWU (CONTENT)": [
+                  "Ọgụgụ ederede.",
+                  "Aghọtaazaa dị mfe.",
+                  "Mkpụrụokwu ndị tara akpụ.",
+                  "Ntụgharị uche n’ihe a gụrụ.",
+                  "Ịgba mbọ zaa ajụjụ sitere n’ederede a gụrụ."
+                ],
+                "IHE ỤMỤAKWỤKWỌ GA-EME (STUDENTS ACTIVITIES)": [
+                  "Ịgụ ederede.",
+                  "Ịkpọpụta na ịtọsa mkpụrụokwu na akpaalaokwu.",
+                  "Ịza ajụjụ.",
+                  "Ijụ ajụjụ.",
+                  "Ịchọpụta okwu ọhụrụ batara n’ihe a gụrụ."
+                ],
+                "NKA NKỤZI (TEACHER ACTIVITIES)": [
+                  "Ọgụgụ.",
+                  "Nkọwa.",
+                  "Ọmụmaatụ.",
+                  "Odide.",
+                  "Ajụjụ."
+                ],
+                "NGWA NKỤZI (TEACHING AND LEARNING RESOURCES)": [
+                  "Akwụkwọ ọgụgụ a họpụtara.",
+                  "Ụgbọedemede.",
+                  "Ọkaasụsụ (Ọkọwaokwu)."
+                ],
+                "NNWALE (EVALUATION GUIDE)": [
+                  "Ikwu ihe abụọ ha mụtara site n’ederede.",
+                  "Ịkọwa mkpụrụokwu abụọ tara akpụ.",
+                  "Iza ajụjụ abụọ onye nkụzi ga-ajụ site n’ihe ha chọpụtara."
+                ]
+              }
+            ]
+          },
+          {
+            "SUB THEME NAME": "ODIDE (WRITING)",
+            "TOPICS": [
+              {
+                "TOPIC NAME": "EDEMEDE NDUZI (GUIDED WRITING)",
+                "MBUNUCHE (PERFORMANCE OBJECTIVES)": [
+                  "Idetali ederede otu nkebi a haziri ahazi.",
+                  "Ikwu ihe ndị dị mkpa na nkebi edemede (paragrafụ)."
+                ],
+                "NDỊNISIOKWU (CONTENT)": [
+                  "Njirimara nkebi edemede dịka: ikwu maka otu isiokwu.",
+                  "Edemede otu nkebi a haziri ahazi."
+                ],
+                "IHE ỤMỤAKWỤKWỌ GA-EME (STUDENTS ACTIVITIES)": [
+                  "Ịkparịta ụka.",
+                  "Ịtụta aro ihe onyenkụzi ga-ede n’ụgbọojii.",
+                  "Ịgụgharị ihe onyenkụzi dere n’ụgbọojii.",
+                  "Idetu ihe e dere n’akwụkwọ ha.",
+                  "Ide edemede nke ha."
+                ],
+                "NKA NKỤZI (TEACHER ACTIVITIES)": [
+                  "Mkparịtaụka.",
+                  "Ọmụmaatụ.",
+                  "Nkọwa.",
+                  "Odide ndekọrịta.",
+                  "Nduzi."
+                ],
+                "NGWA NKỤZI (TEACHING AND LEARNING RESOURCES)": [
+                  "Ụgbọojii.",
+                  "Akwụkwọ ọgụgụ.",
+                  "Chaati ederede."
+                ],
+                "NNWALE (EVALUATION GUIDE)": [
+                  "Igosi nkebi ole dị n’ederede.",
+                  "Idetu ihe e dere.",
+                  "Ide edemede nke ha."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "THEME NAME": "AGỤMAGỤ (LITERATURE)",
+        "SUB THEMES": [
+          {
+            "SUB THEME NAME": "EJIJE (ACTIVITIES/GAMES)",
+            "TOPICS": [
+              {
+                "TOPIC NAME": "EJIJE DỊ NKENKE (SIMPLE ACTIVITIES)",
+                "MBUNUCHE (PERFORMANCE OBJECTIVES)": [
+                  "Ịsụtali asụsụ e ji azụ ahịa, arụ ọrụ ubi, ekwu okwu na telefono, na emume ncheta ọmụmụ mmadụ.",
+                  "Ime omume a na-eme n’ịzụ ahịa, ncheta ọmụmụ na ikwu na telefono."
+                ],
+                "NDỊNISIOKWU (CONTENT)": [
+                  "Ejije banyere: ịzụ ahịa, ịrụ ọrụ ubi, ikwu okwu na telefono, ime emume ncheta ọmụmụ."
+                ],
+                "IHE ỤMỤAKWỤKWỌ GA-EME (STUDENTS ACTIVITIES)": [
+                  "Ije ejije izụ ahịa.",
+                  "Ije ejije ọrụ ubi.",
+                  "Ije ejije ikwu okwu na telefono.",
+                  "Ije ejije ncheta ọmụmụ.",
+                  "Ịjụ na ịza ajụjụ."
+                ],
+                "NKA NKỤZI (TEACHER ACTIVITIES)": [
+                  "Ejije.",
+                  "Ajụjụ.",
+                  "Ngosipụta.",
+                  "Nkọwa."
+                ],
+                "NGWA NKỤZI (TEACHING AND LEARNING RESOURCES)": [
+                  "Ngwaahịa.",
+                  "Ngwa ọrụ ubi.",
+                  "Telefoonu.",
+                  "Eserese.",
+                  "Ngwa mmemme ncheta ọmụmụ."
+                ],
+                "NNWALE (EVALUATION GUIDE)": [
+                  "Ijije asụsụ e ji azụ ahịa.",
+                  "Ijije asụsụ telefono."
+                ]
+              }
+            ]
+          },
+          {
+            "SUB THEME NAME": "ABỤ (SONGS)",
+            "TOPICS": [
+              {
+                "TOPIC NAME": "ABỤ NA URI DỊ MFE (EGWU) (SIMPLE SONGS AND POEMS)",
+                "MBUNUCHE (PERFORMANCE OBJECTIVES)": [
+                  "Igụ abụ ma ọbụ uri (egwu) dị mfe.",
+                  "Ikụ egwu site n’iji ngwa egwu.",
+                  "Ikwu uru abụ/egwu/uri bara."
+                ],
+                "NDỊNISIOKWU (CONTENT)": [
+                  "Abụ/egwu/uri dị iche iche dịka: Abụ ịgụgụ nwa, Uri ọrụ, Uri/egwu a na-agba agba n’ọgbọ, Uri/abụ ndị ụka."
+                ],
+                "IHE ỤMỤAKWỤKWỌ GA-EME (STUDENTS ACTIVITIES)": [
+                  "Igụ abụ/uri dị mfe.",
+                  "Ikụ egwu/uri.",
+                  "Igba egwu/uri.",
+                  "Ikwu uru egwu/uri/abụ bara.",
+                  "Ije ejije."
+                ],
+                "NKA NKỤZI (TEACHER ACTIVITIES)": [
+                  "Nkọwa.",
+                  "Ọmụmaatụ.",
+                  "Ngosipụta.",
+                  "Mgbazi.",
+                  "Ngụpụta.",
+                  "Ọgbụgba-egwu.",
+                  "Ejije."
+                ],
+                "NGWA NKỤZI (TEACHING AND LEARNING RESOURCES)": [
+                  "Eserese.",
+                  "Chaati.",
+                  "Ejiji egwu.",
+                  "Ngwa egwu dịka: udu, ogene, ekwe, ọja, ịchaka, ọsha, ijele.",
+                  "Ụmụakwụkwọ n’onwe ha."
+                ],
+                "NNWALE (EVALUATION GUIDE)": [
+                  "Ịgụpụta abụ ọrụ abụọ, abụ ịgụgụ nwa abụọ, igụ abụ ndị ụka abụọ ha maara.",
+                  "Ịgba otu uri/egwu ha maara.",
+                  "Ikụ egwu."
+                ]
+              },
+              {
+                "TOPIC NAME": "AGWỤGWA DỊ MFE (GWA M GWA M GWA M) (SIMPLE RIDDLES)",
+                "MBUNUCHE (PERFORMANCE OBJECTIVES)": [
+                  "Ịjụpụta ma zaakwa gwa m gwa m gwa m.",
+                  "Izipụta nghọta agwụgwa.",
+                  "Igosipụta obi ụtọ na mmasị dị n’ịjụ na ịza ha."
+                ],
+                "NDỊNISIOKWU (CONTENT)": [
+                  "Gwa m gwa m gwa m dị iche iche."
+                ],
+                "IHE ỤMỤAKWỤKWỌ GA-EME (STUDENTS ACTIVITIES)": [
+                  "Ige ntị.",
+                  "Ịjụ agwụgwa.",
+                  "Ịza agwụgwa.",
+                  "Ịkọwa mpụtara okwu ụfọdụ."
+                ],
+                "NKA NKỤZI (TEACHER ACTIVITIES)": [
+                  "Nkọwa.",
+                  "Ajụjụ.",
+                  "Nzipụta.",
+                  "Ọmụmaatụ."
+                ],
+                "NGWA NKỤZI (TEACHING AND LEARNING RESOURCES)": [
+                  "Eserese.",
+                  "Akpụrụakpụ.",
+                  "Chaati.",
+                  "Mgbubam."
+                ],
+                "NNWALE (EVALUATION GUIDE)": [
+                  "Ide gwa m gwa m gwa m.",
+                  "Ịkọwa agwụgwa."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "THEME NAME": "OMENALA (CULTURE)",
+        "SUB THEMES": [
+          {
+            "SUB THEME NAME": "NSINIWU NA MBAMURU (NORMS AND VALUES)",
+            "TOPICS": [
+              {
+                "TOPIC NAME": "AGWA ỌMA NA AGWA ỌJỌỌ (GOOD AND BAD BEHAVIOR)",
+                "MBUNUCHE (PERFORMANCE OBJECTIVES)": [
+                  "Ikwupụta ihe bụ ihe ọma na ihe ọjọọ n’ala Igbo.",
+                  "Ịkpapụta ezi agwa.",
+                  "Ikwu uru agwa ọma bara.",
+                  "Ikwu ahụhụ na-eso agwa ọjọọ."
+                ],
+                "NDỊNISIOKWU (CONTENT)": [
+                  "Agwa ọma dịka: eziokwu, ịsọpụrụ okenye, ije ozi, ịdị ọcha, ịhụnanya.",
+                  "Agwa ọjọọ dịka: ịzụ ohi, asọghị anya, ịtọrọ mmadụ enyeghị nsọpụrụ.",
+                  "Uru agwa ọma bara – inwe otuto.",
+                  "Ahụhụ na-eso agwa ọjọọ - inọ n’ụlọ nga, ibi ndụ ihere."
+                ],
+                "IHE ỤMỤAKWỤKWỌ GA-EME (STUDENTS ACTIVITIES)": [
+                  "Ikwupụta ihe bụ ihe ọma na ihe ọjọọ n’ala Igbo.",
+                  "Ịkpapụta ezi agwa.",
+                  "Ikwu uru agwa ọma bara.",
+                  "Ikwu ahụhụ na-eso agwa ọjọọ."
+                ],
+                "NKA NKỤZI (TEACHER ACTIVITIES)": [
+                  "Nkọwa.",
+                  "Ọmụmaatụ.",
+                  "Ngosi.",
+                  "Ọgụgụ.",
+                  "Odide.",
+                  "Ejije."
+                ],
+                "NGWA NKỤZI (TEACHING AND LEARNING RESOURCES)": [
+                  "Eserese.",
+                  "Akwụkwọ ọgụgụ."
+                ],
+                "NNWALE (EVALUATION GUIDE)": [
+                  "Ikwu omume ọma atọ.",
+                  "Ikwu omume ọjọọ atọ.",
+                  "Ikwu otu uru omume ọma bara.",
+                  "Ikwu ahụhụ na-eso agwa ọjọọ."
+                ]
+              }
+            ]
+          },
+          {
+            "SUB THEME NAME": "OMENALA NA EWUMEWU (CULTURE AND FESTIVALS)",
+            "TOPICS": [
+              {
+                "TOPIC NAME": "NJIRIMARA NDỊ IGBO (CHARACTERISTICS OF THE IGBO PEOPLE)",
+                "MBUNUCHE (PERFORMANCE OBJECTIVES)": [
+                  "Ịkọwapụta ihe ndị e ji amata ndị Igbo n’ụzọ dị iche iche."
+                ],
+                "NDỊNISIOKWU (CONTENT)": [
+                  "Asụsụ.",
+                  "Ejiji.",
+                  "Egbugbu wdg."
+                ],
+                "IHE ỤMỤAKWỤKWỌ GA-EME (STUDENTS ACTIVITIES)": [
+                  "Ịsụ asụsụ.",
+                  "Ịkpọpụta ngwa ejiji.",
+                  "Iji ejiji ndị Igbo.",
+                  "Ịtụle eserese onye gburu egbugbu dịka: ichi, nki, wdg."
+                ],
+                "NKA NKỤZI (TEACHER ACTIVITIES)": [
+                  "Nkọwa.",
+                  "Ngosi eserese.",
+                  "Ajụjụ na azịza.",
+                  "Ejije."
+                ],
+                "NGWA NKỤZI (TEACHING AND LEARNING RESOURCES)": [
+                  "Eserese.",
+                  "Ngwa ejiji dịka: uwe, akwa, okpu, ihe olu, ọla ntị, jigida."
+                ],
+                "NNWALE (EVALUATION GUIDE)": [
+                  "Ije ejije.",
+                  "Ide njirimara atọ ndị Igbo.",
+                  "Ise onye Igbo gburu ichi."
+                ]
+              },
+              {
+                "TOPIC NAME": "AKAỌRỤ NDỊ IGBO (IGBO TRADES)",
+                "MBUNUCHE (PERFORMANCE OBJECTIVES)": [
+                  "Ikwu ihe bụ akaọrụ.",
+                  "Ikwu ụdị akaọrụ ndị Igbo na-arụ.",
+                  "Ịkọwa uru akaọrụ bara na ndụ ndị Igbo."
+                ],
+                "NDỊNISIOKWU (CONTENT)": [
+                  "Ihe bụ akaọrụ.",
+                  "Ụdị akaọrụ dị iche iche.",
+                  "Ụdị akaọrụ ndị Igbo kpọmkwem.",
+                  "Uru akaọrụ na ndụ ndị Igbo."
+                ],
+                "IHE ỤMỤAKWỤKWỌ GA-EME (STUDENTS ACTIVITIES)": [
+                  "Ikwu ihe bụ akaọrụ.",
+                  "Ịkpọpụta ụdị akaọrụ dị iche iche.",
+                  "Ikwupụta akaọrụ ndị Igbo.",
+                  "Ịkọwa uru akaọrụ bara na ndụ ndị Igbo."
+                ],
+                "NKA NKỤZI (TEACHER ACTIVITIES)": [
+                  "Nkọwa.",
+                  "Nduzi.",
+                  "Ajụjụ.",
+                  "Ọmụmaatụ.",
+                  "Ntulekọta."
+                ],
+                "NGWA NKỤZI (TEACHING AND LEARNING RESOURCES)": [
+                  "Chaati.",
+                  "Eserese.",
+                  "Ụmụaka n’onwe ha.",
+                  "Ngwaọrụ."
+                ],
+                "NNWALE (EVALUATION GUIDE)": [
+                  "Izatali ajụjụ.",
+                  "Ikwu akaọrụ atọ ha maara.",
+                  "Ikwu ụdị akaọrụ atọ ndị Igbo na-arụ.",
+                  "Ide uru atọ akaọrụ bara."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "PRIMARY 5": {
+    "THEMES": [
+      {
+        "THEME NAME": "ASỤSỤ (LANGUAGE)",
+        "SUB THEMES": [
+          {
+            "SUB THEME NAME": "IGE NTỊ NA IKWU OKWU (LISTENING AND SPEAKING)",
+            "TOPICS": [
+              {
+                "TOPIC NAME": "ỌNỤỌGỤGỤ (1 – 400) (COUNTING 1-400)",
+                "MBUNUCHE (PERFORMANCE OBJECTIVES)": [
+                  "Ịgụtali ọnụọgụgụ site n’otu ruo na narị anọ.",
+                  "Iji ọnụọgụgụ ndị a mee ahịrịokwu.",
+                  "Ide ha."
+                ],
+                "NDỊNISIOKWU (CONTENT)": [
+                  "Ọnụọgụgụ site n’otu ruo na narị anọ.",
+                  "Iji ọnụọgụgụ mee ahịrịokwu.",
+                  "Odide ọnụọgụgụ."
+                ],
+                "IHE ỤMỤAKWỤKWỌ GA-EME (STUDENTS ACTIVITIES)": [
+                  "Igụpụta ọnụọgụgụ.",
+                  "Iji ọnụọgụgụ ndị a sụọ asụsụ.",
+                  "Idepụta ọnụọgụgụ.",
+                  "Ịrụgosi ha.",
+                  "Ịmakọ ọnụọgụgụ na mkpụrụokwu.",
+                  "Ịsọ mpi."
+                ],
+                "NKA NKỤZI (TEACHER ACTIVITIES)": [
+                  "Nkọwa.",
+                  "Ngosipụta.",
+                  "Ọmụmaatụ.",
+                  "Ajụjụ na azịza.",
+                  "Asọmpi."
+                ],
+                "NGWA NKỤZI (TEACHING AND LEARNING RESOURCES)": [
+                  "Ngwa ọnụọgụgụ dịka: ukwu osisi e kere na narị na narị.",
+                  "Chaati.",
+                  "Mgbubam."
+                ],
+                "NNWALE (EVALUATION GUIDE)": [
+                  "Ịgụ ọnụọgụgụ site n’otu ruo na narị anọ.",
+                  "Iji ọnụọgụgụ mee ahịrịokwu ise.",
+                  "Ide ọnụọgụgụ e wepụtara."
+                ]
+              }
+            ]
+          },
+          {
+            "SUB THEME NAME": "ỌGỤGỤ (READING)",
+            "TOPICS": [
+              {
+                "TOPIC NAME": "AGHỌTAAZAA (IJI NKENKE AKỤKỌ NDỊ A HỌPỤTARA KUZIE AGHỌTAAZAA) (COMPREHENSION USING SELECTED STORIES)",
+                "MBUNUCHE (PERFORMANCE OBJECTIVES)": [
+                  "Ịgụ Igbo nke ọma.",
+                  "Iko wa ihe a kọrọ n’ime akụkọ ahụ.",
+                  "Iza ajụjụ so ihe ha gụrụ."
+                ],
+                "NDỊNISIOKWU (CONTENT)": [
+                  "Ọgụgụ.",
+                  "Nkọwa ihe a gụrụ.",
+                  "Nkọwa okwu ndị siri ike n’ihe ndị a gụrụ."
+                ],
+                "IHE ỤMỤAKWỤKWỌ GA-EME (STUDENTS ACTIVITIES)": [
+                  "Ịgụ ihe ọgụgụ.",
+                  "Ịjụ na ịza ajụjụ.",
+                  "Ikwu uche ha banyere ihe ha gụrụ."
+                ],
+                "NKA NKỤZI (TEACHER ACTIVITIES)": [
+                  "Ọgụgụ.",
+                  "Nkọwa.",
+                  "Ajụjụ na azịza.",
+                  "Ọmụmaatụ."
+                ],
+                "NGWA NKỤZI (TEACHING AND LEARNING RESOURCES)": [
+                  "Akwụkwọ ọgụgụ.",
+                  "Eserese.",
+                  "Tepurekọda."
+                ],
+                "NNWALE (EVALUATION GUIDE)": [
+                  "Ịkọwa isiokwu dị n’ime ihe ha gụrụ.",
+                  "Ịkọwa mkpụrụokwu ato siri ike dị n’ime ihe ha gụrụ.",
+                  "Ịza ajụjụ banyere ihe ha gụrụ."
+                ]
+              }
+            ]
+          },
+          {
+            "SUB THEME NAME": "ODIDE (WRITING)",
+            "TOPICS": [
+              {
+                "TOPIC NAME": "AKARA EDEMEDE (PUNCTUATION MARKS)",
+                "MBUNUCHE (PERFORMANCE OBJECTIVES)": [
+                  "Ikwu akara edemede dị iche iche.",
+                  "Itinyetali akara edemede kwesịrị ekwesị.",
+                  "Ịchọpụta na izipụta akaraedemede dị iche iche n’ahịrịokwu."
+                ],
+                "NDỊNISIOKWU (CONTENT)": [
+                  "Akaraedemede dị iche iche dịka: kpọm, rịkọm, kpọmrikọm, akarauhie, akaramkpu, akaraajụjụ wdg.",
+                  "Ntinye akara edemede dị iche iche."
+                ],
+                "IHE ỤMỤAKWỤKWỌ GA-EME (STUDENTS ACTIVITIES)": [
+                  "Ikwu akaraedemede dị iche iche.",
+                  "Itinye akaraedemede kwesịrị ekwesị.",
+                  "Ịchọpụta na ịrụgosi akaraedemede n’ahịrịokwu."
+                ],
+                "NKA NKỤZI (TEACHER ACTIVITIES)": [
+                  "Nkọwa.",
+                  "Ọmụmaatụ.",
+                  "Nrụgosi.",
+                  "Ọkpụkpọ."
+                ],
+                "NGWA NKỤZI (TEACHING AND LEARNING RESOURCES)": [
+                  "Ụgbọoji.",
+                  "Kaadị.",
+                  "Mgbubam.",
+                  "Eserese.",
+                  "Redio.",
+                  "Tepurekọda."
+                ],
+                "NNWALE (EVALUATION GUIDE)": [
+                  "Ịkpọpụta akaraedemede atọ.",
+                  "Itinye akara edemede atọ n’ebe kwesịrị ekwesi."
+                ]
+              },
+              {
+                "TOPIC NAME": "EDEMEDE NDUZI (GUIDED WRITING)",
+                "MBUNUCHE (PERFORMANCE OBJECTIVES)": [
+                  "Ịkọwa ihe bụ edemede.",
+                  "Ikwu njirimara edemede.",
+                  "Ịtụta aro ihe a ga-ede.",
+                  "Idetu ihe e dere.",
+                  "Ide edemede nke ha."
+                ],
+                "NDỊNISIOKWU (CONTENT)": [
+                  "Nkọwa ihe bụ edemede.",
+                  "Njirimara edemede dịka: isiokwu, mmalite, ahụ, nhazi, mmechi.",
+                  "Ntụta aro ihe onyenkuzi ga-ede n’ụgbọojii.",
+                  "Ndetu ihe e dere.",
+                  "Odide edemede nke ha."
+                ],
+                "IHE ỤMỤAKWỤKWỌ GA-EME (STUDENTS ACTIVITIES)": [
+                  "Ịkọwa ihe bụ edemede.",
+                  "Ikwu njirimara edemede.",
+                  "Ịkparịta ụka banyere isiokwu.",
+                  "Ịtụta aro ihe onyenkụzi ga-ede n’ụgbọojii.",
+                  "Idetu ihe e dere n’akwụkwọ ha.",
+                  "Ide edemede nke ha."
+                ],
+                "NKA NKỤZI (TEACHER ACTIVITIES)": [
+                  "Nkọwa.",
+                  "Ọmụmaatụ.",
+                  "Ngosipụta.",
+                  "Ajụjụ na azịza.",
+                  "Ndekọrịta nke klaasị."
+                ],
+                "NGWA NKỤZI (TEACHING AND LEARNING RESOURCES)": [
+                  "Eserese.",
+                  "Mgbubam.",
+                  "Akwụkwọ ọgụgụ."
+                ],
+                "NNWALE (EVALUATION GUIDE)": [
+                  "Ikọwa ihe bụ edemede.",
+                  "Ide ahịrịokwu anọ.",
+                  "Ịza ajụjụ."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "THEME NAME": "AGỤMAGỤ (LITERATURE)",
+        "SUB THEMES": [
+          {
+            "SUB THEME NAME": "ABỤ (SONGS)",
+            "TOPICS": [
+              {
+                "TOPIC NAME": "ABỤ NKENKE (SHORT SONGS)",
+                "MBUNUCHE (PERFORMANCE OBJECTIVES)": [
+                  "Ịgụpụta abụ nke ọma.",
+                  "Izipụta nghọta, mmasị na obi ụtọ dị n’abụ.",
+                  "Ibu abụ n’isi.",
+                  "Ịkọwa echiche dị n’abụ."
+                ],
+                "NDỊNISIOKWU (CONTENT)": [
+                  "Abụ mfe dị iche iche."
+                ],
+                "IHE ỤMỤAKWỤKWỌ GA-EME (STUDENTS ACTIVITIES)": [
+                  "Ige ntị.",
+                  "Ịgụ abụ.",
+                  "Ibu abụ n’isi.",
+                  "Ịkọwa echiche dị n’abụ.",
+                  "Ije ejije.",
+                  "Idetu abụ.",
+                  "Ise eserese."
+                ],
+                "NKA NKỤZI (TEACHER ACTIVITIES)": [
+                  "Nkọwa.",
+                  "Ọgụgụ.",
+                  "Nzipụta.",
+                  "Ọmụmaatụ.",
+                  "Ajụjụ na azịza.",
+                  "Ndetu."
+                ],
+                "NGWA NKỤZI (TEACHING AND LEARNING RESOURCES)": [
+                  "Chaati.",
+                  "Eserese.",
+                  "Akpụrụakpụ.",
+                  "Mgbubam."
+                ],
+                "NNWALE (EVALUATION GUIDE)": [
+                  "Igụ abụ nkenke atọ nke ọma.",
+                  "Ikowa echiche dị n’abụ ha gụrụ.",
+                  "Ise eserese ịkọwa otu abụ."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "THEME NAME": "OMENALA (CULTURE)",
+        "SUB THEMES": [
+          {
+            "SUB THEME NAME": "NSINIWU NA MBAMURU (NORMS AND VALUES)",
+            "TOPICS": [
+              {
+                "TOPIC NAME": "IDOBE GBURUGBURU ỌCHA (MAINTAINING A CLEAN ENVIRONMENT)",
+                "MBUNUCHE (PERFORMANCE OBJECTIVES)": [
+                  "Ikwu ụzọ ilekọta gburugburu.",
+                  "Ikwu uru ọ bara ilekọta gburugburu."
+                ],
+                "NDỊNISIOKWU (CONTENT)": [
+                  "Ụzọ nlekọta gburugburu dịka: ịza ihe, ikpofu ahịhịa ebe o kwesịrị, ịnyụ mamiị na nsị ebe ha kwesịrị.",
+                  "Uru nlekọta gburugburu bara."
+                ],
+                "IHE ỤMỤAKWỤKWỌ GA-EME (STUDENTS ACTIVITIES)": [
+                  "Ige ntị.",
+                  "Ịkparịta ụka.",
+                  "Ịjụrịta ajụjụ na ịzarịta ajụjụ.",
+                  "Ise eserese.",
+                  "Ije ejije.",
+                  "Ịgụ ihe ọgụgụ.",
+                  "Ide ihe odide."
+                ],
+                "NKA NKỤZI (TEACHER ACTIVITIES)": [
+                  "Nkọwa.",
+                  "Ngosipụta.",
+                  "Ọmụmaatụ.",
+                  "Ọgụgụ.",
+                  "Ajụjụ na azịza.",
+                  "Ejije.",
+                  "Ide ihe odide."
+                ],
+                "NGWA NKỤZI (TEACHING AND LEARNING RESOURCES)": [
+                  "Ederede.",
+                  "Mgbubam.",
+                  "Eserese.",
+                  "Redio.",
+                  "Chaati."
+                ],
+                "NNWALE (EVALUATION GUIDE)": [
+                  "Ikwu uru ọ bara ilekọta gburugburu.",
+                  "Ikwu ụzọ ilekọta gburugburu."
+                ]
+              }
+            ]
+          },
+          {
+            "SUB THEME NAME": "OMENALA NA EWUMEWU (CULTURE AND FESTIVALS)",
+            "TOPICS": [
+              {
+                "TOPIC NAME": "MMEMME ỌDỊNALA (ỊGỤ NWA AHA) (TRADITIONAL CEREMONY - NAMING CEREMONY)",
+                "MBUNUCHE (PERFORMANCE OBJECTIVES)": [
+                  "Ikpọpụta aha Igbo dị iche iche.",
+                  "Ikwu mgbe na etu e si agụ nnwa aha n’ala Igbo.",
+                  "Ikwu mpụtara aha ụfọdụ na mkpa ha dị."
+                ],
+                "NDỊNISIOKWU (CONTENT)": [
+                  "Aha Igbo dị iche iche dịka: Chiamaka, Chukwudị, Amarachukwu, Chinemerem, wdg.",
+                  "Mgbe a na-agụ nnwa aha.",
+                  "Etu e si agụ nnwa aha.",
+                  "Mpụtara aha ụfodu na mkpa ha dị."
+                ],
+                "IHE ỤMỤAKWỤKWỌ GA-EME (STUDENTS ACTIVITIES)": [
+                  "Ịkpọsi aha ha na aha Igbo ndị ọzọ.",
+                  "Ikwu mpụtara aha ndị a.",
+                  "Ịkọwa mgbe na etu e si agụ nnwa aha."
+                ],
+                "NKA NKỤZI (TEACHER ACTIVITIES)": [
+                  "Ajụjụ na azịza.",
+                  "Ngosipụta.",
+                  "Ejije.",
+                  "Ọmụmaatụ.",
+                  "Nkọwa."
+                ],
+                "NGWA NKỤZI (TEACHING AND LEARNING RESOURCES)": [
+                  "Eserese.",
+                  "Chaati.",
+                  "Akwụkwọ ọgụgụ.",
+                  "Ụmụaka n’onwe ha."
+                ],
+                "NNWALE (EVALUATION GUIDE)": [
+                  "Ịkpọpụta aha Igbo ise.",
+                  "Ịkọwa etu e si agụ nnwa aha na onye na-enye aha.",
+                  "Ikwu mpụtara aha ụfodu ha kpọpụtara."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "PRIMARY 6": {
+    "THEMES": [
+      {
+        "THEME NAME": "OMENALA (CULTURE)",
+        "SUB THEMES": [
+          {
+            "SUB THEME NAME": "NSINIWU NA MBAMURU (NORMS AND VALUES)",
+            "TOPICS": [
+              {
+                "TOPIC NAME": "ORUBERE NA ỌRỤ ỤMỤAKA (RESPONSIBILITIES AND TASKS OF CHILDREN)",
+                "MBUNUCHE (PERFORMANCE OBJECTIVES)": [
+                  "Ịkọwa ihe bụ orubere ha.",
+                  "Ịkọwa ihe bụ oke na ọrụ ha.",
+                  "Ikwu uru ọ bara inye ụmụaka orubere ha.",
+                  "Ikwu uru ọ bara ụmụaka ịma oke na ọrụ ha."
+                ],
+                "NDỊNISIOKWU (CONTENT)": [
+                  "Orubere ụmụaka.",
+                  "Oke na ọrụ ụmụaka.",
+                  "Uru inye ụmụaka orubere ha.",
+                  "Uru ụmụaka ịma oke na ọrụ ha."
+                ],
+                "IHE ỤMỤAKWỤKWỌ GA-EME (STUDENTS ACTIVITIES)": [
+                  "Ikọwa ihe bụ orubere ha.",
+                  "Ịkọwa ihe bụ oke na ọrụ ha.",
+                  "Ikwu uru ọ bara inye ụmụaka orubere ha.",
+                  "Ikwu uru ọ bara ụmụaka ịma oke na ọrụ ha.",
+                  "Ijepụta ejije.",
+                  "Ise eserese."
+                ],
+                "NKA NKỤZI (TEACHER ACTIVITIES)": [
+                  "Nkọwa.",
+                  "Ọmụmaatụ.",
+                  "Ntụlekọta uche.",
+                  "Ajụjụ na azịza.",
+                  "Ọgụgụ.",
+                  "Odide.",
+                  "Ejije."
+                ],
+                "NGWA NKỤZI (TEACHING AND LEARNING RESOURCES)": [
+                  "Eserese.",
+                  "Chaati.",
+                  "Akwụkwọ ọgụgụ.",
+                  "Foto."
+                ],
+                "NNWALE (EVALUATION GUIDE)": [
+                  "Ịkọwa ihe bụ orubere ha.",
+                  "Ịkọwa uru ọ bara inye ụmụaka orubere ha.",
+                  "Ịkọwa ihe bụ oke na ọrụ ha.",
+                  "Ikwu uru ọ bara ụmụaka ịma oke na ọrụ ha."
+                ]
+              }
+            ]
+          },
+          {
+            "SUB THEME NAME": "OMENALA NA EWUMEWU (CULTURE AND FESTIVALS)",
+            "TOPICS": [
+              {
+                "TOPIC NAME": "ỌJỊ (KOLA NUT)",
+                "MBUNUCHE (PERFORMANCE OBJECTIVES)": [
+                  "Ịkọwa ihe bụ ọjị.",
+                  "Ịkọwa ihe e ji ọjị eme.",
+                  "Ikwu ihe na-anọchị anya ọjị na uru ọjị bara."
+                ],
+                "NDỊNISIOKWU (CONTENT)": [
+                  "Nkọwa ọjị.",
+                  "Ihe e ji ọjị eme.",
+                  "Ihe na-anọchi anya ọjị.",
+                  "Uru ọjị bara."
+                ],
+                "IHE ỤMỤAKWỤKWỌ GA-EME (STUDENTS ACTIVITIES)": [
+                  "Ikọwa ọjị.",
+                  "Ikwu ihe e ji ọjị eme.",
+                  "Ikwu ihe na-anọchị anya ọjị na uru ọjị bara."
+                ],
+                "NKA NKỤZI (TEACHER ACTIVITIES)": [
+                  "Nkọwa.",
+                  "Ngosi.",
+                  "Ọmụmaatụ.",
+                  "Odide.",
+                  "Ajụjụ.",
+                  "Mgbazi."
+                ],
+                "NGWA NKỤZI (TEACHING AND LEARNING RESOURCES)": [
+                  "Ọjị na ose ọjị.",
+                  "Aṅara na akụilu.",
+                  "Kaadị.",
+                  "Eserese.",
+                  "Ejije."
+                ],
+                "NNWALE (EVALUATION GUIDE)": [
+                  "Ịkọwa ihe bụ ọjị.",
+                  "Ikwu ihe na-anọchi anya ọjị.",
+                  "Ikwu uru ọjị bara.",
+                  "Ide ahịrịokwu ise banyere ọjị.",
+                  "Ịkọpị notu."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "THEME NAME": "ASỤSỤ (LANGUAGE)",
+        "SUB THEMES": [
+          {
+            "SUB THEME NAME": "ỌGỤGỤ (READING)",
+            "TOPICS": [
+              {
+                "TOPIC NAME": "IJI NKENKE AKỤKỌ NDỊ A HỌPỤTARA KUZIE AGHỌTAAZAA (USING SELECTED STORIES FOR COMPREHENSION)",
+                "MBUNUCHE (PERFORMANCE OBJECTIVES)": [
+                  "Ịgụtali Igbo nke ọma.",
+                  "Ịkọ gbasara akụkọ ha gụrụ.",
+                  "Iji ọkọwa-okwu chọpụta mpụtara ụfọdụ mkpụrụokwu.",
+                  "Iza ajụjụ so ihe ha gụrụ."
+                ],
+                "NDỊNISIOKWU (CONTENT)": [
+                  "Ọgụgụ.",
+                  "Nkọwa isi ihe a gụrụ.",
+                  "Nkọwa okwu ndị siri ike n’ihe a gụrụ.",
+                  "Ajụjụ so ihe a gụrụ."
+                ],
+                "IHE ỤMỤAKWỤKWỌ GA-EME (STUDENTS ACTIVITIES)": [
+                  "Ịgụ ihe ọgụgụ.",
+                  "I jụ na iza ajụjụ.",
+                  "Ikwu uche ha banyere ihe a gụrū."
+                ],
+                "NKA NKỤZI (TEACHER ACTIVITIES)": [
+                  "Ọgụgū.",
+                  "Nkọwa.",
+                  "Ajụjụ.",
+                  "Ọmụmaatū."
+                ],
+                "NGWA NKỤZI (TEACHING AND LEARNING RESOURCES)": [
+                  "Akwụkwọ ọgụgū.",
+                  "Eserese.",
+                  "Tepurekọda."
+                ],
+                "NNWALE (EVALUATION GUIDE)": [
+                  "Ịkọwa isiokwu dị n’ihe ha gụrū.",
+                  "Ịkọwa mkpụrụokwu atọ siri ike dị n’ime ihe ha gụrū.",
+                  "Iza ajụjụ banyere ihe ha gụrū."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
