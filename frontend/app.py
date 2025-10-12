@@ -10,7 +10,7 @@ st.set_page_config(
     page_icon="📘"
 )
 
-API_BASE_URL = "klassIQ.onrender.com"  # replace with FastAPI URL (when hosted)
+API_BASE_URL = "klassiq.onrender.com"  # replace with FastAPI URL (when hosted)
 DEFAULT_LANG = "English"
 
 
