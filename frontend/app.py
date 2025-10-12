@@ -16,7 +16,7 @@ DEFAULT_LANG = "English"
 
 st.title("KlassIQ📘")
 st.markdown("**AI Lesson Design Assistant for Nigerian Educators**")
-st.image("assets/KlassIQlogo.png", width=100)
+st.image("frontend/assets/KlassIQlogo.png", width=100)
 
 
 col1, col2 = st.columns([1.5, 3])
