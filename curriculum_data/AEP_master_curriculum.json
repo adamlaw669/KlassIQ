@@ -1,0 +1,131 @@
+[
+  {
+    "subject": "Basic Science And Tech",
+    "level": "Level 1",
+    "grades": {}
+  },
+  {
+    "subject": "Basic Science And Tech",
+    "level": "Level 2",
+    "grades": {}
+  },
+  {
+    "subject": "Basic Science And Tech",
+    "level": "Level 3",
+    "grades": {}
+  },
+  {
+    "subject": "English",
+    "level": "Level 1",
+    "grades": {}
+  },
+  {
+    "subject": "English",
+    "level": "Level 2",
+    "grades": {}
+  },
+  {
+    "subject": "English",
+    "level": "Level 3",
+    "grades": {}
+  },
+  {
+    "subject": "Hausa",
+    "level": "Level 1",
+    "grades": {}
+  },
+  {
+    "subject": "Hausa",
+    "level": "Level 2",
+    "grades": {}
+  },
+  {
+    "subject": "Hausa",
+    "level": "Level 3",
+    "grades": {}
+  },
+  {
+    "subject": "Igbo Language",
+    "level": "Level 1",
+    "grades": {}
+  },
+  {
+    "subject": "Igbo Language",
+    "level": "Level 2",
+    "grades": {}
+  },
+  {
+    "subject": "Igbo Language",
+    "level": "Level 3",
+    "grades": {}
+  },
+  {
+    "subject": "Mathematics",
+    "level": "Level 1",
+    "grades": {}
+  },
+  {
+    "subject": "Mathematics",
+    "level": "Level 2",
+    "grades": {
+      "Primary 1": {
+        "themes": [
+          {
+            "theme_name": "S At",
+            "sub_themes": []
+          },
+          {
+            "theme_name": "S",
+            "sub_themes": []
+          },
+          {
+            "theme_name": "2: Basic Operations \u0001                                                        Level Two \u0001                                                                                           Stage One",
+            "sub_themes": []
+          }
+        ]
+      }
+    }
+  },
+  {
+    "subject": "Mathematics",
+    "level": "Level 3",
+    "grades": {}
+  },
+  {
+    "subject": "Nig History And Values",
+    "level": "Level 1",
+    "grades": {}
+  },
+  {
+    "subject": "Nig History And Values",
+    "level": "Level 2",
+    "grades": {}
+  },
+  {
+    "subject": "Nig History And Values",
+    "level": "Level 3",
+    "grades": {}
+  },
+  {
+    "subject": "Yoruba",
+    "level": "Level 1",
+    "grades": {}
+  },
+  {
+    "subject": "Yoruba",
+    "level": "Level 2",
+    "grades": {
+      "Primary 1": {
+        "themes": []
+      },
+      "Primary 2": {
+        "themes": []
+      }
+    }
+  },
+  {
+    "subject": "Yoruba",
+    "level": "Level 3",
+    "grades": {}
+  }
+]
