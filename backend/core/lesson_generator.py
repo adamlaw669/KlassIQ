@@ -11,7 +11,7 @@ import time
 import requests   # ensure `requests` is in your requirements
 import hashlib
 from pathlib import Path
-from typing import List, Dict, Optional
+from typing import List, Dict, Optional, Union
 
 # Simple file-based cache for generated plans (avoid repeat API calls during demo)
 CACHE_DIR = Path(__file__).resolve().parents[1] / "tmp_cache"
@@ -25,6 +25,142 @@ LLM_MODEL = os.environ.get("LLM_MODEL", "").strip()  # optional, used if API req
 if not LLM_API_URL or not LLM_API_KEY:
     # we allow offline runs (local placeholder) but warn
     print("Warning: LLM_API_URL or LLM_API_KEY not configured. The lesson generator will use a local fallback.")
+
+
+def get_curriculum_objectives(grade: str, subject: str, topic: str) -> Dict[str, Union[List[str], str]]:
+    """
+    Fetch curriculum objectives for a specific grade, subject, and topic.
+    
+    Args:
+        grade: Grade level (e.g., "Primary 1–3", "Primary 4–6", "Junior Secondary 1–3")
+        subject: Subject name (e.g., "english_studies", "maths", "basic_science_technology")
+        topic: Topic name to search for
+        
+    Returns:
+        Dict containing objectives, content, activities, and resources or error message
+    """
+    try:
+        # Load the merged curriculum map
+        curriculum_path = Path(__file__).resolve().parents[1] / "data" / "curriculum_map.json"
+        
+        if not curriculum_path.exists():
+            return {
+                "error": "Curriculum map not found. Please run merge_curriculums.py first.",
+                "objectives": [],
+                "content": [],
+                "teacher_activities": [],
+                "student_activities": [],
+                "resources": []
+            }
+            
+        with open(curriculum_path, 'r', encoding='utf-8') as f:
+            curriculum_data = json.load(f)
+            
+        # Check if grade level exists
+        if grade not in curriculum_data:
+            available_grades = list(curriculum_data.keys())
+            return {
+                "error": f"Grade '{grade}' not found. Available grades: {available_grades}",
+                "objectives": [],
+                "content": [],
+                "teacher_activities": [],
+                "student_activities": [],
+                "resources": []
+            }
+            
+        grade_data = curriculum_data[grade]
+        
+        # Check if subject exists in this grade
+        if subject not in grade_data:
+            available_subjects = list(grade_data.keys())
+            return {
+                "error": f"Subject '{subject}' not found in {grade}. Available subjects: {available_subjects}",
+                "objectives": [],
+                "content": [],
+                "teacher_activities": [],
+                "student_activities": [],
+                "resources": []
+            }
+            
+        subject_data = grade_data[subject]
+        
+        # Search recursively for the topic in all levels, themes, sub-themes
+        def search_topic_recursive(data: Dict, search_topic: str) -> Optional[Dict]:
+            """Recursively search for a topic in the curriculum structure."""
+            search_topic_lower = search_topic.lower().strip()
+            
+            if isinstance(data, dict):
+                # Check if we're at a level with THEMES (like PRIMARY 1, JSS1, etc.)
+                if "THEMES" in data:
+                    themes = data["THEMES"]
+                    if isinstance(themes, list):
+                        for theme in themes:
+                            if isinstance(theme, dict) and "SUB THEMES" in theme:
+                                sub_themes = theme["SUB THEMES"]
+                                if isinstance(sub_themes, list):
+                                    for sub_theme in sub_themes:
+                                        if isinstance(sub_theme, dict) and "TOPICS" in sub_theme:
+                                            topics = sub_theme["TOPICS"]
+                                            if isinstance(topics, list):
+                                                for topic_item in topics:
+                                                    if isinstance(topic_item, dict) and "TOPIC NAME" in topic_item:
+                                                        topic_name = topic_item["TOPIC NAME"].lower().strip()
+                                                        if search_topic_lower in topic_name or topic_name in search_topic_lower:
+                                                            return topic_item
+                
+                # Recursively search in nested structures
+                for key, value in data.items():
+                    if isinstance(value, (dict, list)):
+                        result = search_topic_recursive(value, search_topic)
+                        if result:
+                            return result
+                            
+            elif isinstance(data, list):
+                for item in data:
+                    if isinstance(item, (dict, list)):
+                        result = search_topic_recursive(item, search_topic)
+                        if result:
+                            return result
+                            
+            return None
+        
+        # Search for the topic
+        topic_data = search_topic_recursive(subject_data, topic)
+        
+        if not topic_data:
+            return {
+                "error": f"Topic '{topic}' not found in {subject} for {grade}",
+                "objectives": [],
+                "content": [],
+                "teacher_activities": [],
+                "student_activities": [],
+                "resources": []
+            }
+        
+        # Extract the curriculum information
+        result = {
+            "objectives": topic_data.get("PERFORMANCE OBJECTIVES", []),
+            "content": topic_data.get("CONTENT", []),
+            "teacher_activities": topic_data.get("TEACHER ACTIVITIES", []),
+            "student_activities": topic_data.get("STUDENTS ACTIVITIES", topic_data.get("PUPILS ACTIVITIES", [])),
+            "resources": topic_data.get("TEACHING AND LEARNING RESOURCES", [])
+        }
+        
+        # Add topic name for context
+        if "TOPIC NAME" in topic_data:
+            result["topic_name"] = topic_data["TOPIC NAME"]
+            
+        return result
+        
+    except Exception as e:
+        return {
+            "error": f"Error retrieving curriculum objectives: {str(e)}",
+            "objectives": [],
+            "content": [],
+            "teacher_activities": [],
+            "student_activities": [],
+            "resources": []
+        }
 
 
 def _cache_key(subject: str, grade: str, topic: str, teacher_input: Optional[str], language: str, summary_mode: bool):
@@ -184,7 +320,7 @@ def generate_lesson_plan(
     """
     Main entry point for the backend.
     - subject, grade, topic: provided by the frontend
-    - curriculum_context: brief string summarizing the objectives from curriculum JSON (if empty, LLM will fallback)
+    - curriculum_context: brief string summarizing the objectives from curriculum JSON (if None, will auto-retrieve)
     - teacher_input: optional free text describing materials or constraints
     - language: lesson output language (basic support - instruct LLM)
     - classroom_context: 'rural' or 'urban' (affects examples)
@@ -198,7 +334,38 @@ def generate_lesson_plan(
         if cached:
             return {"from_cache": True, "result": cached}
 
-    # 2) sanitize curriculum_context length - we must avoid huge prompts
+    # 2) Get curriculum context - either provided or auto-retrieve
+    if curriculum_context is None:
+        # Auto-retrieve curriculum objectives
+        curriculum_objectives = get_curriculum_objectives(grade, subject, topic)
+        
+        if "error" not in curriculum_objectives:
+            # Format the curriculum context
+            context_parts = []
+            
+            if curriculum_objectives.get("topic_name"):
+                context_parts.append(f"Topic: {curriculum_objectives['topic_name']}")
+                
+            if curriculum_objectives.get("objectives"):
+                context_parts.append(f"Performance Objectives: {'; '.join(curriculum_objectives['objectives'])}")
+                
+            if curriculum_objectives.get("content"):
+                content_str = '; '.join(curriculum_objectives['content'])
+                if len(content_str) > 500:  # Truncate if too long
+                    content_str = content_str[:497] + "..."
+                context_parts.append(f"Content: {content_str}")
+                
+            if curriculum_objectives.get("teacher_activities"):
+                activities_str = '; '.join(curriculum_objectives['teacher_activities'])
+                if len(activities_str) > 300:  # Truncate if too long
+                    activities_str = activities_str[:297] + "..."
+                context_parts.append(f"Teacher Activities: {activities_str}")
+                
+            curriculum_context = " | ".join(context_parts)
+        else:
+            curriculum_context = f"(auto-retrieval failed: {curriculum_objectives.get('error', 'unknown error')})"
+    
+    # Sanitize curriculum_context length - we must avoid huge prompts
     if curriculum_context:
         # keep to reasonable length, trim if needed
         curriculum_context = curriculum_context.strip()
