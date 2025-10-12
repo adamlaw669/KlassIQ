@@ -1,0 +1,1321 @@
+{
+  "JSS1": {
+    "THEMES": [
+      {
+        "THEME NAME": "AGRICULTURE",
+        "SUB THEMES": [
+          {
+            "SUB THEME NAME": "CONCEPT AND MEDIUM OF AGRICULTURAL PRODUCTION",
+            "TOPICS": [
+              {
+                "TOPIC NAME": "Importance and Forms of Agriculture",
+                "PERFORMANCE OBJECTIVES": [
+                  "state the importance of agriculture",
+                  "explain the type of agriculture",
+                  "state Forms agricultural practices"
+                ],
+                "CONTENT": [
+                  "Importance of agriculture in the society: source of food, clothing etc",
+                  "Type of agricultural practices in the localities: pastoral farming, arable farming etc",
+                  "Forms of agricultural activities in the communities: growing crops, rearing livestock, rearing of fish, salving of farm produce etc"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Guides class discussion on the importance of agriculture through agriculture",
+                  "Guide class discussion on the type of agricultural practices",
+                  "Guides to discuss on forms of Agricultural activities",
+                  "Give a board summary"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Guide discussion on agricultural importance in their local communities",
+                  "Guided discussion on agriculture",
+                  "Copy the board summary"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Posters showing the importance of agriculture",
+                  "Pamphlets, handbills and charts showing type of agriculture",
+                  "Charts and pictures of various forms of agricultural activities",
+                  "Specimen of farm produce e.g. Yam, Orange, etc"
+                ],
+                "EVALUATION GUIDE": [
+                  "explain the importance of agriculture",
+                  "identify the different types of agricultural practices",
+                  "name three forms of agricultural activities in their locality"
+                ]
+              },
+              {
+                "TOPIC NAME": "Classes and Uses of Crops",
+                "PERFORMANCE OBJECTIVES": [
+                  "identify crop plant forms",
+                  "classify crops according to forms, life span, uses, and types",
+                  "state the various uses of crops"
+                ],
+                "CONTENT": [
+                  "Crop Plant Forms: Monocotyledonous e.g. maize, guinea corn; Dicotyledonous e.g. bean, melon",
+                  "Classification of Crops based on Life span: annuals (e.g. maize, yam), Perennials (e.g. cocoa, mango)",
+                  "Uses of Crops: food e.g. cereals, tubers, pulses, fruits and vegetables; oil crops; spices; latex; beverage; fiber crops; source of carbohydrate, protein, fat and oil, minerals, vitamin etc"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Guides discussion on various plant forms",
+                  "Displays samples of crops from each of the classes for students to see",
+                  "Provides students with different types of crops and ask them to classify based on forms, life span, uses and types",
+                  "Give a board summary"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Sorts crops into various classes",
+                  "Classify crops according to forms, life span, types, and uses",
+                  "Copy the board summary"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Specimen of monocotyledonous and dicotyledonous seeds",
+                  "Crop sample pictures and charts depicting the various classes of crops"
+                ],
+                "EVALUATION GUIDE": [
+                  "list two external features of crop plant forms",
+                  "classify the displayed crops based on the life span",
+                  "match the crop samples with their respective uses",
+                  "classify the following crops: Maize, beans, waterleaf, soya-beans, cassava, pepper, cocoa etc. according to their forms, uses and life span"
+                ]
+              },
+              {
+                "TOPIC NAME": "Classes and Uses of Farm Animals",
+                "PERFORMANCE OBJECTIVES": [
+                  "describe different forms of farm animals",
+                  "identify the basic characteristics of different farm animals",
+                  "list farm animals found in their locality",
+                  "classify farm animals based on size and habitat",
+                  "state the uses of farm animals"
+                ],
+                "CONTENT": [
+                  "Types of Farm Animals: Work animals, Diary animals, Guard animals, Poultry, Aquatic animals, Pets, etc",
+                  "Basic characteristics of farm animals",
+                  "Classification of farm animals based on: Size - Large animals, Small animals; Habitat: Aquatic, Terrestrial; Mammals & non-mammals; Stomach types: Ruminant and Non ruminant animals",
+                  "Uses of farm animals: Food, Work, Sports and guard, Source of hides and skin, Source of manure"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Guides students in observing and identifying farm animals",
+                  "Displays charts showing external features of some farm animals",
+                  "Explains the various uses of farm animals",
+                  "Give a board summary"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Observe and identify various forms of farm animals based on their distinct features",
+                  "Familiarise self with various types of farm animals by studying the charts and pictures",
+                  "Discuss the uses of farm animals",
+                  "Copy the board summary"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Pictures/charts of various specimen of the farm animal forms like bull, goat, dog, turkey, fish, etc",
+                  "Charts and picture of various farm animals"
+                ],
+                "EVALUATION GUIDE": [
+                  "state the features of the different forms of farm animals",
+                  "list five farm animals",
+                  "match farm animals with their uses"
+                ]
+              },
+              {
+                "TOPIC NAME": "Methods of Weed and Pests Control",
+                "PERFORMANCE OBJECTIVES": [
+                  "list the characteristics of weeds",
+                  "indicate the uses of weeds",
+                  "briefly discuss methods of weed control",
+                  "state the effects of weed control methods on vegetation and soil",
+                  "classify insect pests according to mouth parts",
+                  "describe the nature of damage done by crop plant pests",
+                  "state effects of pests on the crop yield"
+                ],
+                "CONTENT": [
+                  "Characteristics of Weeds: Easily Dispersed, Long Dormancy",
+                  "Uses of weeds: Medicinal, Food, etc",
+                  "Methods of weed control: Rotation of crop, Herbicides, etc",
+                  "Effects of weed control methods on vegetation and soil: pollution of soil and ground water, contamination of livestock pasture, etc",
+                  "Classification of insect pests based on mouth parts: piercing and sucking insects, biting and chewing insects",
+                  "Description of the damage done by the crop pests",
+                  "Effects of crop pests on yield"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Demonstrates chemical control of weeds",
+                  "Highlights the effects of weeds control methods on vegetation and soil",
+                  "Displays pictures and charts of crop pests of the locality",
+                  "Displays specimen of insect pests",
+                  "Give a board summary"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Practice weed control on the school farm",
+                  "Study pictures and charts to familiarize self with the local crop plant pest",
+                  "Bring insect pests and make insect box",
+                  "Copy the board summary"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Charts and pictures of weeds",
+                  "Weeds specimens",
+                  "Weed album",
+                  "Herbicides",
+                  "Charts and pictures of the pests of the locality",
+                  "Specimens of insect pest, formalin, kerosene, insect box, etc"
+                ],
+                "EVALUATION GUIDE": [
+                  "mention two characteristics of weeds",
+                  "state two uses of weeds",
+                  "state two weed control methods",
+                  "explain two effects of weed control on the environment",
+                  "mention two classes of crop pests",
+                  "list two piercing and sucking insect and three biting and chewing insects",
+                  "describe the nature of damage done by crop plant pests"
+                ]
+              },
+              {
+                "TOPIC NAME": "Factors of Agricultural Production",
+                "PERFORMANCE OBJECTIVES": [
+                  "list the basic factors of production",
+                  "describe the uses of each in Agricultural production"
+                ],
+                "CONTENT": [
+                  "Factors of Production: land, labour, water, money, management"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "States the factors of production",
+                  "Discusses the importance of each factor in production"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Pick one factor of production and Write a short essay on it"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Flow chart of production processes"
+                ],
+                "EVALUATION GUIDE": [
+                  "mention three basic factors of production",
+                  "state the importance of each factor in production"
+                ]
+              }
+            ]
+          },
+          {
+            "SUB THEME NAME": "PROCESSES OF AGRICULTURAL PRODUCTION",
+            "TOPICS": [
+              {
+                "TOPIC NAME": "Farm Structures and Buildings",
+                "PERFORMANCE OBJECTIVES": [
+                  "describe and identify various types of farm structures and buildings",
+                  "list the uses of farm structures",
+                  "state the method of maintaining farm structures and building"
+                ],
+                "CONTENT": [
+                  "Description of farm structures and farm buildings: Farm structures - barn, silos, rhombus, paddock, fish pond; Farm building: poultry house, pen, store, office, utility building, security post",
+                  "Uses of farm structures and farm buildings",
+                  "Maintenance of farm structures and buildings"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Arrange for learners to visit commercial farm",
+                  "Give a board summary"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Use pictures and charts to identify farm structures and buildings",
+                  "Copy board summary"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Pictures and charts and relevant textbooks showing farm structures"
+                ],
+                "EVALUATION GUIDE": [
+                  "state two uses of farm structures",
+                  "mention two methods of maintaining farm structures",
+                  "draw some farm structures"
+                ]
+              },
+              {
+                "TOPIC NAME": "Crop Propagation and Cultural Practices",
+                "PERFORMANCE OBJECTIVES": [
+                  "define crop propagation",
+                  "state methods of crop propagation",
+                  "state the advantages and disadvantages of crop propagation methods"
+                ],
+                "CONTENT": [
+                  "Meaning of Propagation",
+                  "Propagation: by seed (sexual), by vegetative organs",
+                  "Advantages of Propagation by: Seed (easy to carry, store, procure, sow), Vegetative organs: more resistant to diseases and pests, matures and produces early, Withstand adverse soil and weather conditions",
+                  "Disadvantages of Propagation by: Seed: Reduce the amount for consumption, Seed does not germinate easily due to dormancy; Vegetative organs: Diseases of stock is manifested in offspring easily stored",
+                  "Cultural Practices: Thinning, Supplying, Mulching etc"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Displays charts and pictures on crop propagation",
+                  "Collects and displays samples of seeds and vegetative organs of named crop plants",
+                  "Supervised practical on cultural practices",
+                  "Give a board summary"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Study charts and pictures provided and list crops propagated vegetatively and by seeds",
+                  "Guided class demonstration of crop propagation: by seed, by vegetative organs",
+                  "Copy board summary"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Pictures and charts of crops propagated by: Seeds and vegetative organs",
+                  "Crop propagation specimens (seeds, vegetative organs), soil, tins/pots, water, hand trowel, etc",
+                  "Simple farm tools: Hoe, Cutlass, Rake, Hand trowel etc"
+                ],
+                "EVALUATION GUIDE": [
+                  "briefly explain crop propagation",
+                  "identify two methods of crop propagation",
+                  "list three examples of crops propagated by seed and vegetative organs"
+                ]
+              },
+              {
+                "TOPIC NAME": "Agricultural Practices",
+                "PERFORMANCE OBJECTIVES": [
+                  "describe pre-planting, planting, post planting, harvesting and post harvesting operations",
+                  "perform the various cultural practices above",
+                  "explain the benefits of timely harvesting of crops"
+                ],
+                "CONTENT": [
+                  "Pre-planting operations: Choice of site, Clearing, Stumping, Plotting, Tilling/ploughing, narrowing, ridding, Seed selection, Nursery and nursery practices",
+                  "Planting operations: Seed treatment, Spacing and planting",
+                  "Post planting operations: Thinning, Supplying, mulching, Manuring/fertilizer application, Harvesting",
+                  "Effects of timely harvesting versus late harvesting",
+                  "Post-harvest operation: processing of crop into useable forms, storage, etc"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Displays charts and pictures board",
+                  "Guides students to identify and describe different pre-planting operations",
+                  "Demonstrates some of these operations",
+                  "Give a board summary"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Study charts and pictures provided and identify the various operations depicted",
+                  "Watch teacher demonstrations",
+                  "Perform the various planting operations",
+                  "Copy board summary"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Simple farm tools: Hoe, Cutlass, Rake, Hand trowel etc",
+                  "School farm"
+                ],
+                "EVALUATION GUIDE": [
+                  "describe briefly activities involved in pre-planting, planting, post planting, harvesting, post harvesting operations",
+                  "demonstrate the various operations",
+                  "state three advantages of timely harvesting of crops"
+                ]
+              },
+              {
+                "TOPIC NAME": "Animal Feeds and Feeding",
+                "PERFORMANCE OBJECTIVES": [
+                  "state the meaning of feed",
+                  "list types of feed stuffs"
+                ],
+                "CONTENT": [
+                  "Meaning of Feed",
+                  "Types of feed: energy-yielding feeds, protein-yielding feeds",
+                  "Feeding Tools: troughs, drinker set, etc"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Exhibit samples of feedstuffs such as groundnut cake, palm kernel cake, cotton seed cake, forage, silage, hay, etc"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Identify the various feeding tools",
+                  "Identify the nutrients got from the various samples of feedstuffs",
+                  "Use the feedstuffs to feed farm animals"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Samples of feeds e.g. groundnut cakes, hay, including poultry feeds, etc"
+                ],
+                "EVALUATION GUIDE": [
+                  "state what animal feed stand for",
+                  "list 3 types of feedstuffs",
+                  "name two feeding tools"
+                ]
+              },
+              {
+                "TOPIC NAME": "Animal Pests and Disease Control",
+                "PERFORMANCE OBJECTIVES": [
+                  "list farm animal diseases",
+                  "state modes of transmission of farm animal diseases",
+                  "state effects of diseases on the farm animals",
+                  "state some methods of prevention and control"
+                ],
+                "CONTENT": [
+                  "Farm animal diseases: Bacterial, Fungal, Viral, Protozoan, Worms, Nutritional",
+                  "Modes of transmission of farm animals disease: contact with the infected animals, or discharges, or vector (tseese fly), etc",
+                  "The symptoms of farm animal diseases e.g. enlarged udder, sores, high fever, blood stained, diarrhea, loss of weight, loss of hair, reduced productivity, abortion, death"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Displays pictures and charts of disease organisms like worms",
+                  "Guided discussion on animal disease causing organisms and disease symptoms",
+                  "Develops chart on causal organisms, symptoms and animals affected",
+                  "Invites Veterinary personnel as a guest speaker",
+                  "Give a board summary"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Visit abattoir to observe meat inspection",
+                  "Carry out good sanitation practices on the school farm animals",
+                  "Observe charts and pictures and familiarize themselves with the symptoms and animals affected",
+                  "Copy board summary"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Pictures and charts of diseases of farm animals, disease organisms",
+                  "Preserved specimens of diseases causing organisms"
+                ],
+                "EVALUATION GUIDE": [
+                  "list five farm animal diseases",
+                  "mention four organisms that cause farm animal diseases",
+                  "state four modes of transmission of farm animal diseases",
+                  "describe three symptoms of farm animal diseases",
+                  "state three methods of prevention/control of farm animal diseases"
+                ]
+              },
+              {
+                "TOPIC NAME": "Fishery",
+                "PERFORMANCE OBJECTIVES": [
+                  "define fishery",
+                  "classify fishes on the basis of habitat and morphology",
+                  "state the uses of fish and fish products",
+                  "identify methods of fishing",
+                  "state risk factors associated with fish farming"
+                ],
+                "CONTENT": [
+                  "Definition of fishery",
+                  "Classes of fish based on: Habitat - fresh water fish and salt water fish; Morphology e.g. Bony and cartilaginous fish",
+                  "Other types of aquatic organisms: shell fish – crab, prawn, reptile – turtle, crocodile mammals – hippopotamus, whale",
+                  "Uses of fish and fish products",
+                  "Methods of fishing",
+                  "Risk factors in water and fish farming: polluting water with chemicals/industrial effluents, contaminating fish with chemicals used for catching fish"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Arrange a visit to a near-by fish farm",
+                  "Present pictures and charts on fish and fish products",
+                  "Display fish and the fish products",
+                  "Practice how to mend fishing net",
+                  "Discuss the effects of chemicals on fish and their environment",
+                  "Give a board summary"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Examine and identify various types of fish and other aquatic organisms displayed",
+                  "Identify various fishing equipment displayed",
+                  "Bring samples of fish and fish products",
+                  "Explain suitable environment for fish farming",
+                  "Copy board summary"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Pictures and charts on fish and fish products",
+                  "Fishing nets, basket, fishing hook etc",
+                  "Visit to a near-by fishery"
+                ],
+                "EVALUATION GUIDE": [
+                  "define fishery",
+                  "classify fishes based on habitat and morphology",
+                  "state two uses of fish and fish products",
+                  "write three methods of fishing",
+                  "state how water and fish can be contaminated"
+                ]
+              },
+              {
+                "TOPIC NAME": "Forests and Forest Uses",
+                "PERFORMANCE OBJECTIVES": [
+                  "describe forests"
+                ],
+                "CONTENT": [
+                  "Types of Forests: Mangrove (swampy), Rain forest (many trees), Derive forest (few trees)",
+                  "Forest Resources: Trees, Wildlife (animals), Fruits (Foodstuffs), Various Herbs, Shelter",
+                  "Uses of forest resources",
+                  "Effect of forest on the environment",
+                  "Human activities that affect the forest: clearing/deforestation, hunting, bush burning farming/depletion of wild life, etc"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Facilitate guided discussion on resource potentials of the forest and forest products e.g. fruits, gums, animals, etc",
+                  "Visit to the saw mill or carpenter",
+                  "Give a board summary"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "State resources obtained from the forest and discuss their uses",
+                  "Copy board summary"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Pictures and charts showing forest products",
+                  "Real product where available"
+                ],
+                "EVALUATION GUIDE": [
+                  "describe a forest",
+                  "list 4 resources found in the forest",
+                  "state five uses of the forest",
+                  "describe three effects of the forest on the environment",
+                  "list 3 human activities which result in loss of forest resources"
+                ]
+              }
+            ]
+          },
+          {
+            "SUB THEME NAME": "PRODUCE PACKAGING AND MARKETING",
+            "TOPICS": [
+              {
+                "TOPIC NAME": "Packaging Criteria",
+                "PERFORMANCE OBJECTIVES": [
+                  "state why some packaging items cannot be used for all farm produce",
+                  "list examples of local packaging items"
+                ],
+                "CONTENT": [
+                  "Packaging Criteria: Nature of the produce (liquid or solid and shape), Bulkiness (size), Live or frozen or dry stock, Distance to market",
+                  "Example of Packaging Items: Boxes, Drum/Barrels, Cages, Polytheme, Trays etc"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Guides class discussion of the variety of packaging materials in use in agriculture",
+                  "Guides discussion on what influences choice of materials for packaging farm produce",
+                  "Give a board summary"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Partake in providing information on packaging items they have seen before",
+                  "Copy board summary"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Samples of locally available packaging items, e.g. egg trays, perforated boxes, palm-fronted cages etc"
+                ],
+                "EVALUATION GUIDE": [
+                  "state why some packaging items cannot be used for all farm produce",
+                  "list 4 examples of local packaging items"
+                ]
+              },
+              {
+                "TOPIC NAME": "Pricing and Advertising",
+                "PERFORMANCE OBJECTIVES": [
+                  "explain what pricing is all about"
+                ],
+                "CONTENT": [
+                  "Definition of Pricing",
+                  "Price Determinants: cost of production, quality of produce, quantity of produce, forces of demand and supply, market price, seasonal produce"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Facilitate class discussion on composition of produce prices"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Describe what the price is composed of"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Charts of sellers and buyers in the market place"
+                ],
+                "EVALUATION GUIDE": [
+                  "explain what pricing is all about"
+                ]
+              },
+              {
+                "TOPIC NAME": "Records and Book Keeping",
+                "PERFORMANCE OBJECTIVES": [
+                  "explain what farm records are",
+                  "state the importance of farm records in agriculture",
+                  "list and explain the types of farm records",
+                  "describe the computer aided farm records and its benefits",
+                  "state what book keeping mean",
+                  "identify source documents",
+                  "prepare journal from source document"
+                ],
+                "CONTENT": [
+                  "Definition of Farm records",
+                  "Use of farm records: to monitor the progress of the business",
+                  "Types and uses of farm records: farm diary, farm inventory, Input records, Production records, consumption records, sales records, profit and loss account",
+                  "Computer Aided Farm records and its benefit",
+                  "Definition of Book keeping: keeping account of financial activity of enterprise",
+                  "Source documents: Sales invoice, Purchase invoice, Returns inwards, Returns outwards",
+                  "Journal preparation: Sales journal, Purchase journal etc"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Guides discussion on computer aided record and its benefits",
+                  "Study charts of journal and practice preparation of journal as a form of book keeping",
+                  "Copy board summary"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Partake in discussion on computer aided record and its benefits",
+                  "Study charts of journal and practice preparation of journal as a form of book keeping",
+                  "Copy board summary"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Specimens of farm records",
+                  "Charts and pictures of various types of journals"
+                ],
+                "EVALUATION GUIDE": [
+                  "match the farm record with the uses",
+                  "state the meaning of book keeping in agriculture",
+                  "state 3 source document",
+                  "prepare journal using sales and purchase invoice documents"
+                ]
+              },
+              {
+                "TOPIC NAME": "Agriculture in Stock Exchange",
+                "PERFORMANCE OBJECTIVES": [
+                  "explain what stock exchange is",
+                  "list those involved in stock exchange",
+                  "state the importance of stock exchange to agriculture"
+                ],
+                "CONTENT": [
+                  "Meaning of stock: buying and selling of goods and services available now and in the future",
+                  "People involved in stock exchange: buyers, sellers, buyers and sellers, farmers' agents",
+                  "Importance of stock exchange in agriculture: encourages investment in agriculture, encourages contract farming"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Guides classroom discussion on stock exchange in agriculture",
+                  "Invites guest speaker from Agricultural Stock Exchange",
+                  "Give a board summary"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Guided discussion on agriculture in stock exchange",
+                  "Copy board summary"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Posters and charts of agricultural stock exchange offers"
+                ],
+                "EVALUATION GUIDE": [
+                  "explain stock exchange practice in agriculture",
+                  "mention people involved in stock exchange",
+                  "mention 2 benefits of stock exchange in agriculture"
+                ]
+              },
+              {
+                "TOPIC NAME": "Export Promotion in Agriculture",
+                "PERFORMANCE OBJECTIVES": [
+                  "explain what export promotion is"
+                ],
+                "CONTENT": [
+                  "Meaning of export promotion: Encouraging sale of Nigerian produce in other countries"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Guides classroom discussion on export promotion in agriculture",
+                  "Shows samples of export produce",
+                  "Give a board summary"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Participate in class discussion on export produce",
+                  "Copy board summary"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Posters and charts on export promotion"
+                ],
+                "EVALUATION GUIDE": [
+                  "explain the meaning of export promotion",
+                  "list 5 Nigerian export produce",
+                  "mention 2 benefits of export promotion to agriculture"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "THEME NAME": "HOME ECONOMICS",
+        "SUB THEMES": [
+          {
+            "SUB THEME NAME": "FAMILY LIVING AND RESOURCE MANAGEMENT",
+            "TOPICS": [
+              {
+                "TOPIC NAME": "Puberty, Adolescence, Sexually Transmitted Infections (STIs), HIV/AIDS and Human Rights",
+                "PERFORMANCE OBJECTIVES": [
+                  "explain the meaning of puberty and adolescence",
+                  "describe the signs of puberty in boys and girls",
+                  "discuss the needs and challenges of the adolescent",
+                  "explain the meaning, causes, signs and prevention of sexually transmitted infection (STIs) and HIV/AIDS",
+                  "enumerate the rights of the child"
+                ],
+                "CONTENT": [
+                  "Meaning of puberty and adolescence",
+                  "Signs of puberty",
+                  "Needs and challenges of the adolescent",
+                  "Sexually transmitted infections (STIs) and HIV/AIDS",
+                  "Fundamental human rights and rights of the child"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Explains the meanings of puberty, adolescence, STIs and HIV/AIDS, human rights",
+                  "Leads students on discussion on the issues explained",
+                  "Gives a board summary"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Participate actively in discussion",
+                  "Copy the board summary"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Charts and pictures on puberty, adolescence and people infected with STIs and HIV/AIDS"
+                ],
+                "EVALUATION GUIDE": [
+                  "explain the meaning of puberty",
+                  "explain the meaning of adolescence",
+                  "state three each, of the signs of puberty in boys and girls",
+                  "state three hygiene guides for an adolescent",
+                  "state three causes of STIs",
+                  "list three rights of a child"
+                ]
+              },
+              {
+                "TOPIC NAME": "Family Needs, Goals and Standards",
+                "PERFORMANCE OBJECTIVES": [
+                  "explain the meaning of family needs",
+                  "list family needs e.g. food, clothing, shelter, etc",
+                  "explain the meaning of family goals and standards",
+                  "discuss the relationship among the family needs, goals and standards",
+                  "explain family resource management",
+                  "state the ways family needs, goals and standard help in family resource management"
+                ],
+                "CONTENT": [
+                  "Meaning and types of family needs and wants",
+                  "Meaning of family goals and standards",
+                  "Relationship among family needs, goals and standards",
+                  "Uses of family needs, goals and standard in resource management"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Explains the meaning of family needs, goals and standards",
+                  "Leads class in discussion",
+                  "Gives students assignment",
+                  "Gives a board summary"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Participate in the discussion",
+                  "Give examples of individual goals and standards",
+                  "Copy the board summary"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Charts on family needs, goals and standards"
+                ],
+                "EVALUATION GUIDE": [
+                  "explain the meaning of family need, goal and standard",
+                  "state two examples of family needs",
+                  "differentiate among family needs goal and standard",
+                  "enumerate any five family goals",
+                  "explain the meaning of family standard",
+                  "state the ways family needs, goals and standard help in family resource management"
+                ]
+              },
+              {
+                "TOPIC NAME": "Resources and Decision Making",
+                "PERFORMANCE OBJECTIVES": [
+                  "explain the meaning of family resources",
+                  "enumerate family resources",
+                  "explain the meaning of decision making",
+                  "enumerate the steps in decision making",
+                  "state simple personal and family decisions"
+                ],
+                "CONTENT": [
+                  "Meaning and types of family resource",
+                  "Meaning and steps in decision making",
+                  "Simple personal and family decisions"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Explains the meaning, type and importance of family resources, and decision making",
+                  "Facilitates class discussion",
+                  "Guides students in making personal decisions",
+                  "Gives a bored summary"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Participate in discussions",
+                  "Make personal decision based on the steps learnt",
+                  "Copy the board summary"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Charts of family resources",
+                  "Chart indicating steps in decision making"
+                ],
+                "EVALUATION GUIDE": [
+                  "explain the meaning of family resources",
+                  "list four family resources",
+                  "explain each step in decision making",
+                  "state two simple personal decisions",
+                  "state any five family decisions"
+                ]
+              },
+              {
+                "TOPIC NAME": "Consumer Challenges and Rights",
+                "PERFORMANCE OBJECTIVES": [
+                  "define consumer",
+                  "State the rights of consumers",
+                  "discuss the challenges of consumers",
+                  "state the different types of redress for the consumer",
+                  "discuss procedures for seeking redress"
+                ],
+                "CONTENT": [
+                  "Definition of consumer",
+                  "Rights of the consumer",
+                  "Challenges of the consumer",
+                  "Redress options for consumers",
+                  "Procedure for seeking redress"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Defines a consumer",
+                  "Explains consumer rights",
+                  "Guides discussions on challenges and redress options and procedures for consumers",
+                  "Gives a board summary"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Participate in the discussion",
+                  "Role-play the Rights of Consumers",
+                  "Go on field trip to the market to practice the identified solutions"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Charts, Filers, Pictures, Posters showing market scenes and products",
+                  "Relevant reading materials"
+                ],
+                "EVALUATION GUIDE": [
+                  "define consumer right",
+                  "list six universal consumer rights",
+                  "list five challenges faced by consumers",
+                  "state five ways of overcoming the challenges faced by consumers",
+                  "state three types of redress options available to consumers"
+                ]
+              },
+              {
+                "TOPIC NAME": "Child Development and Care",
+                "PERFORMANCE OBJECTIVES": [
+                  "describe the meaning and different stages in child development",
+                  "list factors that influence child development",
+                  "describe the conditions necessary for child development",
+                  "describe the different types of care required by a child",
+                  "describe the common childhood ailments",
+                  "enumerate the different types of immunization required by a child"
+                ],
+                "CONTENT": [
+                  "Meaning and stages of child development",
+                  "Factors that influence child development",
+                  "Conditions necessary for child development",
+                  "Care of the child",
+                  "Common childhood ailments",
+                  "Immunization for children"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Guides discussion on stages of child development, factors necessary for child development and conditions necessary for child development",
+                  "Guides discussion on child care",
+                  "Invites a guest speaker on child development",
+                  "Gives a board summary"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Participate in discussion on stages of child development",
+                  "Copy the board summary"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Charts, toys and play materials for children, films, video clips",
+                  "Charts showing different stages of child development",
+                  "Charts showing children with different childhood ailments",
+                  "Charts showing types of immunization according to age",
+                  "Posters on immunization"
+                ],
+                "EVALUATION GUIDE": [
+                  "describe three stages of child development",
+                  "enumerate five factors that influence child development",
+                  "explain four conditions that are necessary for child development",
+                  "explain three types of care required by a child",
+                  "describe three types of immunization against child ailments"
+                ]
+              }
+            ]
+          },
+          {
+            "SUB THEME NAME": "CLOTHING AND TEXTILE",
+            "TOPICS": [
+              {
+                "TOPIC NAME": "Production of Clothing and Household Articles/Crafts",
+                "PERFORMANCE OBJECTIVES": [
+                  "list household articles",
+                  "discuss how to produce simple articles like apron, cap, tray cloth, needle-work bag, handkerchief",
+                  "list tools, equipment and materials for making simple household articles and craft items",
+                  "make simple household articles and crafts for sale"
+                ],
+                "CONTENT": [
+                  "List and explain simple relevant household articles and crafts",
+                  "Tool, equipment and materials for making simple articles and crafts",
+                  "Construction of simple relevant articles e.g. apron, cap, needlework bag, head rest, table mat, puffs, purse, curtain holder, bibs, armrest, shopping bag, napkins and handkerchief, head-tie",
+                  "Production of income yielding crafts e.g. tie/dye and batik fabrics"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Lists the simple household articles and craft",
+                  "Discusses the materials, tools equipment for making simple household articles and crafts",
+                  "Demonstrates how to make any of the chosen items; improvise where necessary",
+                  "Demonstrates how to make some income yielding articles. Improvise where necessary",
+                  "Displays/exhibits products for sale",
+                  "Gives a board summary"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "List house hold articles",
+                  "Mention the materials and tools for making simple household articles and crafts",
+                  "Practice the making of a household article and a simple craft",
+                  "Display/exhibit produced articles",
+                  "Copy the board summary"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Finished apron, cap, tray cloth and needle work bag, handkerchief, some ready made crafts",
+                  "Materials tools and equipment for making crafts",
+                  "Pieces of calico/baft cloth, thread, needle, sewing kit"
+                ],
+                "EVALUATION GUIDE": [
+                  "list the articles and tools, steps involved in making simple household articles and household article and craft",
+                  "list the items needed to construct a tray cloth",
+                  "list the tools for making any two crafts",
+                  "make and display the articles and crafts constructed"
+                ]
+              },
+              {
+                "TOPIC NAME": "Care of Family Clothing and Household Linen",
+                "PERFORMANCE OBJECTIVES": [
+                  "explain methods of storing family clothing",
+                  "carry out simple clothing repairs",
+                  "list the types of household linen",
+                  "state the factors that enhance selection of household linen",
+                  "enumerate the procedures for maintaining household linen"
+                ],
+                "CONTENT": [
+                  "Types of household",
+                  "Factors that enhance the selection of household linen",
+                  "Clothing repairs",
+                  "Maintenance of household linen",
+                  "Clothing storage"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Facilitates discussion on methods of storage",
+                  "Demonstrates steps in clothing repairs",
+                  "Guides students' to discuss the different types of household linen",
+                  "Explains maintenance of household linen",
+                  "Gives a board summary"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Participate in class discussion",
+                  "Carry out simple clothing repairs",
+                  "Demonstrate clothing storage",
+                  "Copy the summary"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Sewing kits",
+                  "Charts and albums of household linen",
+                  "Magazines on different clothing items",
+                  "Items for clothing storage and maintenance"
+                ],
+                "EVALUATION GUIDE": [
+                  "list three methods of storing family clothing",
+                  "fix loose buttons and mend a torn garment",
+                  "list three types of household linen",
+                  "state three factors that can enhance the selection of household linen",
+                  "identify two methods for maintaining household linen"
+                ]
+              },
+              {
+                "TOPIC NAME": "Basic Pattern Drafting Techniques and Fashion Designing",
+                "PERFORMANCE OBJECTIVES": [
+                  "explain the meaning of pattern drafting and fashion designing",
+                  "list tools and equipment for pattern drafting",
+                  "identify the parts of the body to be measured",
+                  "take relevant basic measurements"
+                ],
+                "CONTENT": [
+                  "Meaning of pattern drafting and fashion designing",
+                  "Basic pattern drafting tools and equipment",
+                  "Using instructions to sketch the styles",
+                  "Taking body measurements",
+                  "Drafting basic bodies and skirt patterns"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Facilitates discussion on tools and equipment for taking body measurements and parts of the body to be measured",
+                  "Developments and patterns drafting",
+                  "Complete drawings for drafting the bodies and skirt patterns",
+                  "Draws a board summary",
+                  "Guide students as they work"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Take part in the discussion",
+                  "Sketch styles",
+                  "Draft basic bodies and skirt patterns",
+                  "Adapt the basic block into different styles"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Tape measure long ruler, pencil, arm hole and skirt guides, T square, brown paper; French curve, plus dressmakers carbon, tracing wheel"
+                ],
+                "EVALUATION GUIDE": [
+                  "list two tools and two equipment for pattern drafting",
+                  "identify four parts of the body to be measured",
+                  "draft a basic bodies and skirt pattern for self"
+                ]
+              },
+              {
+                "TOPIC NAME": "Textiles: types, properties, production, uses and care",
+                "PERFORMANCE OBJECTIVES": [
+                  "define textiles with examples",
+                  "explain basic textile terms",
+                  "state reasons for studying textiles",
+                  "discuss the uses or importance of textiles to man",
+                  "list different classes of textiles",
+                  "differentiate between natural and synthetic fibers",
+                  "state properties of each type textile",
+                  "produce woven table mats",
+                  "Launder a fabric"
+                ],
+                "CONTENT": [
+                  "Definition of textile with examples",
+                  "Basic textile terms e.g. fiber; yarn, warp, weft",
+                  "Reasons for studying textiles",
+                  "Importance of textiles",
+                  "Differences between natural and synthetic fibers",
+                  "Properties, care and uses of fibers",
+                  "Production of textiles e.g. woven table mat",
+                  "Laundering of fabrics"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Explains the term textiles",
+                  "Discusses reasons for studying textiles",
+                  "Demonstrates the making of fabrics using strips of cardboard sheets",
+                  "Shows ways of taking care of fibers",
+                  "Discusses the uses of both natural and synthetic fibers",
+                  "Demonstrates production of woven table mat",
+                  "Demonstrates laundry work",
+                  "Gives a board summary"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Participate in the discussions",
+                  "Practice weaving skill using strips of paper to produce woven mats",
+                  "Practice laundry work",
+                  "Copy the board summary"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Cotton wool, sewing yarn, pieces of fabrics, cardboard sheets, pencil, scissors, etc",
+                  "Basin, water, detergent or soap bars, laundry brush, washing accessories, cold water starch, dyeing agent"
+                ],
+                "EVALUATION GUIDE": [
+                  "explain four textile terms",
+                  "give four reasons for studying textiles",
+                  "list four uses of textile",
+                  "list three properties, each of both natural and synthetic fibers",
+                  "identify three ways of taking care of different textiles",
+                  "state two ways of producing textiles",
+                  "produce woven table cloth"
+                ]
+              },
+              {
+                "TOPIC NAME": "Sewing Machine and Garment Construction Processes",
+                "PERFORMANCE OBJECTIVES": [
+                  "identify different types of sewing machines",
+                  "identify the parts of the sewing machine and state their functions",
+                  "explain the guidelines for chosing sewing machines",
+                  "explain the process of taking care of the sewing machines",
+                  "use the sewing machine to produce baby dress"
+                ],
+                "CONTENT": [
+                  "Types and parts of the sewing machine",
+                  "Factors that influence choice of a sewing machine",
+                  "Care of sewing machine",
+                  "Terms peculiar to garment construction e.g. facing, hems, openings, fastenings, etc",
+                  "Making of a simple baby dress using the sewing machine"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Discusses types, parts and functions of each part of the sewing machine",
+                  "Examine the parts of the sewing machine",
+                  "Operate a sewing machine",
+                  "Make specimen of facing, hems, openings and fastening",
+                  "Make a simple baby's dress",
+                  "Gives a board summary"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Take part in the discussion",
+                  "Examine the parts of the sewing machine",
+                  "Operate a sewing machine",
+                  "Make specimen of facing, hems, openings and fastening",
+                  "Make a simple baby's dress",
+                  "Copy the board summary"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Charts, Real objects e.g. sewing machines",
+                  "Specimen of facing hems, openings and fastenings",
+                  "Charts showing construction processes",
+                  "Sewing tools, equipment and materials"
+                ],
+                "EVALUATION GUIDE": [
+                  "list three types of sewing machine",
+                  "explain five parts of a sewing machine and state their functions",
+                  "explain factors to consider when choosing a sewing machine",
+                  "make two straight and curved stitches on a piece of fabric using a sewing machine",
+                  "explain four ways of taking care of a sewing machine",
+                  "make a simple baby dress"
+                ]
+              }
+            ]
+          },
+          {
+            "SUB THEME NAME": "HOME MANAGEMENT",
+            "TOPICS": [
+              {
+                "TOPIC NAME": "Production of Cleaning Agents, Deodorants and Cosmetics",
+                "PERFORMANCE OBJECTIVES": [
+                  "Identify different types of home-made cleaning agents",
+                  "state the uses of different home-made cleaning agents",
+                  "prepare home-made polish and different cleaning agents",
+                  "discuss safety, quality and regulatory control of cosmetic products",
+                  "list materials and tools for making cosmetics e.g. pomade/cream",
+                  "make cosmetics e.g. pomade, cream, and cosmetics"
+                ],
+                "CONTENT": [
+                  "Types of home-made cleaning agents",
+                  "Uses of home-made cleaning agents",
+                  "Preparation of home- made cleaning agents",
+                  "Using home-made polish and cleaning agents",
+                  "Types of cosmetics",
+                  "Materials and tools for making cosmetics e.g. pomade, cream and deodorants",
+                  "Safety, quality and regulatory control of cosmetic products in Nigeria",
+                  "Role of regulatory bodies e.g. NAFDAC, SON, etc",
+                  "Procedure for making cream/pomade, deodorants and cosmetics"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Discusses types of home-made polish and cleaning agents",
+                  "Explains steps in the production of home- made polish and cleaning agents",
+                  "Demonstrates making of home-made furniture polish and cleaning agents",
+                  "Prepares different samples of home-made furniture polish and cleaning agents and display in class",
+                  "Lists materials and tools for making pomade, cream, etc",
+                  "Explains steps in making pomade and cream",
+                  "Displays actual products, materials and tools for making pomade/cream and deodorant",
+                  "Discusses the safety, quality and regulatory control of cosmetic products",
+                  "Gives a board summary"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Examine samples of home-made furniture polish and cleaning agents, pomade/cream, and deodorants displayed",
+                  "List and discuss the steps in the production of home-made polish",
+                  "Practice the production polish",
+                  "Practice the making of cleaning agents, pomade/cream and deodorant",
+                  "Display the products made",
+                  "Copy the board summary"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Kerosene/turpentine, candle wax, bar soap and palm oil",
+                  "Pawpaw and pineapple leaves, fine sand, detergent, grater, sauce pan, ground egg shell, wood ash, lime, salt and water",
+                  "Wooden furniture e.g. table, chairs, cupboards, shelves etc",
+                  "Galvanized iron e.g. saucepan, pots, buckets, cutlery, water",
+                  "Charts showing different stages in preparing home- made polish and cleaning agents, cream/pomade and deodorants",
+                  "Real objects of prepared cleaning agents, cream and cosmetics"
+                ],
+                "EVALUATION GUIDE": [
+                  "list different types of home made cleaning agent",
+                  "list of steps involved in the production of home-made furniture polish",
+                  "give two examples of home-made cleaning agents",
+                  "make and display furniture polish and other cleaning agents",
+                  "polish some furniture in the classroom",
+                  "discuss importance of safety and regulatory control of cosmetic products",
+                  "make and display pomade/cream, and deodorants"
+                ]
+              }
+            ]
+          },
+          {
+            "SUB THEME NAME": "FOOD AND NUTRITION",
+            "TOPICS": [
+              {
+                "TOPIC NAME": "Healthy Feeding and Eating Practices",
+                "PERFORMANCE OBJECTIVES": [
+                  "eat adequate diet",
+                  "use foods in season",
+                  "practice healthy eating habits e.g. washing hands before and after eating; taking a small quantity of food at a time; chewing food properly; taking (if you have to) without food in the mouth",
+                  "understand effects of unhealthy feeding practices e.g. marasmus, kwashiorkor, obesity, etc",
+                  "understand effects of unhealthy eating habits e.g. stomach ache",
+                  "understand food additives: uses, misuses and detections",
+                  "understand food contaminants",
+                  "identify harmful substances that should not be consumed e.g. banned additives, spoilt fruits, under-cooked food, etc",
+                  "understand meaning of drug abuse",
+                  "understand effects of drug abuse in the body"
+                ],
+                "CONTENT": [
+                  "Healthy feeding practices include e.g. eat adequate diet, use foods in season",
+                  "Healthy eating habits e.g. washing hands before and after eating; taking a small quantity of food at a time; chewing food properly; taking (if you have to) without food in the mouth",
+                  "Effect of unhealthy feeding practices e.g. marasmus, kwashiorkor, obesity, etc",
+                  "Effects of unhealthy eating habits e.g. stomach ache",
+                  "Food additives: uses, misuses and detections",
+                  "Food contaminants",
+                  "Harmful substances that should not be consumed e.g. banned additives, spoilt fruits, under-cooked food, etc",
+                  "Meaning of drug abuse",
+                  "Effects of drug abuse in the body"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Discusses healthy feeding and eating practices",
+                  "Demonstrates good feeding and eating practices",
+                  "Discusses the effects of unhealthy feeding and eating practices",
+                  "Explains food additives and contaminants",
+                  "Discusses harmful substances that should not be taken into the body",
+                  "Discusses effects of drug abuse",
+                  "Displays diagrams of harmful substances",
+                  "Gives a board summary"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Participates in the class discussion"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Charts of persons suffering from the effects of eating too much",
+                  "Charts and poster showing substances that are harmful to the body",
+                  "Charts and posters showing a drunkard, a drug abuser"
+                ],
+                "EVALUATION GUIDE": [
+                  "mention two healthy feeding practices",
+                  "list two effects of overeating",
+                  "mention three uses of food additives",
+                  "mention three substances that are harmful to the body",
+                  "state two effects of harmful substances to the body",
+                  "state the effects of drug abuse"
+                ]
+              },
+              {
+                "TOPIC NAME": "Food Purchasing, Processing, Preservation and Safety",
+                "PERFORMANCE OBJECTIVES": [
+                  "explain the meaning of food purchasing, processing, preservation and safety",
+                  "identify risks factors to consider when buying food",
+                  "identify factors to consider when buying food",
+                  "mention wise buying practices",
+                  "mention some food processing methods",
+                  "different storage/ preservation and storage methods and reasons",
+                  "explain how to keep food safe"
+                ],
+                "CONTENT": [
+                  "Meaning of food purchasing, processing and preservation",
+                  "Perishable and non- perishable foods",
+                  "Risk factors in purchasing",
+                  "Factors to consider when buying food",
+                  "Wise buying practices",
+                  "Reasons for food preservation",
+                  "Preservation methods, e.g. freezing, sun-drying salting, etc",
+                  "Food processing methods e.g. milling, fermentation. Etc",
+                  "How to keep food safe"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Discusses the meaning of food purchasing, processing, preservation/storage and safety",
+                  "Explains tips to reduce risk factors when buying food",
+                  "Discusses wise buying and factors to consider when buying food",
+                  "Discusses food processing methods and effects of inappropriate pressing of food",
+                  "Discusses preservation for perishable and non-perishable foods",
+                  "Demonstrates food preservation/storage",
+                  "Explains how to ensure safety of foods e.g. food labeling",
+                  "Gives a board summary"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Participate in discussion",
+                  "Demonstrate food preservation/storage methods",
+                  "Participate in the labeling of food containers",
+                  "Copy the board summary"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Charts on perishable and non-perishable foods",
+                  "Tools and equipment and materials for preservation",
+                  "Perishable e.g. fruits, vegetable",
+                  "Food items e.g. vegetables, fruits, yams, plantains, cereals for processing/ preservation and storage",
+                  "Samples of preserved foods"
+                ],
+                "EVALUATION GUIDE": [
+                  "list four wise buying practices",
+                  "mention four factors to consider when buying food",
+                  "list three reasons for preservation of food",
+                  "explain methods for processing and preserving food items",
+                  "demonstrate food processing, preservation/storage",
+                  "state three risk factors in food handling"
+                ]
+              },
+              {
+                "TOPIC NAME": "Food Hygiene and Safety",
+                "PERFORMANCE OBJECTIVES": [
+                  "define food hygiene and safety",
+                  "explain the reasons for healthy food hygiene and safety",
+                  "state the hygienic ways to handle food for safety",
+                  "explain the meaning and causes of food poisoning",
+                  "discuss the consequences of consuming contaminated foods",
+                  "discuss sensory signs of spoilage and causative micro-organisms"
+                ],
+                "CONTENT": [
+                  "Meaning of food hygiene",
+                  "Reasons for healthy food handling",
+                  "Ways of handling foods for safety",
+                  "Sources of food contamination and poisoning",
+                  "Sensory signs of spoilage and causative micro-organisms"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Discusses the meaning of food hygiene, reasons for healthy food handling, food poisoning and food safety",
+                  "Demonstrates methods of handling left-over foods",
+                  "Demonstrates how to cover their lunch",
+                  "Discusses sensory signs of spoilage and causative micro-organisms",
+                  "Gives a board summary"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Participate in the discussion",
+                  "Practice how to cover their lunch packs properly",
+                  "Mention ways of handling food in their homes",
+                  "Copy the board summary"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Raw foods on display",
+                  "Chart showing stored foods",
+                  "Food warmers (picnic boxes), plastic packs, cellophane or polythene bags, utensils and plates"
+                ],
+                "EVALUATION GUIDE": [
+                  "give two reasons for covering food",
+                  "state two ways of handling food for safety",
+                  "state the meaning of food hygiene",
+                  "explain the meaning of food poisoning",
+                  "state two effects of consuming contaminated food",
+                  "describe three sensory signs of spoilage and causative micro-organisms",
+                  "list two causative micro-organisms"
+                ]
+              },
+              {
+                "TOPIC NAME": "Preparation, Packaging and Marketing of Food Items",
+                "PERFORMANCE OBJECTIVES": [
+                  "state the differences between snacks and main menu",
+                  "mention snacks and drinks that could be prepared, packaged and marketed easily",
+                  "list the duties of food providers for public consumption",
+                  "prepare and serve simple snacks, drinks and meals"
+                ],
+                "CONTENT": [
+                  "Differences between snacks and main meals",
+                  "Snacks and drinks available in the society",
+                  "Duties of food sellers/providers for the public",
+                  "Preparation of snacks, drinks and meals",
+                  "Preparation of food for packaging",
+                  "Marketing principles"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Discusses the differences between snacks and main meals",
+                  "Lists snacks and drinks that could be prepared, packaged and marketed easily",
+                  "Discusses the duties of food providers for public consumption",
+                  "Demonstrates preparation and serving of simple snacks, drinks and meals",
+                  "Guides students in packaging and marketing principles"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Participate in class discussion",
+                  "Prepare and serve simple snacks and drinks",
+                  "Practice packaging and marketing of food items"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Posters, charts showing market scenes",
+                  "Magazines, pictures and relevant information on packaging food items",
+                  "Packaging materials e.g. picnic boxes, cellophane bags, polythene bags",
+                  "Samples of snacks, meat pie, 'zobo' drink, etc",
+                  "Food ingredients for simple snacks and drinks"
+                ],
+                "EVALUATION GUIDE": [
+                  "mention 3 snacks and drinks common in the society",
+                  "list 4 duties of food sellers in the society",
+                  "prepares and serve a simple snack and drinks",
+                  "give 3 marketing principles"
+                ]
+              },
+              {
+                "TOPIC NAME": "Responsible Food Management",
+                "PERFORMANCE OBJECTIVES": [
+                  "state the responsibilities of food safety managers to consumers",
+                  "differentiate between hygienic and unhygienic food handling methods",
+                  "explain the effect of unhygienic food handling on consumers"
+                ],
+                "CONTENT": [
+                  "Responsibilities of food safety manager to the consumers",
+                  "Hygienic food Management Strategies",
+                  "Effect of hygienic and unhygienic food handling to the consumers"
+                ],
+                "TEACHER ACTIVITIES": [
+                  "Guides students discussion of the responsibilities of food safety managers and the effect of unhygienic food handling to the consumers",
+                  "Gives a board summary"
+                ],
+                "PUPILS ACTIVITIES": [
+                  "Participate in class discussion",
+                  "Copy the board summary"
+                ],
+                "TEACHING AND LEARNING RESOURCES": [
+                  "Samples of food items",
+                  "Charts of food safety regulations"
+                ],
+                "EVALUATION GUIDE": [
+                  "enumerate the responsibilities of food managers to consumers",
+                  "identify hygienic food management methods",
+                  "state three consequences of unhygienic food handling",
+                  "make an album of food packages with NAFDAC approved products and labels"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
