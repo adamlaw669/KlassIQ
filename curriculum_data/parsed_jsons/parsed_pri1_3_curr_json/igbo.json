@@ -1,0 +1,178 @@
+{
+  "PRAIMARỊ NKE MBỤ": {
+    "NGALABA OMUMU": [
+      {
+        "NGALABA OMUMU AHA": "ASUSU",
+        "NKEBI NGALABA OMUMU": [
+          {
+            "NKEBI NGALABA OMUMU AHA": "IGE NTỊ NA IKWU OKWU",
+            "ISIOKWU": [
+              {
+                "ISIOKWU AHA": "Ekwumekwu Ikpogasi ihe aha",
+                "MBUNUCHE": [
+                  "Ikwu banyere ihe ha hụrụ na ihe ha nụrụ na gburugburu",
+                  "Ikwu banyere ihe ha nurụ",
+                  "Ikpo aha akuku ahụ mmadụ ufodu"
+                ],
+                "NDINISIOKWU": [
+                  "Odidi ihe ndị dị na gburugburu",
+                  "Uda ndị a nụrụ na gburugburu",
+                  "Akuku ahụ mmadụ ufodu"
+                ],
+                "OMUME ONYE NKUZI": [
+                  "Nkowa",
+                  "Mkparita uka",
+                  "Ajuju na aziza",
+                  "Ise eserese",
+                  "Nrugosi"
+                ],
+                "OMUME UMUAKWUKWO": [
+                  "Ikwuputa ihe ato ha hụrụ na ihe atọ ha nụrụ na gburugburu",
+                  "Igosiputa ihe ha hụrụ na ihe ha nurụ na gburugburu",
+                  "Irugosi akuku ahụ mmadụ ufọdụ atọ n'eserese"
+                ],
+                "NGWA NKUZI NA MMUTA": [
+                  "Eserese/foto",
+                  "Ugboodee",
+                  "Redio",
+                  "Tepurekoda",
+                  "Televishon"
+                ],
+                "NDUZI NNWALE": [
+                  "Ikwuputa ihe atọ ha hụrụ na ihe atọ ha nụrụ na gburugburu",
+                  "Igosiputa ihe ha hụrụ na ihe ha nurụ na gburugburu",
+                  "Irugosi akuku ahụ mmadụ ufọdụ atọ n'eserese"
+                ]
+              },
+              {
+                "ISIOKWU AHA": "Mkparitauka banyere onwe",
+                "MBUNUCHE": [
+                  "Ikwu aha ha, nke nne, nna na umunne ha",
+                  "Ikwu aha obodo ha",
+                  "Ikwu aha ebe ha bi",
+                  "Iju na iza ajujų"
+                ],
+                "ODINAYA": [
+                  "Aha ha",
+                  "Aha nne, nna na umunne ha",
+                  "Aha obodo ha",
+                  "Aha ebe ha bi"
+                ],
+                "OMUME ONYE NKUZI": [
+                  "Ajuju na aziza",
+                  "Nkowa",
+                  "Ekwusa"
+                ],
+                "OMUME UMUAKWUKWO": [
+                  "Ikwu aha ha",
+                  "Ikwu aha nne, nna na umụnne ha",
+                  "Ikwu ebe ha bi",
+                  "Ikwu aha obodo ha"
+                ],
+                "NGWA NKUZI NA MMUTA": [
+                  "Eserese nke onyenkuzi na nke dị n'akwukwo ogugu",
+                  "Foto"
+                ],
+                "NDUZI NNWALE": [
+                  "Ikwu aha ha na nke ndi ezinaulo ha",
+                  "Ikwu aha nne, nna na umụnne ha",
+                  "Ikwu ebe ha bi",
+                  "Ikwu aha obodo ha"
+                ]
+              }
+            ]
+          },
+          {
+            "NKEBI NGALABA AHA": "OGỤGỤ",
+            "ISIOKWU": [
+              {
+                "ISIOKWU AHA": "Ogụgụ eserese",
+                "MBUNUCHE": [
+                  "Ihụta na ịhuba ihe dị n'eserese ama",
+                  "Imubawanye mkpuruokwu site n'ihe dị n'eserese",
+                  "Ikowaputa ihe ha hurụ n'eserese"
+                ],
+                "ODINAYA": [
+                  "Nkowa odịdị ihe dị n'eserese",
+                  "Mkpuruokwu metutara ihe dị n'eserese"
+                ],
+                "OMUME ONYE NKUZI": [
+                  "Nkowa",
+                  "Ajuju na aziza",
+                  "Mkparitauka",
+                  "Osise",
+                  "Ejije"
+                ],
+                "OMUME UMUAKWUKWO": [
+                  "Inyocha na ikowa ihe ha hụrụ",
+                  "Ikparita uka gbasara ihe ha hụrụ",
+                  "Iseghari ihe ha hụrụ",
+                  "Iju na iza ajujų",
+                  "Ije ejije"
+                ],
+                "NGWA NKUZI NA MMUTA": [
+                  "Eserese",
+                  "Kreyon oze",
+                  "Ugboojii",
+                  "Akwukwo ogụgụ"
+                ],
+                "NDUZI NNWALE": [
+                  "Igosiputa ihe ha huru",
+                  "Ikowaputa ihe ha hụrụ",
+                  "Ise eserese abuo gbasara ihe ha hụrụ"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "NGALABA AHA": "AGUMAGU",
+        "NKEBI NGALABA": [
+          {
+            "NKEBI NGALABA AHA": "ABỤ",
+            "ISIOKWU": [
+              {
+                "ISIOKWU AHA": "Abụ Ụmuaka",
+                "MBUNUCHE": [
+                  "Igụ abụ ụmuaka",
+                  "Ije ejije dị na ha",
+                  "Iziputa mmasi na obi ụto site n'isonye įgụ abụ ndi a"
+                ],
+                "ODINAYA": [
+                  "Abụ ụmuaka dị iche iche dika: abu e ji eku nwa, abụ egwuregwu, abụ akuko ifo"
+                ],
+                "OMUME ONYE NKUZI": [
+                  "Ogụgụ",
+                  "Okwukwe",
+                  "Ngosiputa",
+                  "Ejije",
+                  "Ajuju na aziza",
+                  "Nkowa"
+                ],
+                "OMUME UMUAKWUKWO": [
+                  "Igụ abụ",
+                  "Ikwe abu n'isi",
+                  "Iju na iza ajuju",
+                  "Ije ejije",
+                  "Igba egwu"
+                ],
+                "NGWA NKUZI NA MMUTA": [
+                  "Eserese",
+                  "Ngwa egwu",
+                  "Redio",
+                  "Tape recorder"
+                ],
+                "NDUZI NNWALE": [
+                  "Igụ abụ",
+                  "Ikwe abu",
+                  "Ije ejije dị n'abụ umuaka"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

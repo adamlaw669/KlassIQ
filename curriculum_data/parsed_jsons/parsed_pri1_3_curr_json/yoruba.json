@@ -1,0 +1,209 @@
+{
+  "Primary 1": {
+    "ÈDÈ": {
+    "GBÍGBÓ ÀTI SÍSỌ (Listening and Speaking)": {
+      "topics": ["Dídá orúkọ nnkan inú kíláàsì", "Şişe nìkan"],
+      "learning_objectives": ["şe ìdámò àwọn ohún tó wà nínú kíláàsì", "dárúkọ àwọn nìkan tó wà nínú kíláàsì"],
+      "activities": ["Gbó ohun tí olùkò bá ní kó şe", "Sọ ohun tí olùkó bá sọ", "şe nìkan tí olùkó bá ní kó se"],
+      "resources": ["aga", "tábìlì", "pátákó ìkòwé", "àwòrán ara ògiri", "ìwé", "efun ìkòwé"]
+    },
+    "KÍKÀ (Reading)": {
+      "topics": ["Saájú kíkà álífábéètì", "Kíka álífábéètì Yorùbá"],
+      "learning_objectives": ["şe ìdámò àwọn àwòrán", "Pe orúkọ àwọn àwòrán", "Dá ìró alífábéètì Yorùbà mò"],
+      "activities": ["Wo àwòrán", "Dárúkọ ohún tí a ya àwòrán rè", "Pèé tělé olùkó"],
+      "resources": ["Káàdì pélébé pélébé", "Pátákó ìkòwé", "Káàdì aláfihàn"]
+    },
+    "KÍKO (Writing)": {
+      "topics": ["Şaájú kíko álífábéètì Yorùbá", "Kíkọ álífábéètì"],
+      "learning_objectives": ["Dá álífábéètì mò", "fi péńsùlù tọ álífábéètì elégèé sí ara pátákó"],
+      "activities": ["Fi efun kọ álífábéètì", "Tọ àwọn lẹtà álífábéètì"],
+      "resources": ["Kádíbóòdù", "Káàdì pélébé pélébé"]
+    }
+  },
+  
+  "ÀŞÀ": {
+    "ÌLÀNÀ ÌŞÈTÓ ÀTỊ OHUN ÀMÚYANGÀN": {
+      "topics": ["İkíni", "Ìmótótó ara eni ati àyíká", "İwà rere"],
+      "learning_objectives": ["sọ bí ìkíni şe şe pàtàkì", "sọ ònà tí a lè gbà șe ìtójú ara àti àyíká", "sọ oríşìírísìí ònà tí a lè fi ję oníwà rere"],
+      "activities": ["Fi bi a şe ń kì ni şeré", "Kọ orín ìmótótó", "Kópa nínú àtúnşe àyíká"],
+      "resources": ["Àwòrán tó ń kí ara wọn", "Iyarí", "iyarun", "kóòmù", "bíléèdì"]
+    },
+    "ÌŞÈSE": {
+      "topics": ["Qjó inú òsè", "Ojúşe (ębí/idílé)"],
+      "learning_objectives": ["Fi èdè Yorùbá ka àwọn ọjọ tó wà nínú òsè", "Şàlayé ojúșe eni kòòkan nínú ìdílé"],
+      "activities": ["Kọ àwọn ọjọ sí ara pátákó", "Sọ àwọn ọjọ nì èdè Yorùbá", "Fi ìbòwò fún òbí şere"],
+      "resources": ["Káàdì pélébé pélébé", "Kàléńdà", "Àwọn akékòó gan-an"]
+    }
+  },
+  
+  "LÍTÍRÉŞÒ": {
+    "ERÉ ONÍŞE": {
+      "topics": ["Eré oníşe oníjólórin"],
+      "learning_objectives": ["Kọ ORín", "ljó jíjó", "Ifarasòrò", "Ìjupájusè"],
+      "activities": ["Kọ orín", "Kópa nínú ijó jíjó", "Fi èyà ara şe àpèjúwe"],
+      "resources": ["Aso eré", "Ìlù", "Ohun èlò mìíràn"]
+    },
+    "EWÌ": {
+      "topics": ["Òwe kékèké"],
+      "learning_objectives": ["Pa àwọn òwe kékèké", "Mọ bí ọmodé şe ń pa òwe níwájú àgbà"],
+      "activities": ["Pa àwọn òwe tí wọn mò", "Şe àkọsílè àwọn òwe"],
+      "resources": ["Téèpù", "ìwé tó dá lórí òwe Yorùbá", "Àwòrán"]
+    },
+    "ÌTÀN ÀRÒSO OLÓRÒ GEERE": {
+      "topics": ["Àló onítàn"],
+      "learning_objectives": ["Sọ ìtàn àló ní àsodátó", "Fa èkó inú rẹ yó"],
+      "activities": ["Sọ ìtàn tìrè", "Fa èkó inú ìtàn yọ"],
+      "resources": ["Ohun ti ìtàn dálé", "Téèpù"]
+    }
+  },
+
+  "Onkà": {
+    "Numeracy": {
+      "range": "1-10",
+      "topics": ["Kíka òňkà", "Şişe ìdámò fígò ònkà", "Ìlò ònkà"],
+      "learning_objectives": ["Ka ònkà láti oókan dé ééwàá", "Dá fígò ònkà mộ", "Şe àlàyé ohun tí ònkà jé"],
+      "activities": ["Ka ònkà", "Dá ònkà tí a kọ sí ojú pátákó mò", "Toka sí fígò ònkà"],
+      "resources": ["Kádíbóòdù", "Káàdì pélébé pélébé", "ìdérí ìgò otí", "òkúta", "osàn"]
+    }
+  }
+},
+
+
+"Primary 2": {
+  "ÈDÈ": {
+    "GBÍGBÓ ÀTI SÍSO": {
+      "topics": ["Ìtèsíwájú nínú dídárúkọ nnkan", "Ìtèsíwájú síşe nnkan", "Ìtèsíwájú nínú Ìtàkuròso"],
+      "learning_objectives": ["dárúkọ àwọn nnkan tó wà ní àyíká", "sọ ìwúlò àwọn nnkan", "sọ àwọn ohun elo fun isé-ilé", "Gbó ohun tí olùkó sọ", "Dáhùn bí ó tí tó"],
+      "activities": ["Dárúkọ ohun tí ó wà ní àyíká", "Sọ ìwúlò àwọn ohun", "Fi àwọn ohun kọrin/şeré", "Bèèrè ìbéèrè"],
+      "resources": ["Awòrán àwọn ohun tó wà ni àyíká", "Ohun èló fun àwọn isę ilé"]
+    },
+    "KÍKÀ": {
+      "topics": ["Ìtèsíwájú nínú kíka", "Kíka sílébù"],
+      "learning_objectives": ["Pe ìró fáwèlì àti kóńsónántì", "Sọ ohun tí sílébù jé", "Ka sílébù"],
+      "activities": ["Týká si fáwélì àti kóńsónántì", "Kópa nínú kíkọ sílébù", "Pín òrò sí ègé"],
+      "resources": ["Pátákó ìkowé", "Káàdì pélébé pélébé"]
+    },
+    "KÍKO": {
+      "topics": ["Ìtèsíwájú nínú kíkọ álífábéètì", "Kíko sílébù"],
+      "learning_objectives": ["Dá àlífábéètì mò dáradára", "Kọ àlífábéètì", "Sọ ohun tí sílébù jé", "Kọ sílébù"],
+      "activities": ["Ka àlífábéètì ara pátákó", "Fi àwọn lẹtà tí a fò si ibì tó yẹ", "Kọ sílébù sí ara pátákó"],
+      "resources": ["Kádíbóòdù", "Káàdì pélébé pélébé"]
+    }
+  },
+  
+  "ÀŞÀ": {
+    "ÌLÀNÀ ÌŞÈTÓ ÀTI OHUN ÀMÚYANGÀN": {
+      "topics": ["İkíni síwájú síi", "Ìmótótó àyíká", "Ifira-eni-sípò-ọmọ-làkejì"],
+      "learning_objectives": ["Sọ bí ìkíni şe şe pàtàkì", "Sọ ònà tí a lè gbà șe ìtójú ilé àti àyíká", "Sọ àwọn ìwà tó șe pàtàkì fún ọmọlúàbí"],
+      "activities": ["Fi bi a şe ń kí ni şeré", "Kọ ORín àti ewì ìmótótó", "Kópa nínú títún àyíka şe", "Jíròrò lóri àwọn ìwà rere"],
+      "resources": ["Awòrán àwọn tí ó n kí ara wọn", "Igbálè gígun", "Okó", "Àdá", "Fíîmù"]
+    },
+    "IŞÈŞE": {
+      "topics": ["Eré Omodé"],
+      "learning_objectives": ["So oríşìírísìí eré ọmọdé", "Sọ àkókò tì wọn ń șe àwọn eré", "Sọ ànfààní tó wà nínú sișe eré omodé"],
+      "activities": ["Kópa nínú síşeré omodé", "Lọ sì ibi tí wọn ti lè fi ojú rí síşe àwọn eré"],
+      "resources": ["Àwòrán àwọn ọmọ tó ń șe eré omodé"]
+    }
+  },
+  
+  "LÍTÍRÉŞÒ": {
+    "ERÉ ONÍSÉ": {
+      "topics": ["Eré Onítàn kékeré"],
+      "learning_objectives": ["Ka eré oníşe", "Şe eré oníşe", "Fa èkó ìnú èré oníşe yo", "Dárúkọ èdá ìnú itán"],
+      "activities": ["Kópa nínú eré şişe", "Sọ kókó inú eré oníșe", "Dárúkọ àwọn olú- èdá ìtàn"],
+      "resources": ["Aso eré", "Ohun èlò mìíràn to ba eré mu"]
+    },
+    "EWÌ": {
+      "topics": ["Orín", "Owe"],
+      "learning_objectives": ["Ko oríşìŕrísìí orín", "Fa èkó tó wà nínú orín náa yọ", "Pa òwe gígùn diệ díè", "Şe àlàyé ìtumò wọn"],
+      "activities": ["Kọ orín sí etígbòó olùkó", "Fa èkó inú àwọn orín náa yọ", "Pa àwọn òwe ti o mò", "Sọ ìtumò òwe"],
+      "resources": ["Téèpù àti káséètì", "Àwòrán tó jẹmó orín", "Téèpù tí a ti gba òwe sí"]
+    },
+    "ÌTÀN ÀRÒSO OLÓRÒ GEERE": {
+      "topics": ["Aló Apamò"],
+      "learning_objectives": ["Sọ ìyàtò tó wà láàrin alọ àpamò àti àló onítàn", "Yára rónú láti dáhùn àló àpamò", "Sọ èkó ti àló máà ń kọní"],
+      "activities": ["Já àló àpamò", "Pa oríşìíríşìí àló àpamò", "Sọ èkó ti àló náà koni"],
+      "resources": ["Téèpù tí a gba àló sí", "Àworàn tó jẹ mộ èdá inú àló"]
+    }
+  },
+  
+  "Onkà": {
+    "Numeracy": {
+      "range": "11-50",
+      "topics": ["Kíka òňkà", "Síşe ìdámò fígò ònkà", "Àròpò/àyọkúrò"],
+      "learning_objectives": ["Ka ònkà láti oókànlá dé àádótá", "Dá fígò ònkà mộ", "şe àrópò ati ayokurò"],
+      "activities": ["Ka ònkà", "Dá ònkà tí a kọ sí ojú pátákó mò", "Şe àròpò àti àyọkúrò"],
+      "resources": ["Kádíbóòdù", "Ìwé pélébé pélébé"]
+    }
+  }
+},
+
+"Primary 3": {
+  "ÈDÈ": {
+    "GBÍGBÓ ÀTI SÍSO": {
+      "topics": ["Itàkuròsọ síwájú síi", "Dídárúkọ nnkan síwájú síi", "Sísọ nìkan síwájú síi"],
+      "learning_objectives": ["Gbó ohun ti olùkó ń so", "Dahun bí ó ti tọ", "Dárúkọ àwọn nnkan tó wà ní ààrin ilú", "şàlàyé nípa bí a şe ń șe àwọn isé ọwọ"],
+      "activities": ["Kópa nínú ìtàkuròsọ", "Dáhùn àwọn ìbéèrè", "Dárúkọ ohun tí ó wà ní ààrin ìlú", "Kópa nínú şişe awọn işè"],
+      "resources": ["Aworán àwọn tó ń sọdá lópopónà mộtò", "Àwòrán àwọn işé owó"]
+    },
+    "KÍKÀ": {
+      "topics": ["Kíkà gbólóhùn kéékèèké"],
+      "learning_objectives": ["Kà awọn gbólóhùn kéékèèké lónà tó dán mórán"],
+      "activities": ["Fara balè ká gbólóhùn", "Dáhùn ìbéèrè olùkó"],
+      "resources": ["Kádíbóòdù tí a kọ gbólóhún kéékèèké sí"]
+    },
+    "KÍKO": {
+      "topics": ["Kíkọ sílébù", "Kíkọ gbólòhùn kéékèèké", "Sípélì òrò"],
+      "learning_objectives": ["Kọ òrò onísílébú", "Lo àwọn òrò tí a sèdá nínú gbólóhùn", "Kọ àwọn gbólóhùn kéékèèké", "Kọ òrò Yorùbá kéékèèké dára dára"],
+      "activities": ["Kọ òrò onísílébù kan àti méjì", "Kọ àkọsìlè olùkó sínú ìwé", "Şe sípélì àwọn òrò pèlú ẹnu"],
+      "resources": ["Káàdì pélébé pélébé aláfihàn", "Kádíbóòdù"]
+    }
+  },
+  
+  "ÀŞÀ": {
+    "ÌLÀNÀ ÀTI OHUN ÀMÚYANGÀN": {
+      "topics": ["Pàtàkì ìwà rere", "Aşà bí a șe ń jeun"],
+      "learning_objectives": ["Şàlàyé àwọn ìwà tó jé ìwà rere", "Sọ ànfààní ìwà rere", "Şàlàyé àwọn ìlànà tó to lati tèlé nígbà tì a bań jeun"],
+      "activities": ["Ké àwọn ewì kéékèèké tó jẹmó ìwà rere", "Sọ ànfààní pípa òfin yìí mó"],
+      "resources": ["Fíîmù tó ń șe afihan ìwà rere", "Àwòrán tó n șe àfihàn àwọn tó ń jeun pèlú ìlànà ìmótótó"]
+    },
+    "ÌŞÈŞE": {
+      "topics": ["Eré omodé síwájú sí i", "Ojúşe òbí sí ọmọ", "Àwọn ohun èlò inú ilé"],
+      "learning_objectives": ["So oríşìíríșìí eré ọmọdé", "Sọ ànfààní tó wà nínú şişe eré omodé", "Şàlàyé ojúşe òbí sí àwọn ọmọ wọn", "So oríșìíríșìí yàrá tó wà nínú ilé"],
+      "activities": ["Kópa nínú sişeré omodé", "Șe eré tí ó fi ojúșe òbí hàn", "Sọ àwọn ohun èlò tó wa ni àwọn yàrá ni ilé e wọn"],
+      "resources": ["Awòrán àwọn omodé tó ń șe eré", "Awòrán ìdílé tó ó şe afihàn ojúşe òbí", "Awòrán ilé àti ohun èlò inú ilé"]
+    }
+  },
+  
+  "LÍTÍRÉŞÒ": {
+    "ERÉ ONÍSÉ": {
+      "topics": ["Eré Onítàn kékeré"],
+      "learning_objectives": ["Ka eré oníşe", "Şe eré oníşe", "Fa èkó ìnú èré oníşe yo", "Dárúkọ èdá ìnú itán"],
+      "activities": ["Fetí sílè láti gbọ ohun ti wọn ń kà", "Kópa nínú eré şişe", "Sọ kókó inú eré oníșe"],
+      "resources": ["Aso eré", "Ohun èlò mìíràn to ba eré mu"]
+    },
+    "EWÌ": {
+      "topics": ["Orín", "Owe"],
+      "learning_objectives": ["Ko oríşìŕrísìí orín", "Fa èkó tó wà nínú orín náa yọ", "Pa òwe gígùn diệ díè", "Şe àlàyé ìtumò wọn", "Lò wọn"],
+      "activities": ["Kọ orín", "Fa èkó inú orín náa yo", "Pa ìwe mìíran", "Sọ ìtumò òwe"],
+      "resources": ["Téèpù àti káséètì", "Àwòrán tó jẹmó orín", "Téèpù tí a ti gba òwe sí"]
+    },
+    "ÀRÒSO OLÓRÒ GEERE": {
+      "topics": ["Àló onítàn síwájú sí i", "Ìtàn àwọn akoni llè Yorùbá"],
+      "learning_objectives": ["Sọ ìyàtọ tó wà láàrin àló àpamò àti àló onítàn", "Kópa nínú kíkọ orín àti ìsòròngbèsì", "Dárúkọ àwọn akoni láyé àtìjo àti òde òní", "So akitiyan àti ìwà akin"],
+      "activities": ["Pa àló onítàn", "Fa èkó ti àló onítàn náà kóni jádé", "Kọ orúkọ àwọn akoni agbègbè", "Sọ ìpa tì awọn akoni ń kó"],
+      "resources": ["Téèpù tí a gba àló sí", "Àwòrán àwọn akoni ìlè Yorùbá"]
+    }
+  },
+  
+  "Onkà": {
+    "Numeracy": {
+      "range": "51-100",
+      "topics": ["Kíka òňkà", "Àròpò/àyọkúrò", "Títóka si àwọn òrò to se pàtàkì fún ònkà"],
+      "learning_objectives": ["Ka àwọn òňka Yorúbá láti oókanleláàdota de ogórùn-ún", "Da àwọn òňka wọnyi mọ", "şe àrópò ati ayokurò láti gbé òňkà jáde"],
+      "activities": ["Ka òňka Yorùbá", "Şe àròpò àti àyọkúrò", "Téti sílè láti gbó bí a tí ń șe àròpò"],
+      "resources": ["Igi kékèké", "okúta wéwé", "ọmọ ayò", "Àwòrán tó ń şe àfihàn ònkà"]
+    }
+    }
+  }
+}
