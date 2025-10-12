@@ -1,0 +1,880 @@
+{
+    "PRIMARY 4": {
+        "THEME ": "READING",
+    "TOPIC NAME": "Comprehension",
+    "PERFORMANCE OBJECTIVES": [
+      "read class appropriate informational texts e.g. health, environment, consumer rights, safety etc.",
+      "identify main ideas in the texts",
+      "identify supporting facts in the texts",
+      "read descriptive passages with understanding",
+      "identify new words used for describing people, animals, things and places",
+      "answer factual and other questions"
+    ],
+    "CONTENT": [
+      "Reading Class appropriate informational texts e.g. texts on diet and nutrition, benefits of eating for healthy living",
+      "Reading Descriptive passages to: - identify and explain new words used for describing people, animals, things and places",
+      "answer factual and other questions based on the passage"
+    ],
+    "TEACHER ACTIVITIES": [
+      "Guides pupils to read the story",
+      "Guides pupils to identify main ideas in the texts",
+      "Guides pupils to identify supporting facts in a text",
+      "Guides pupils to read the passage",
+      "Guides pupils to identify and use new descriptive words",
+      "Asks and guides pupils to answer factual and other questions on the passage"
+    ],
+    "PUPIL ACTIVITIES": [
+      "Read the informational texts",
+      "Work in pairs or groups to identify main ideas in the texts",
+      "Work in pairs or groups to identify main facts in the texts",
+      "Read the passage as guided by the teacher",
+      "Work in groups to identify descriptive words in the passage",
+      "Answer factual and other kinds of questions"
+    ],
+    "TEACHING AND LEARNING RESOURCES": [
+      "Newspapers, magazines",
+      "Course book",
+      "Supplementary readers",
+      "Pictures",
+      "Supplementary reader",
+      "Selected descriptive passages",
+      "Flip chart/cardboard chalk/white board",
+      "Flash cards"
+    ],
+    "evaluation_guide": [
+      "read the the informational texts",
+      "discuss the main ideas in the texts",
+      "list the main facts in the read texts",
+      "read descriptive passages",
+      "use new words in 5 sentences"
+    ]
+  },
+  {
+    "THEME": "READING",
+    "primary_class": 4,
+    "TOPIC NAME": "Comprehension",
+    "PERFORMANCE OBJECTIVES": [
+      "read class appropriate stories and poems with understanding",
+      "answer questions on the poems and stories",
+      "identify and interpret similes and metaphors",
+      "understand characters, setting plots"
+    ],
+    "CONTENT": [
+      "Reading Class appropriate stories and poems to:",
+      "identify words, similes and metaphors",
+      "explain the characters, setting and plots in poems and stories"
+    ],
+    "TEACHER ACTIVITIES": [
+      "Guides pupils to read selected stories and poems",
+      "Explains similarities and differences between simple stories (prose) and poems",
+      "Asks and guides pupils to answer questions",
+      "Explains the language of poetry to pupils e.g. rhymes and rhythm",
+      "Guides the pupils to identify similes and metaphors in poems"
+    ],
+    "PUPIL ACTIVITIES": [
+      "Read stories and poems",
+      "Discuss similarities and differences they observed in stories (prose) and poems with the teacher's guidance",
+      "Answer questions individually, in pairs or in groups",
+      "identify similes and metaphors in poems"
+    ],
+    "TEACHING AND LEARNING RESOURCES": [
+      "Selected stories and poems",
+      "Course books",
+      "Flash cards",
+      "pictures and drawings",
+      "Real objects",
+      "Supplementary reading materials"
+    ],
+    "evaluation_guide": [
+      "Read stories and poems",
+      "list 3 features of poems",
+      "mention at least 3 examples of similes and metaphors",
+      "explain the meaning of character and setting plot"
+    ],
+    "page_number": "2"
+  },
+  {
+    "THEME": "READING",
+    "primary_class": 4,
+    "TOPIC NAME": "Comprehension",
+    "PERFORMANCE OBJECTIVES": [
+      "read the selected passage",
+      "identify issues related to the passage",
+      "answer questions on the passage"
+    ],
+    "CONTENT": [
+      "Reading Passage on a range of issues (e.g. Cooperation, foods and drug safety, Road safety",
+      "identifying issues related to the text",
+      "use context clues to understand text"
+    ],
+    "TEACHER ACTIVITIES": [
+      "Guides the pupils to read the passage",
+      "Explains new words and ideas in the selected passage",
+      "Guides them to discuss issues related to cooperation"
+    ],
+    "PUPIL ACTIVITIES": [
+      "Read the passage",
+      "Answer simple questions in pairs or groups",
+      "Identify new words and ideas related to the passage"
+    ],
+    "TEACHING AND LEARNING RESOURCES": [
+      "Selected passage on cooperation",
+      "Flash cards",
+      "Cardboards or chalk/white board",
+      "Relevant pictures and diagrams"
+    ],
+    "evaluation_guide": [
+      "read selected passage",
+      "identify issues related to the passage",
+      "answer questions on the passage"
+    ],
+    "page_number": "2"
+  },
+  {
+    "THEME": "READING",
+    "primary_class": 4,
+    "TOPIC NAME": "Comprehension",
+    "PERFORMANCE OBJECTIVES": [
+      "set purpose for reading",
+      "read story books and other reading materials independently for entertainment, enjoyment or information",
+      "select books and other reading materials independently"
+    ],
+    "CONTENT": [
+      "Independent reading:",
+      "Reading independently for a purpose",
+      "Independent selection of books and other reading materials"
+    ],
+    "TEACHER ACTIVITIES": [
+      "Guides pupils to read story books, supplementary readers, independently",
+      "Guides the pupils to understand the purpose of independent reading",
+      "Helps pupils to develop reading habits",
+      "Guides pupils on how to select books and other reading materials",
+      "Guides pupils to summarize what they have read"
+    ],
+    "PUPIL ACTIVITIES": [
+      "Read story books and other reading materials independently",
+      "Recognize the purpose of reading any text",
+      "Show interest in reading independently",
+      "Select books and other reading materials on their own",
+      "summarize what they have read"
+    ],
+    "TEACHING AND LEARNING RESOURCES": [
+      "Story books",
+      "Supplementary Readers",
+      "Charts on how to select books in the library",
+      "Newspaper, magazines"
+    ],
+    "evaluation_guide": [
+      "read story books and other reading materials",
+      "mention at least 3 purposes of reading different texts",
+      "explain how to select books and other reading materials",
+      "summarize at least one book read"
+    ]
+  },
+  {
+    "THEME": "READING",
+    "primary_class": 4,
+    "TOPIC NAME": "Concepts of print",
+    "PERFORMANCE OBJECTIVES": [
+      "identify different types of fonts, illustrations, graphics etc",
+      "use title, title page, table of CONTENT, glossary and index to locate information",
+      "preview text using text features e.g. headings, graphics, titles, diagram, etc",
+      "recognize different kinds of text- poems, plays, drama, letters, biographies etc"
+    ],
+    "CONTENT": [
+      "Recognizing charts, maps, graphs, pictures, etc. in printed materials and texts",
+      "Parts of text e.g. title, title page, table of CONTENT, glossary, index etc",
+      "Previewing text using text features"
+    ],
+    "TEACHER ACTIVITIES": [
+      "Guides pupils to recognize and use charts, maps, graphs, pictures etc",
+      "Guides pupils to identify parts of texts e.g. title of text, title page, table of CONTENT, glossary, index etc",
+      "Guides pupils to locate information in texts using parts of text",
+      "Guides pupils to preview a text using headings, graphics, titles etc"
+    ],
+    "PUPIL ACTIVITIES": [
+      "Recognize and use charts, maps, graphs, pictures etc",
+      "Identify parts of text e.g. title of text, table of CONTENT, glossary, etc",
+      "Locate information in text using parts of text",
+      "Preview texts using text features e.g. headings, graphics, titles etc"
+    ],
+    "TEACHING AND LEARNING RESOURCES": [
+      "Recommended books",
+      "supplementary readers",
+      "Story books"
+    ],
+    "evaluation_guide": [
+      "Recognize and use maps, graphs, pictures, etc",
+      "Identify parts of texts",
+      "Locate information from texts using parts of text",
+      "Preview a text using text features"
+    ]
+  },
+  {
+    "THEME": "WRITING",
+    "primary_class": 4,
+    "TOPIC NAME": "Writing Simple Sentences about Events in Correct Sequence. (A Passage on Consumer, Market and Society)",
+    "PERFORMANCE OBJECTIVES": [
+      "explain who a consumer is using simple sentences",
+      "explain the meaning of a market",
+      "list three key market operators in simple sentences",
+      "in simple sentences, discuss the roles of market in the society"
+    ],
+    "CONTENT": [
+      "Meaning of consumer, market and society",
+      "Key operators in the market e.g. consumers, goods and service providers, government",
+      "Impact of market on society"
+    ],
+    "TEACHER ACTIVITIES": [
+      "Explains the meaning of consumer, market and society in simple sentences e.g. 'A consumer buys goods and services'",
+      "Discusses the impact of market on society using simple sentences",
+      "Takes learners on a trip to a market"
+    ],
+    "PUPIL ACTIVITIES": [
+      "Participate in explanation of consumer, market and society in simple sentences"
+    ],
+    "TEACHING AND LEARNING RESOURCES": [
+      "Posters, charts, fliers showing market scenes",
+      "Magazines, pictures, newspapers, cutting of relevant information on consumer and society",
+      "Textbooks"
+    ],
+    "evaluation_guide": [
+      "explain the meaning of consumer, market and society",
+      "list three key market operators",
+      "give two impacts of market on society"
+    ]
+  },
+  {
+    "THEME": "WRITING",
+    "primary_class": 4,
+    "TOPIC NAME": "Guided Informal Letter, e.g. Letter to a Friend",
+    "PERFORMANCE OBJECTIVES": [
+      "make appropriate use of guidelines to write an informal letter",
+      "write an informal letters"
+    ],
+    "CONTENT": [
+      "An informal letter. E.g. A letter to an elder sister, a brother, a father, a mother, a friend",
+      "Features of informal letter: Letter to a friend is based on: tolerance, humaneness, personal in tone, intimate with secret/gossip, to share and enjoy warmth"
+    ],
+    "TEACHER ACTIVITIES": [
+      "Teacher explains meaning of informal letter",
+      "Lists the formal features of an inform letter",
+      "Guides pupils to write informal letters"
+    ],
+    "PUPIL ACTIVITIES": [
+      "Listen to and write down in their books meaning of, and features of informal letters",
+      "Write informal letters to relatives and friends",
+      "Participate in class discussions"
+    ],
+    "TEACHING AND LEARNING RESOURCES": [
+      "A suitable guided informal letter formats",
+      "An informal letter prepared by the teacher"
+    ],
+    "evaluation_guide": [
+      "use the guidelines correctly to write an informal letter",
+      "write informal letter correctly"
+    ]
+  },
+  {
+    "THEME": "WRITING",
+    "primary_class": 4,
+    "TOPIC NAME": "Narrative and Descriptive Composition Descriptive: 1. My Family 2. My School",
+    "PERFORMANCE OBJECTIVES": [
+      "narrate a story",
+      "write a composition on a given topic",
+      "describe the essential characteristics of their family or school",
+      "describe the members of the family, noting their special characters"
+    ],
+    "CONTENT": [
+      "Describe piece of writing, bringing out important events or highlight",
+      "Communicate these thoughts in a continuous prose",
+      "Get, through the help of pupils, the different exciting events in their lives",
+      "Describing the members of the family (including pets)",
+      "Describing a typical day in the life of the family"
+    ],
+    "TEACHER ACTIVITIES": [
+      "Prepares model compositions on narrative and descriptive and use these to guide pupils",
+      "Discusses the CONTENT of the composition with pupils; each mentioning their own memorable days",
+      "Let's them say why it is memorable",
+      "Let them write it as a creative piece of writing to be displayed on the notice board"
+    ],
+    "PUPIL ACTIVITIES": [
+      "Write compositions (narrative and descriptive) given by the teacher",
+      "Copy the model compositions given by the teacher",
+      "Talk about their experiences with regard to the events",
+      "Read over the work on the chalkboard",
+      "Write two or three paragraphs on their own memorable day"
+    ],
+    "TEACHING AND LEARNING RESOURCES": [
+      "Picture charts of exciting events",
+      "Model narrative and descriptive passages",
+      "Course book",
+      "Composition prepared by the teacher",
+      "Supplementary reader"
+    ],
+    "evaluation_guide": [
+      "Pupils to narrative their own story",
+      "Write their own composition on a topic of their interest",
+      "Describe their family or school environment",
+      "Describe members of their family noting their special characters"
+    ]
+  },
+  {
+    "THEME": "LISTENING AND SPEAKING",
+    "primary_class": 4,
+    "TOPIC NAME": "Simple Conversation using the Appropriate Words",
+    "PERFORMANCE OBJECTIVES": [
+      "engage in simple conversation involving, excuse, obligation, permission etc",
+      "use modal auxiliaries to make sentences such as: 'can i come in'",
+      "use modal auxiliaries in sentences in contextual situations so as to bring out their meaning"
+    ],
+    "CONTENT": [
+      "Practice in excusing, obligation, permission etc",
+      "'can' meaning possible",
+      "'must' meaning obligation 'ought to' meaning what is right"
+    ],
+    "TEACHER ACTIVITIES": [
+      "List the modal auxiliaries",
+      "Creates short stories around the family using modal auxiliaries",
+      "Asks questions on the story e.g. can Adamu wash the plate",
+      "Constructs a dialogue for the same purpose",
+      "Guides the pupils to dialogue in pairs emphasizing on the modal auxiliaries"
+    ],
+    "PUPIL ACTIVITIES": [
+      "Make sentences after teacher's modal examples with 'can', 'cannot', 'may', 'may not', 'must', 'must not', 'ought to', 'ought not to'",
+      "Create a short scene where the pupils role play and use auxiliaries in their conversation",
+      "Make sentences on their own with modal auxiliaries"
+    ],
+    "TEACHING AND LEARNING RESOURCES": [
+      "Real objects",
+      "Approved course book",
+      "Pictures showing actions of the conversations"
+    ],
+    "evaluation_guide": [
+      "use each of the modal auxiliaries correctly",
+      "say short sentences using auxiliaries"
+    ],
+    "page_number": "6"
+  },
+  {
+    "THEME": "LISTENING AND SPEAKING",
+    "primary_class": 4,
+    "TOPIC NAME": "Aural Discrimination in Vowels and Consonants",
+    "PERFORMANCE OBJECTIVES": [
+      "distinguish between the sounds /^/ in bud and sound /3:/ in bird /a/ in bag and /a:/ in bark",
+      "recognize the sounds in words",
+      "draw the contrast between sounds when they use the words",
+      "discriminate between two pairs of consonants e.g. /t/ʃ/ chin /ʃ/ shin /v/ vest /f/ first"
+    ],
+    "CONTENT": [
+      "Discriminate between the sounds /^/and /3:/ cup curb luck lurk gull girl bust burst",
+      "Aural consonants as chop/shop, catch/cash, very/ ferry, have/half",
+      "Distinguishes the pair of voiced and voiceless consonant sounds"
+    ],
+    "TEACHER ACTIVITIES": [
+      "Writes out the words and the sounds symbols",
+      "Pronounce the sounds",
+      "Drills the pupils on the sound distinctions in the words",
+      "Writes and pronounce vowels and consonant sounds in the word contexts"
+    ],
+    "PUPIL ACTIVITIES": [
+      "Practice the new vowel and consonant sounds and in word context",
+      "Write the words and the sound symbols in their note books",
+      "Differentiate the voiced and voiceless consonants"
+    ],
+    "TEACHING AND LEARNING RESOURCES": [
+      "Course book",
+      "Any suitable book on English phonetics",
+      "Tape recorder with speech cassettes"
+    ],
+    "evaluation_guide": [
+      "do oral drills",
+      "recognize the sound",
+      "contrast the two vowel sounds",
+      "distinguish between two pairs of consonant words"
+    ],
+    "page_number": "6"
+  },
+  {
+    "THEME": "LISTENING AND SPEAKING",
+    "primary_class": 4,
+    "TOPIC NAME": "Oral Composition Descriptive and Narrative e.g. - An Interesting experience : \"A visit to my village\" \"My Father's house\"",
+    "PERFORMANCE OBJECTIVES": [
+      "narrate the highlights of 'a visit to my village'",
+      "narrate a story",
+      "describe how things are been done or a place, e.g. 'my father's house'",
+      "pick out important features in any event with emphasis on time, place, occasion and significance"
+    ],
+    "CONTENT": [
+      "Narrating an interesting experience with the following: - 'A visit to my village', 'My first day in school'",
+      "Describing places or how things are done e.g. 'My school', 'How to cook rice'"
+    ],
+    "TEACHER ACTIVITIES": [
+      "Leads discussions dramatization based on 'A visit to my village' or an interesting experience in ' my school' or any descriptive topic",
+      "Organizes out of class activities to visit places of interest and asks the pupils to narrate or describe their experiences"
+    ],
+    "PUPIL ACTIVITIES": [
+      "Narrate some events they witnessed",
+      "Participate actively in teacher initiated activities",
+      "Describe their memorable days individually"
+    ],
+    "TEACHING AND LEARNING RESOURCES": [
+      "Text books showing various events",
+      "Video clips of events",
+      "Real objects to describe how things are done"
+    ],
+    "evaluation_guide": [
+      "describe some events accurately",
+      "narrate interesting experiences they have witnessed"
+    ],
+    "page_number": "7"
+  },
+  {
+    "THEME": "LISTENING AND SPEAKING",
+    "primary_class": 4,
+    "TOPIC NAME": "Using Question Tags",
+    "PERFORMANCE OBJECTIVES": [
+      "Ask and respond to question tags",
+      "Making sentences adding question tags",
+      "Use tags in asking question either positive or negative"
+    ],
+    "CONTENT": [
+      "Positive Tomorrow is Monday, isn't it? You are a boy/girl, Aren't you? She is quite attractive, isn't she? We shall see each other again, shan't we?",
+      "Negative: You didn't come to school, did you? This book isn't yours, is it?"
+    ],
+    "TEACHER ACTIVITIES": [
+      "Lets pupils use tags correctly as in CONTENT columns",
+      "Engages the pupils in various conversations involving positive and negative tags",
+      "Guides pupils to generate questions using tags",
+      "Shows the pupils questions and what tags to be used i.e. positive tag or negative"
+    ],
+    "PUPIL ACTIVITIES": [
+      "Listen attentively to the teacher and ask questions using tags",
+      "In pairs, they engage in conversation using correct questions with correct tags",
+      "Identify what tags to be used for various questions"
+    ],
+    "TEACHING AND LEARNING RESOURCES": [
+      "Course book",
+      "Teacher's guide",
+      "Other relevant materials"
+    ],
+    "evaluation_guide": [
+      "use tags correctly in questions",
+      "make sentences adding the question tags"
+    ],
+    "page_number": "7"
+  },
+  {
+    "THEME": "LISTENING AND SPEAKING",
+    "primary_class": 4,
+    "TOPIC NAME": "Stress and Intonation",
+    "PERFORMANCE OBJECTIVES": [
+      "utter each expression with the correct stress",
+      "use intonation pattern to express meaning",
+      "distinguish the contrast between the two expressions both in statement and in question",
+      "read and sing poems and songs as instruments of speech training",
+      "memorize and recite poems",
+      "sing and enjoy the song",
+      "discuss meaning and effect of poem",
+      "identify the THEME of poem"
+    ],
+    "CONTENT": [
+      "Stress pattern can be represented as: / stressed; \\unstressed e.g. / WRIting it now / SEnd it now /BEAutiful girl",
+      "Intonation and stress change the meaning of sentence, e.g. You want me to stay (statement) You want me to stay? (Question)",
+      "Read and sing. Poems and songs. Discuss the THEME of poem (subject matter and meaning)",
+      "Songs as another useful instrument of speech training and memorization"
+    ],
+    "TEACHER ACTIVITIES": [
+      "Expresses the stress pattern e.g. 'writing' has only one stress 'wri'",
+      "Says the expression once and lets pupils say after him/her three times",
+      "Guides the pupils to point out differences in meaning",
+      "Provides sentences and pronounce them in the appropriate intonation and stress pattern",
+      "Leads pupils to study the poem",
+      "Reads poems to pupils to arouse interest",
+      "Lets pupils take turns reading the poem",
+      "Reads the song as a poem",
+      "Lets the pupils read after him/her",
+      "Encourages them to memorize the songs",
+      "Teaches the pupils to sing the song and enjoy it"
+    ],
+    "PUPIL ACTIVITIES": [
+      "Say each phrases expressing correct stress",
+      "Use pronunciation pattern provided by the teacher in sentences to show stress and intonation",
+      "Answer questions on stress and intonation",
+      "Listen to the teacher read the poem and sing song",
+      "Take turns in reading the poem and singing the songs",
+      "Memorize the poem and the song",
+      "Read the poem in group chorally and individually",
+      "Read the poem and sing the song to get details of the meaning",
+      "Learn to sing and enjoy the song"
+    ],
+    "TEACHING AND LEARNING RESOURCES": [
+      "Course book",
+      "Any practical book on phonetics",
+      "A short poem on a cardboard",
+      "Flash cards showing key words in the poem and songs",
+      "Simple poetry books",
+      "Other relevant materials",
+      "Charts containing the song"
+    ],
+    "evaluation_guide": [
+      "do oral drill",
+      "make correct sentences with correct stress and intonation",
+      "do oral exercise",
+      "Read the song as a poem",
+      "memorize and recite it correctly",
+      "discuss the meaning and effect of the poem",
+      "identify the THEME of the poem",
+      "memorize the song, song and enjoy it"
+    ]
+  },
+  {
+    "THEME": "GRAMMATICAL ACCURACY",
+    "primary_class": 4,
+    "TOPIC NAME": "Using past, present and future tenses accurately",
+    "PERFORMANCE OBJECTIVES": [
+      "Correctly use: (a) past tense (b) present tense (c) Future tense"
+    ],
+    "CONTENT": [
+      "Past tense e.g. I ate yesterday",
+      "Present tense e.g. I eat rice everyday",
+      "Future tense e.g. I will eat salad tomorrow"
+    ],
+    "TEACHER ACTIVITIES": [
+      "Explains the use of past, present and future tenses",
+      "Guides pupils to use the past, present and future tenses"
+    ],
+    "PUPIL ACTIVITIES": [
+      "Identify past, present and future tenses",
+      "Use past, present and future sentences in making statements/sentences"
+    ],
+    "TEACHING AND LEARNING RESOURCES": [
+      "Course book",
+      "Substitution tables"
+    ],
+    "evaluation_guide": [
+      "identify past, present and future tenses",
+      "make correct use of past, present and future tenses"
+    ],
+    "page_number": "9"
+  },
+  {
+    "THEME": "GRAMMATICAL ACCURACY",
+    "primary_class": 4,
+    "TOPIC NAME": "Nouns and pronouns",
+    "PERFORMANCE OBJECTIVES": [
+      "identify nouns and pronouns",
+      "use nouns and pronouns in making sentences"
+    ],
+    "CONTENT": [
+      "Identification of nouns and pronouns",
+      "Use of nouns and pronouns"
+    ],
+    "TEACHER ACTIVITIES": [
+      "Explains nouns and pronouns",
+      "Guides pupils to identify nouns and pronouns",
+      "Guides pupils to use nouns and pronouns in sentences"
+    ],
+    "PUPIL ACTIVITIES": [
+      "Identify nouns and pronouns",
+      "Use nouns and pronouns in making sentences"
+    ],
+    "TEACHING AND LEARNING RESOURCES": [
+      "Course book",
+      "Real objects",
+      "Pictures"
+    ],
+    "evaluation_guide": [
+      "identify nouns and pronouns in statements/ sentences",
+      "construct five sentences using nouns and pronouns"
+    ],
+    "page_number": "9"
+  },
+  {
+    "THEME": "GRAMMATICAL ACCURACY",
+    "primary_class": 4,
+    "TOPIC NAME": "Adjectives and Adverbs",
+    "PERFORMANCE OBJECTIVES": [
+      "identify adjectives and adverbs",
+      "use adjectives and adverbs in making sentences"
+    ],
+    "CONTENT": [
+      "Identification of adjectives and adverbs",
+      "Use of adjectives and adverbs"
+    ],
+    "TEACHER ACTIVITIES": [
+      "Explains adjectives and adverbs",
+      "Guides pupils to identify adjectives and adverbs",
+      "Guides pupils to use adjectives and adverbs in making sentences"
+    ],
+    "PUPIL ACTIVITIES": [
+      "Identify adjectives and adverbs",
+      "Use adjectives and adverbs in making sentences"
+    ],
+    "TEACHING AND LEARNING RESOURCES": [
+      "Course book",
+      "Real objects",
+      "Pictures"
+    ],
+    "evaluation_guide": [
+      "identify adjectives and adverbs in statements/ sentences",
+      "make correct use of adjectives and adverbs"
+    ],
+    "page_number": "9"
+  },
+  {
+    "THEME": "GRAMMATICAL ACCURACY",
+    "primary_class": 4,
+    "TOPIC NAME": "Comparative forms of adjectives and adverbs",
+    "PERFORMANCE OBJECTIVES": [
+      "use the comparative forms of adjectives and adverbs correctly"
+    ],
+    "CONTENT": [
+      "Comparative forms of adjectives e.g. He is taller than his father",
+      "Bimpe is more intelligent than Ayo",
+      "Comparative forms of adverbs e.g. Ahmed walks more slowly than Eze"
+    ],
+    "TEACHER ACTIVITIES": [
+      "Gives examples of the comparative forms of adjectives and adverbs",
+      "Guides pupils to use the comparative forms of adjectives and adverbs"
+    ],
+    "PUPIL ACTIVITIES": [
+      "Identify the comparative forms of adjectives and adverbs",
+      "Use comparative forms in sentences"
+    ],
+    "TEACHING AND LEARNING RESOURCES": [
+      "Course book",
+      "Charts containing comparative and superlative"
+    ],
+    "evaluation_guide": [
+      "identify the comparative forms of adjectives and adverbs",
+      "use comparative forms in sentences"
+    ]
+  },
+  {
+    "THEME": "GRAMMATICAL ACCURACY",
+    "primary_class": 4,
+    "TOPIC NAME": "Question Tags",
+    "PERFORMANCE OBJECTIVES": [
+      "ask and respond to question tags",
+      "make sentences, adding the question tags",
+      "use the negative and positive tags correctly"
+    ],
+    "CONTENT": [
+      "Question tags when body of sentence is positive and the tail is negative e.g. she is beautiful, isn't she? Today is Wednesday, isn't it?",
+      "Question tags when the body is negative and the tail is positive e.g. she will not come, will she? You did not fail, did you?"
+    ],
+    "TEACHER ACTIVITIES": [
+      "Explains when to use question tags",
+      "Gives examples and asks pupils to repeat after him/her",
+      "Guides pupils to use question tags"
+    ],
+    "PUPIL ACTIVITIES": [
+      "Make sentences that involve question tags",
+      "Do oral drills on negative question tags"
+    ],
+    "TEACHING AND LEARNING RESOURCES": [
+      "Substitution table",
+      "Course book",
+      "Flash card"
+    ],
+    "evaluation_guide": [
+      "ask and respond to question tags correctly",
+      "make sentences, adding the question tags correctly",
+      "Use the positive and negative tags correctly"
+    ]
+  },
+  {
+    "THEME": "GRAMMATICAL ACCURACY",
+    "primary_class": 4,
+    "TOPIC NAME": "Adverbial Clauses using 'if' and 'when'",
+    "PERFORMANCE OBJECTIVES": [
+      "use adverbial clause of condition (if) correctly",
+      "use adverbial clause of condition (when) correctly"
+    ],
+    "CONTENT": [
+      "Adverbial clause of condition (if) e.g. If we know our rights as Nigerians, nobody can abuse them",
+      "Adverbial clause of condition (when) e.g. When we pay our taxes, the government will do more for the citizens"
+    ],
+    "TEACHER ACTIVITIES": [
+      "Explains adverbial clauses of condition using \"if\" and \"when\"",
+      "Guides pupils to use adverbial clauses in making sentences"
+    ],
+    "PUPIL ACTIVITIES": [
+      "Identify target adverbial clauses",
+      "Use of adverbial clauses of condition \"if\" and \"when\""
+    ],
+    "TEACHING AND LEARNING RESOURCES": [
+      "Course book",
+      "Flash cards",
+      "Picture"
+    ],
+    "evaluation_guide": [
+      "identify adverbial clause of condition \"if\" and \"when\"",
+      "Make correct use of clause of condition \"if\" and \"when\""
+    ]
+  },
+  {
+    "THEME": "READING",
+    "primary_class": 5,
+    "TOPIC NAME": "Phonics",
+    "PERFORMANCE OBJECTIVES": [
+      "use the intonation required in statements, questions commands and requests",
+      "use stress correctly to convey meaning"
+    ],
+    "CONTENT": [
+      "Intonation patterns in statements, questions commands and requests e.g.",
+      "'Is he coming?' (Falling, Rising Intonation)",
+      "'Will you read the book very fast?' (falling, rising, rising, rising)"
+    ],
+    "TEACHER ACTIVITIES": [
+      "Introduces the lesson by showing the charts containing these sentences to pupils and guiding them to read the sentences",
+      "Supervises pupils' practice and use of the appropriate intonation"
+    ],
+    "PUPIL ACTIVITIES": [
+      "Repeat the sentences after the teacher, using the intonation pattern provided by him/her e.g. \"Will you do the sums accurately?\"",
+      "Practice the falling/rising intonation pattern typical of a statement, question, command and a request"
+    ],
+    "TEACHING AND LEARNING RESOURCES": [
+      "Course book",
+      "Books on sounds, stress and intonation of English",
+      "A chart of some sentences differently stressed",
+      "Audio-player"
+    ],
+    "evaluation_guide": [
+      "use the appropriate stress and intonation in giving commands and requests",
+      "use stress and intonation in dialogues to demonstrate questioning"
+    ],
+    "page_number": "12"
+  },
+  {
+    "THEME": "READING",
+    "primary_class": 5,
+    "TOPIC NAME": "Phonics",
+    "PERFORMANCE OBJECTIVES": [
+      "produce the sounds of each word correctly",
+      "recognise the sounds",
+      "draw the contrast between sounds when used in words",
+      "use each word in correct sentence"
+    ],
+    "CONTENT": [
+      "More on Aural Discrimination:",
+      "Vowels, Consonants, Diphthongs, digraphs and trigraphs"
+    ],
+    "TEACHER ACTIVITIES": [
+      "Produces the pairs of sounds which contrast and lets pupils repeat after him. e.g: /æ/ and /a: /,as in 'cat' and 'cart', 'pat' and 'part' //and/D:/as in 'one' and 'warn' /p/ and /f/ as in 'pill' and 'fill', /S/ and/ts/ as in 'shop' and 'chop' etc",
+      "Writes the words containing the sounds in minimal pairs on the chalk board",
+      "Guides pupils to produce the sounds in isolation and in words",
+      "Guides pupils to construct sentences with each pair and bring out the contrast"
+    ],
+    "PUPIL ACTIVITIES": [
+      "Repeat the pairs of sounds produced by the teacher in isolation and in words",
+      "Construct sentences with each pair to bring out the contrast"
+    ],
+    "TEACHING AND LEARNING RESOURCES": [
+      "Course book",
+      "Charts containing the minimal pair",
+      "Speech cassettes",
+      "Any other suitable material on phonetics"
+    ],
+    "evaluation_guide": [
+      "distinguish between three pairs of sounds",
+      "recognize the sounds",
+      "draw the contrast between three pairs of sounds when used in words",
+      "use the three pairs of words in sentences to bring out their meanings"
+    ],
+    "page_number": "13"
+  },
+  {
+    "THEME": "READING",
+    "primary_class": 5,
+    "TOPIC NAME": "Comprehension",
+    "PERFORMANCE OBJECTIVES": [
+      "read CONTENT specific materials e.g. on health, consumer education and other kinds of information",
+      "Identify main ideas in materials read",
+      "Identify and summarise supporting details"
+    ],
+    "CONTENT": [
+      "Reading from CONTENT specific materials e.g. relevant passages on road safety, health, consumer rights"
+    ],
+    "TEACHER ACTIVITIES": [
+      "Selects and presents appropriate passages e.g. health, road safety, consumer rights",
+      "Explains relevant unfamiliar words",
+      "Explains to pupils how to read these passages and obtain information",
+      "Guides pupils to read passages and answer questions"
+    ],
+    "PUPIL ACTIVITIES": [
+      "Examine materials presented by teacher",
+      "Read passages",
+      "Identify and use new words in sentences",
+      "Answer questions based on passages"
+    ],
+    "TEACHING AND LEARNING RESOURCES": [
+      "Passages from relevant materials e.g. Road Safety Guide",
+      "Materials from other sources"
+    ],
+    "evaluation_guide": [
+      "read passages to get relevant information"
+    ],
+    "page_number": "14"
+  },
+  {
+    "THEME": "READING",
+    "primary_class": 5,
+    "TOPIC NAME": "Comprehension",
+    "PERFORMANCE OBJECTIVES": [
+      "read non-fiction passages",
+      "identify and discuss main ideas in non-fiction passages"
+    ],
+    "CONTENT": [
+      "Reading non-fiction passages to:",
+      "identify main ideas, sequence of events, characters, plot, setting",
+      "discuss similarities and differences",
+      "summarise and draw conclusions"
+    ],
+    "TEACHER ACTIVITIES": [
+      "Explains the meaning of non-fiction and differentiates it from fiction",
+      "Presents a selected non-fiction passage reflecting important national values or issues, e.g. unity, security",
+      "Guides pupils to read passage",
+      "Guides pupils to identify and discuss main ideas in the passage"
+    ],
+    "PUPIL ACTIVITIES": [
+      "Read the given passage silently",
+      "Work in pairs or groups to identify main ideas in particular paragraphs",
+      "Participate in plenary presentation/discussion of group work"
+    ],
+    "TEACHING AND LEARNING RESOURCES": [
+      "Selected non-fiction passages from various sources",
+      "Course books",
+      "Flip charts/card board papers",
+      "Chalk board/"
+    ],
+    "evaluation_guide": [
+      "read a given passage fluently and at the right speed",
+      "identify main ideas in a given non-fiction passage"
+    ],
+    "page_number": "15"
+  },
+  {
+    "THEME": "READING",
+    "primary_class": 5,
+    "TOPIC NAME": "Comprehension",
+    "PERFORMANCE OBJECTIVES": [
+      "read simple selected children's novels and poems",
+      "answer factual and other questions from selected children's novels and poems",
+      "identify similes and metaphor"
+    ],
+    "CONTENT": [
+      "Reading and answering questions from Class Appropriate texts and Poems"
+    ],
+    "TEACHER ACTIVITIES": [
+      "Explains to pupils why they need to read",
+      "Exposes pupils to different kinds of children's novels and poetry collections",
+      "Guides the pupils to read simple children's novels and poems",
+      "4"
+    ],
+    "PUPIL ACTIVITIES": [],
+    "TEACHING AND LEARNING RESOURCES": [],
+    "evaluation_guide": []
+  }
+]
