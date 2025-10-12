@@ -8,7 +8,12 @@ Environment variables expected:
 import os
 import json
 import time
-import requests   # ensure `requests` is in your requirements
+try:
+    import requests
+except ImportError:
+    # Fallback if requests is not available
+    requests = None
+    print("Warning: requests module not available. HTTP calls will be disabled.")
 import hashlib
 from pathlib import Path
 from typing import List, Dict, Optional, Union
@@ -202,6 +207,18 @@ def _call_llm(prompt: str, max_tokens: int = 1200, temperature: float = 0.2) -> 
             "materials": ["Local objects, chalk, paper"],
             "notes": "Offline fallback used because no LLM credentials configured."
         })
+    
+    if requests is None:
+        # No requests module available - return offline fallback
+        return json.dumps({
+            "title": "SAMPLE LESSON - requests module not available",
+            "objectives": ["(no-requests) practice objective 1", "(no-requests) practice objective 2"],
+            "introduction": "Introduce topic briefly (no HTTP capability).",
+            "activities": ["Activity 1 (discussion)", "Activity 2 (hands-on)"],
+            "assessment": ["Ask students to summarize key points"],
+            "materials": ["Local objects, chalk, paper"],
+            "notes": "HTTP requests not available - using fallback response."
+        })
 
     headers = {
         "Authorization": f"Bearer {LLM_API_KEY}",
@@ -237,7 +254,7 @@ def _call_llm(prompt: str, max_tokens: int = 1200, temperature: float = 0.2) -> 
             # If provider returns JSON string directly
             return json.dumps(data)
         return str(data)
-    except requests.exceptions.RequestException as e:
+    except Exception as e:
         # rate-limit or network error: return a helpful message for the frontend
         return json.dumps({"error": f"LLM request failed: {str(e)}"})
 
