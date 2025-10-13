@@ -36,7 +36,7 @@ CACHE_DIR.mkdir(parents=True, exist_ok=True)
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "").strip()
 LLM_API_KEY = os.environ.get("LLM_API_KEY", "").strip()  # Fallback to generic key
 LLM_API_URL = os.environ.get("LLM_API_URL", "").strip()
-LLM_MODEL = os.environ.get("LLM_MODEL", "gemini-pro").strip()
+LLM_MODEL = os.environ.get("LLM_MODEL").strip()
 
 # Configure Gemini if available
 if GEMINI_AVAILABLE and (GEMINI_API_KEY or LLM_API_KEY):
