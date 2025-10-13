@@ -43,6 +43,13 @@ if GEMINI_AVAILABLE and (GEMINI_API_KEY or LLM_API_KEY):
     api_key = GEMINI_API_KEY or LLM_API_KEY
     genai.configure(api_key=api_key)
     print("Gemini AI configured successfully")
+    safety_settings = [
+    {"category": "HARM_CATEGORY_HARASSMENT", "threshold": "BLOCK_NONE"},
+    {"category": "HARM_CATEGORY_HATE_SPEECH", "threshold": "BLOCK_NONE"},
+    {"category": "HARM_CATEGORY_SEXUALLY_EXPLICIT", "threshold": "BLOCK_NONE"},
+    {"category": "HARM_CATEGORY_DANGEROUS_CONTENT", "threshold": "BLOCK_NONE"},
+]
+    print('Set the safety settings')
 elif GEMINI_AVAILABLE:
     print("Warning: Gemini API key not found. Set GEMINI_API_KEY or LLM_API_KEY environment variable.")
 else:
@@ -298,7 +305,7 @@ def _call_llm(prompt: str, max_tokens: int = 1200, temperature: float = 0.2) -> 
     # Try Gemini first
     if GEMINI_AVAILABLE and (GEMINI_API_KEY or LLM_API_KEY):
         try:
-            model = genai.GenerativeModel('models/gemini-pro-latest')
+            model = genai.GenerativeModel(model_name='models/gemini-pro-latest',safety_settings=safety_settings)
             
             generation_config = genai.types.GenerationConfig(
                 max_output_tokens=max_tokens,
