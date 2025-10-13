@@ -330,7 +330,7 @@ def _call_llm(prompt: str, max_tokens: int = 1200, temperature: float = 0.2) -> 
             payload = {
                 "model": LLM_MODEL or "default",
                 "messages": [
-                    {"role": "system", "content": "You are a clear, practical education expert who writes lesson plans for low-resource classrooms in Nigeria."},
+                    {"role": "system", "content": "You are a clear, practical education expert who writes lesson plans for low-resource and high resource classrooms in Nigeria."},
                     {"role": "user", "content": prompt}
                 ],
                 "temperature": temperature,
