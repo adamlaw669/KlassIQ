@@ -311,7 +311,7 @@ def _call_llm(prompt: str, max_tokens: int = 1200, temperature: float = 0.2) -> 
             )
             
             if response and response.text:
-                return response.text.strip()
+                return response.candidates[0].content.parts[0].text.strip()
             else:
                 print("Gemini returned empty response, using fallback")
                 
@@ -378,75 +378,47 @@ def _call_llm(prompt: str, max_tokens: int = 1200, temperature: float = 0.2) -> 
 
 
 PROMPT_TEMPLATE = """
-You are an expert curriculum designer and veteran primary/secondary teacher who writes short, practical, context-aware lesson plans for low(or high)-resource  classrooms in Nigeria.
-Your job: produce a single, tightly-structured lesson plan JSON for the teacher's input below. Be concise and practical.
+You are a curriculum expert and instructional designer experienced in creating simple, practical lesson structures for low-resource learning environments.
 
-CONTEXT (Curriculum objectives found for the requested topic):
+Your job is to produce one clear, structured lesson plan JSON for the details below. Be concise, avoid commentary, and return **only valid JSON**.
+
+CONTEXT (Curriculum objectives found):
 {curriculum_context}
 
-TEACHER INPUT:
-- Grade: {grade}
+INPUT DETAILS:
+- Level: {grade}
 - Subject: {subject}
 - Topic: {topic}
 - Language: {language}
-- Classroom context: {classroom_context}
-- Available materials/tools (teacher provided): {teacher_input}
+- Context summary: {classroom_context}
+- Available materials/resources: {teacher_input}
 - Output mode: {output_mode}
 
 REQUIREMENTS:
-1) Return **only valid JSON** (no explanations or markdown). The top-level object must include exactly these keys:
-   - title (string)
-   - objectives (list of 2–4 short statements)
-   - learning_outcomes (list of 2–4 measurable results)
-   - introduction (1–2 brief paragraphs that engage students)
-   - activities (list of clear, time-bounded steps)
-   - differentiation (brief tips for mixed-ability or large classes)
-   - materials (list of local, affordable items teachers can use)
-   - assessment (2–4 simple evaluation ideas or tasks)
-   - classroom_management (2–3 short practical reminders)
-   - extension (optional homework or follow-up activity)
-   - low_data_version (string) – one compact, printable paragraph version
-   - notes (brief classroom or cultural considerations)
-2) Keep all examples and contexts realistic for Nigerian classrooms.
-3) Use simple English and include relatable local examples (market, farm, home, road, etc.).
-4) If curriculum_context is empty, produce a generic plan aligned with the subject and grade.
-5) If the teacher provided specific materials, integrate them into at least one activity.
-6) If {output_mode} == "short", create a compact version with 1–2 objectives and fewer activities.
-7) Keep the response appropriate for children and focused on learning content only.
-8) Be concise and practical; avoid unnecessary commentary.
-
-Here are two JSON examples to show format (ONLY for structure, not content):
-
-EXAMPLE 1:
-{{ "title":"Local Fractions (Primary 4)",
-   "objectives":["Understand halves and quarters","Use everyday objects to demonstrate fractions"],
-   "learning_outcomes":["Divide an object into 2 equal parts","Identify halves in pictures"],
-   "introduction":"Ask pupils if they have shared food before. Discuss what 'half' means.",
-   "activities":["Starter (5 min): Show a mango, cut into halves.","Main: pupils divide paper shapes.","Wrap-up: discuss what makes equal parts."],
-   "differentiation":["Pair learners by ability","Use larger objects for pupils with low vision"],
-   "materials":["mango or orange","chalk","paper"],
-   "assessment":["Draw half of a shape","Group discussion check"],
-   "classroom_management":["Keep groups small","Monitor material use"],
-   "extension":"Ask pupils to find examples of halves at home.",
-   "low_data_version":"Show a fruit and ask pupils to divide a drawing into halves.",
-   "notes":"Be fair when using food examples."}}
-
-EXAMPLE 2:
-{{ "title":"Introduction to Soil and Plants (Primary 5)",
-   "objectives":["Identify common soil types","Understand the role of soil in plant growth"],
-   "learning_outcomes":["Classify soil samples","Describe how soil supports plants"],
-   "introduction":"Display three soil samples and ask pupils to describe their differences.",
-   "activities":["Observation (10 min): pupils touch and compare soils.","Experiment: plant a seed in each type.","Discussion: which soil helped growth best?"],
-   "differentiation":["Provide visual aids for pupils with difficulty writing","Encourage peer explanation"],
-   "materials":["bottles","local soil samples","beans","labels"],
-   "assessment":["Short oral questions","Practical demonstration"],
-   "classroom_management":["Ensure safe handling of soil","Organize group tasks clearly"],
-   "extension":"Ask pupils to observe soil at home or on farms.",
-   "low_data_version":"Compare three soil types using touch and sight; discuss which grows plants better.",
-   "notes":"Ensure pupils wash hands after the activity."}}
+1) Return only JSON with these exact keys:
+   - title
+   - objectives
+   - learning_outcomes
+   - introduction
+   - activities
+   - differentiation
+   - materials
+   - assessment
+   - classroom_management
+   - extension
+   - low_data_version
+   - notes
+2) Write short, functional sentences suitable for local learning contexts.
+3) Avoid any reference to personal, medical, political, or sensitive issues.
+4) Focus on task-based, practical activities that use common, low-cost materials.
+5) If {output_mode} == "short", limit the plan to minimal elements (1–2 objectives).
+6) Ensure the plan is self-contained, neutral in tone, and instructional.
+7) Use simple English and context-neutral examples (e.g., “use local objects,” “draw on board”).
+8) Do not include markdown, explanations, or extra text—JSON only.
 
 END PROMPT.
 """
+
 
 
 
