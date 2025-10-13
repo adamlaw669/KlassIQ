@@ -9,11 +9,21 @@ import os
 import json
 import time
 try:
-    import requests
+    import google.generativeai as genai
+    GEMINI_AVAILABLE = True
 except ImportError:
-    # Fallback if requests is not available
+    genai = None
+    GEMINI_AVAILABLE = False
+    print("Warning: google-generativeai not available. Install with: pip install google-generativeai")
+
+try:
+    import requests
+    REQUESTS_AVAILABLE = True
+except ImportError:
     requests = None
-    print("Warning: requests module not available. HTTP calls will be disabled.")
+    REQUESTS_AVAILABLE = False
+    print("Warning: requests module not available.")
+
 import hashlib
 from pathlib import Path
 from typing import List, Dict, Optional, Union
@@ -22,14 +32,21 @@ from typing import List, Dict, Optional, Union
 CACHE_DIR = Path(__file__).resolve().parents[1] / "tmp_cache"
 CACHE_DIR.mkdir(parents=True, exist_ok=True)
 
+# Environment variables for LLM
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "").strip()
+LLM_API_KEY = os.environ.get("LLM_API_KEY", "").strip()  # Fallback to generic key
 LLM_API_URL = os.environ.get("LLM_API_URL", "").strip()
-LLM_API_KEY = os.environ.get("LLM_API_KEY", "").strip()
-LLM_MODEL = os.environ.get("LLM_MODEL", "").strip()  # optional, used if API requires a model name
+LLM_MODEL = os.environ.get("LLM_MODEL", "gemini-pro").strip()
 
-# Basic safety: ensure API credentials are set (but don't die loudly in prod)
-if not LLM_API_URL or not LLM_API_KEY:
-    # we allow offline runs (local placeholder) but warn
-    print("Warning: LLM_API_URL or LLM_API_KEY not configured. The lesson generator will use a local fallback.")
+# Configure Gemini if available
+if GEMINI_AVAILABLE and (GEMINI_API_KEY or LLM_API_KEY):
+    api_key = GEMINI_API_KEY or LLM_API_KEY
+    genai.configure(api_key=api_key)
+    print("Gemini AI configured successfully")
+elif GEMINI_AVAILABLE:
+    print("Warning: Gemini API key not found. Set GEMINI_API_KEY or LLM_API_KEY environment variable.")
+else:
+    print("Warning: Gemini SDK not available. The lesson generator will use local fallback.")
 
 
 def normalize_grade(grade: str) -> str:
@@ -276,71 +293,87 @@ def _read_cache(key: str) -> Optional[Dict]:
 
 def _call_llm(prompt: str, max_tokens: int = 1200, temperature: float = 0.2) -> str:
     """
-    Generic LLM HTTP caller. Expects a JSON response with 'text' or similar.
-    Configure LLM_API_URL and LLM_API_KEY in env.
-    This function is intentionally generic so you can point it at your provider.
+    Call LLM API (Gemini preferred, with fallbacks).
     """
-    if not LLM_API_URL or not LLM_API_KEY:
-        # Offline fallback: return a templated stub plan (useful for local dev)
-        return json.dumps({
-            "title": "SAMPLE LESSON - offline mode",
-            "objectives": ["(offline) practice objective 1", "(offline) practice objective 2"],
-            "introduction": "Introduce topic briefly (offline fallback).",
-            "activities": ["Activity 1 (discussion)", "Activity 2 (hands-on)"],
-            "assessment": ["Ask students to summarize key points"],
-            "materials": ["Local objects, chalk, paper"],
-            "notes": "Offline fallback used because no LLM credentials configured."
-        })
+    # Try Gemini first
+    if GEMINI_AVAILABLE and (GEMINI_API_KEY or LLM_API_KEY):
+        try:
+            model = genai.GenerativeModel(LLM_MODEL)
+            
+            generation_config = genai.types.GenerationConfig(
+                max_output_tokens=max_tokens,
+                temperature=temperature,
+            )
+            
+            response = model.generate_content(
+                prompt,
+                generation_config=generation_config
+            )
+            
+            if response and response.text:
+                return response.text.strip()
+            else:
+                print("Gemini returned empty response, using fallback")
+                
+        except Exception as e:
+            print(f"Gemini API error: {str(e)}, using fallback")
     
-    if requests is None:
-        # No requests module available - return offline fallback
-        return json.dumps({
-            "title": "SAMPLE LESSON - requests module not available",
-            "objectives": ["(no-requests) practice objective 1", "(no-requests) practice objective 2"],
-            "introduction": "Introduce topic briefly (no HTTP capability).",
-            "activities": ["Activity 1 (discussion)", "Activity 2 (hands-on)"],
-            "assessment": ["Ask students to summarize key points"],
-            "materials": ["Local objects, chalk, paper"],
-            "notes": "HTTP requests not available - using fallback response."
-        })
+    # Fallback to generic HTTP API if configured
+    if REQUESTS_AVAILABLE and LLM_API_URL and (LLM_API_KEY or GEMINI_API_KEY):
+        try:
+            api_key = LLM_API_KEY or GEMINI_API_KEY
+            headers = {
+                "Authorization": f"Bearer {api_key}",
+                "Content-Type": "application/json",
+            }
 
-    headers = {
-        "Authorization": f"Bearer {LLM_API_KEY}",
-        "Content-Type": "application/json",
-    }
+            payload = {
+                "model": LLM_MODEL or "default",
+                "messages": [
+                    {"role": "system", "content": "You are a clear, practical education expert who writes lesson plans for low-resource classrooms in Nigeria."},
+                    {"role": "user", "content": prompt}
+                ],
+                "temperature": temperature,
+                "max_tokens": max_tokens
+            }
 
-    payload = {
-        "model": LLM_MODEL or "default",
-        "messages": [
-            {"role": "system", "content": "You are a clear, practical education expert who writes lesson plans for low-resource classrooms in Nigeria."},
-            {"role": "user", "content": prompt}
-        ],
-        "temperature": temperature,
-        "max_tokens": max_tokens
-    }
-
-    try:
-        resp = requests.post(LLM_API_URL, headers=headers, json=payload, timeout=30)
-        resp.raise_for_status()
-        data = resp.json()
-        # try common paths for the generated text
-        # Many providers use data["choices"][0]["message"]["content"]
-        if isinstance(data, dict):
-            # path 1: OpenAI-style
-            try:
-                return data["choices"][0]["message"]["content"]
-            except Exception:
-                pass
-            # path 2: simple text
-            if "text" in data:
-                return data["text"]
-            # path 3: top-level output
-            # If provider returns JSON string directly
+            resp = requests.post(LLM_API_URL, headers=headers, json=payload, timeout=30)
+            resp.raise_for_status()
+            data = resp.json()
+            
+            # Try common response formats
+            if isinstance(data, dict):
+                if "choices" in data and len(data["choices"]) > 0:
+                    return data["choices"][0]["message"]["content"]
+                elif "text" in data:
+                    return data["text"]
+                
             return json.dumps(data)
-        return str(data)
-    except Exception as e:
-        # rate-limit or network error: return a helpful message for the frontend
-        return json.dumps({"error": f"LLM request failed: {str(e)}"})
+            
+        except Exception as e:
+            print(f"HTTP API error: {str(e)}, using fallback")
+    
+    # Final fallback: offline template
+    return json.dumps({
+        "title": "Sample Lesson Plan",
+        "objectives": ["Students will understand the topic", "Students will apply key concepts"],
+        "learning_outcomes": ["Demonstrate understanding", "Complete exercises correctly"],
+        "introduction": "Begin with a brief introduction to engage students and activate prior knowledge.",
+        "activities": [
+            "Warm-up activity (5 minutes)",
+            "Main lesson presentation (15 minutes)", 
+            "Guided practice (10 minutes)",
+            "Independent work (10 minutes)",
+            "Wrap-up and review (5 minutes)"
+        ],
+        "differentiation": ["Provide extra support for struggling learners", "Offer extension activities for advanced students"],
+        "materials": ["Chalkboard", "Textbooks", "Writing materials"],
+        "assessment": ["Observe student participation", "Check completed exercises", "Ask comprehension questions"],
+        "classroom_management": ["Ensure all students can see and hear", "Move around the classroom", "Use positive reinforcement"],
+        "extension": "Assign related homework or encourage students to explore the topic further",
+        "low_data_version": "Present key concepts clearly, have students practice with available materials, assess understanding through simple questions.",
+        "notes": "This is a fallback lesson plan template. Configure Gemini API for AI-generated content."
+    })
 
 
 
