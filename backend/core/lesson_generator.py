@@ -378,7 +378,7 @@ def _call_llm(prompt: str, max_tokens: int = 1200, temperature: float = 0.2) -> 
 
 
 PROMPT_TEMPLATE = """
-You are an expert curriculum designer and veteran primary/secondary teacher who writes short, practical, context-aware lesson plans for low-resource classrooms in Nigeria.
+You are an expert curriculum designer and veteran primary/secondary teacher who writes short, practical, context-aware lesson plans for low(or high)-resource  classrooms in Nigeria.
 Your job: produce a single, tightly-structured lesson plan JSON for the teacher's input below. Be concise and practical.
 
 CONTEXT (Curriculum objectives found for the requested topic):
@@ -394,50 +394,60 @@ TEACHER INPUT:
 - Output mode: {output_mode}
 
 REQUIREMENTS:
-1) Return **only valid JSON** (no extra explanation or markdown). The top-level object must include exactly these keys:
+1) Return **only valid JSON** (no explanations or markdown). The top-level object must include exactly these keys:
    - title (string)
-   - objectives (list of short strings, 2-4 items)
-   - learning_outcomes (list of short measurable outcomes 2-4 items)
-   - introduction (1-2 short paragraphs; how to hook students)
-   - activities (list of step-by-step activities; include approximate time for each)
-   - differentiation (short suggestions for low/high ability or large class)
-   - materials (list of items teachers can use; prefer local, low-cost materials)
-   - assessment (list of 2-4 quick assessment items or formative tasks)
-   - classroom_management (2-3 short practical tips)
-   - extension (optional homework / community link)
-   - low_data_version (string) - a 1-paragraph, printer-friendly version (short)
-   - notes (short safety / sensitivity / cultural considerations)
-2) Make sure all examples and contextualized references are realistic for Nigerian primary/JSS classrooms.
-3) Keep language simple. Avoid advanced jargon. Use local examples when possible (market, farm, household, local transport, common materials).
-4) If curriculum_context is empty or lacks specifics, generate a safe generic plan aligned to the subject and grade.
-5) If teacher_input describes specific materials, adapt at least one activity to use those materials.
-6) If {output_mode} == "short", produce minimal, compact outputs (shorter activities, 1-2 objectives).
-7) Do NOT include policy prescriptions or clinical advice (no health diagnoses).
-8) Keep answer length restricted to what fits typical LLM token limits; be concise.
+   - objectives (list of 2–4 short statements)
+   - learning_outcomes (list of 2–4 measurable results)
+   - introduction (1–2 brief paragraphs that engage students)
+   - activities (list of clear, time-bounded steps)
+   - differentiation (brief tips for mixed-ability or large classes)
+   - materials (list of local, affordable items teachers can use)
+   - assessment (2–4 simple evaluation ideas or tasks)
+   - classroom_management (2–3 short practical reminders)
+   - extension (optional homework or follow-up activity)
+   - low_data_version (string) – one compact, printable paragraph version
+   - notes (brief classroom or cultural considerations)
+2) Keep all examples and contexts realistic for Nigerian classrooms.
+3) Use simple English and include relatable local examples (market, farm, home, road, etc.).
+4) If curriculum_context is empty, produce a generic plan aligned with the subject and grade.
+5) If the teacher provided specific materials, integrate them into at least one activity.
+6) If {output_mode} == "short", create a compact version with 1–2 objectives and fewer activities.
+7) Keep the response appropriate for children and focused on learning content only.
+8) Be concise and practical; avoid unnecessary commentary.
 
-Here are two JSON examples to show style and format (ONLY for style - do not copy exact language):
+Here are two JSON examples to show format (ONLY for structure, not content):
 
 EXAMPLE 1:
 {{ "title":"Local Fractions (Primary 4)",
-   "objectives":["Understand halves and quarters", "Use everyday objects to demonstrate fractions"],
+   "objectives":["Understand halves and quarters","Use everyday objects to demonstrate fractions"],
    "learning_outcomes":["Divide an object into 2 equal parts","Identify halves in pictures"],
-   "introduction":"Ask pupils if they have shared food... (short)",
-   "activities":["Starter (5 min): Show a mango, cut into halves. Discuss.", "Main activity: Practice dividing objects", "Conclusion: Review key concepts"],
-   "differentiation":["Pair weaker learners with stronger peers","Use larger concrete objects for low-vision pupils"],
-   "materials":["mango or orange, paper, chalk"],
-   "assessment":["Group show-and-tell","Short board exercise: draw half of the shape"],
-   "classroom_management":["Assign roles to groups","Use simple hand signals"],
-   "extension":"Ask pupils to find halves at home",
-   "low_data_version":"Starter: show a fruit. Activity: ask pupils to divide a drawing into halves.",
-   "notes":"Be sensitive when using examples involving food distribution; ensure fairness."
-}}
+   "introduction":"Ask pupils if they have shared food before. Discuss what 'half' means.",
+   "activities":["Starter (5 min): Show a mango, cut into halves.","Main: pupils divide paper shapes.","Wrap-up: discuss what makes equal parts."],
+   "differentiation":["Pair learners by ability","Use larger objects for pupils with low vision"],
+   "materials":["mango or orange","chalk","paper"],
+   "assessment":["Draw half of a shape","Group discussion check"],
+   "classroom_management":["Keep groups small","Monitor material use"],
+   "extension":"Ask pupils to find examples of halves at home.",
+   "low_data_version":"Show a fruit and ask pupils to divide a drawing into halves.",
+   "notes":"Be fair when using food examples."}}
 
 EXAMPLE 2:
-{{ "title":"Intro to Soil and Plants (Primary 5)",
-   "objectives":[...], "learning_outcomes":[...], ... }}
+{{ "title":"Introduction to Soil and Plants (Primary 5)",
+   "objectives":["Identify common soil types","Understand the role of soil in plant growth"],
+   "learning_outcomes":["Classify soil samples","Describe how soil supports plants"],
+   "introduction":"Display three soil samples and ask pupils to describe their differences.",
+   "activities":["Observation (10 min): pupils touch and compare soils.","Experiment: plant a seed in each type.","Discussion: which soil helped growth best?"],
+   "differentiation":["Provide visual aids for pupils with difficulty writing","Encourage peer explanation"],
+   "materials":["bottles","local soil samples","beans","labels"],
+   "assessment":["Short oral questions","Practical demonstration"],
+   "classroom_management":["Ensure safe handling of soil","Organize group tasks clearly"],
+   "extension":"Ask pupils to observe soil at home or on farms.",
+   "low_data_version":"Compare three soil types using touch and sight; discuss which grows plants better.",
+   "notes":"Ensure pupils wash hands after the activity."}}
 
 END PROMPT.
 """
+
 
 
 def generate_lesson_plan(
