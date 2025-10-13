@@ -298,7 +298,7 @@ def _call_llm(prompt: str, max_tokens: int = 1200, temperature: float = 0.2) -> 
     # Try Gemini first
     if GEMINI_AVAILABLE and (GEMINI_API_KEY or LLM_API_KEY):
         try:
-            model = genai.GenerativeModel(f"models/{LLM_MODEL}")
+            model = genai.GenerativeModel('models/gemini-pro-latest')
             
             generation_config = genai.types.GenerationConfig(
                 max_output_tokens=max_tokens,
