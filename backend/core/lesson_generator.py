@@ -229,8 +229,7 @@ def _call_llm(prompt: str, max_tokens: int = 1200, temperature: float = 0.15) ->
         else:
             # Handle cases where the API call succeeds but the model returns no text (e.g., blocked content)
             print(f"⚠️ Empty response from Gemini")
-            print(f"🔍 Response object: {response}")
-            print(f"🔍 Prompt feedback: {getattr(response, 'prompt_feedback', 'None')}")
+            print(f"🔍 Full response object: {response}")
             return json.dumps({"error": "Gemini returned empty response.", 
                                "feedback": str(getattr(response, 'prompt_feedback', 'None'))})
             
