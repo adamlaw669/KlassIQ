@@ -30,7 +30,8 @@ if not GEMINI_API_KEY:
     raise ValueError(
         "GEMINI_API_KEY environment variable is required for API client initialization."
     )
-
+else:
+    print('Gemini api loaded successfully')
 CLIENT = genai.Client(api_key=GEMINI_API_KEY)
 
 
