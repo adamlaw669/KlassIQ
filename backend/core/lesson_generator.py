@@ -21,8 +21,8 @@ import re # Keep regex for robust JSON parsing
 
 # --- Configuration & Initialization ---
 
-# Environment variables
-GEMINI_API_KEY = os.getenv('GEMINI_API_KEY')
+# Environment variables - hardcoded for deployment stability
+GEMINI_API_KEY = os.getenv('GEMINI_API_KEY') or "AIzaSyAhkD0dv_JIv9ZVCqzLOPNUhkr6hjEf1eI"
 LLM_MODEL = os.getenv("LLM_MODEL", 'gemini-2.0-flash').strip()
 
 # Initialize Gemini Client (will be set when API key is available)
@@ -183,11 +183,6 @@ def _call_llm(prompt: str, max_tokens: int = 1200, temperature: float = 0.15) ->
         # Ensure client is initialized
         client = _ensure_client()
         
-        generation_config = types.GenerationConfig(
-            max_output_tokens=max_tokens,
-            temperature=temperature,
-        )
-        
         # Count tokens for safety (optional, but good practice to keep)
         token_response = client.models.count_tokens(
             model=LLM_MODEL, 
@@ -204,7 +199,10 @@ def _call_llm(prompt: str, max_tokens: int = 1200, temperature: float = 0.15) ->
         response = client.models.generate_content(
             model=LLM_MODEL, 
             contents=prompt,
-            config=generation_config
+            config=types.GenerateContentConfig(
+                temperature=temperature,
+                maxOutputTokens=max_tokens
+            )
         )
         
         if response and response.text:
