@@ -25,14 +25,22 @@ import re # Keep regex for robust JSON parsing
 GEMINI_API_KEY = os.getenv('GEMINI_API_KEY')
 LLM_MODEL = os.getenv("LLM_MODEL", 'gemini-2.0-flash').strip()
 
-# Initialize Gemini Client (Fail fast if key is missing)
-if not GEMINI_API_KEY:
-    raise ValueError(
-        "GEMINI_API_KEY environment variable is required for API client initialization."
-    )
-else:
-    print('Gemini api loaded successfully')
-CLIENT = genai.Client(api_key=GEMINI_API_KEY)
+# Initialize Gemini Client (will be set when API key is available)
+CLIENT = None
+
+def _ensure_client():
+    """Initialize the Gemini client if not already done."""
+    global CLIENT
+    if CLIENT is None:
+        if not GEMINI_API_KEY:
+            raise ValueError(
+                "GEMINI_API_KEY environment variable is required for API client initialization. "
+                "Please set this environment variable in your deployment settings (Render.com dashboard > Environment tab) "
+                "with a valid Google Gemini API key from https://aistudio.google.com/app/apikey"
+            )
+        CLIENT = genai.Client(api_key=GEMINI_API_KEY)
+        print('Gemini api loaded successfully')
+    return CLIENT
 
 
 # --- Utility Functions: Normalization ---
@@ -172,13 +180,16 @@ def get_curriculum_objectives(grade: str, subject: str, topic: str) -> Dict[str,
 def _call_llm(prompt: str, max_tokens: int = 1200, temperature: float = 0.15) -> str:
     """Directly call the Gemini API using the global client."""
     try:           
+        # Ensure client is initialized
+        client = _ensure_client()
+        
         generation_config = types.GenerationConfig(
             max_output_tokens=max_tokens,
             temperature=temperature,
         )
         
         # Count tokens for safety (optional, but good practice to keep)
-        token_response = CLIENT.models.count_tokens(
+        token_response = client.models.count_tokens(
             model=LLM_MODEL, 
             contents=prompt
         )
@@ -190,7 +201,7 @@ def _call_llm(prompt: str, max_tokens: int = 1200, temperature: float = 0.15) ->
         if prompt_tokens > 500000: 
             raise RuntimeError(f"Input too large: {prompt_tokens} tokens (Max 500k advisory limit).")
 
-        response = CLIENT.models.generate_content(
+        response = client.models.generate_content(
             model=LLM_MODEL, 
             contents=prompt,
             config=generation_config

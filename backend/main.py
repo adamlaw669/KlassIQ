@@ -34,11 +34,18 @@ def health_check():
         curriculum_path = Path(__file__).resolve().parent / "data" / "curriculum_map.json"
         curriculum_exists = curriculum_path.exists()
         
+        # Check API key availability
+        gemini_api_key_available = bool(os.getenv('GEMINI_API_KEY'))
+        
         health_info = {
             "status": "ok", 
             "message": "KlassIQ backend is running smoothly.",
-            "curriculum_map_exists": curriculum_exists
+            "curriculum_map_exists": curriculum_exists,
+            "gemini_api_key_configured": gemini_api_key_available
         }
+        
+        if not gemini_api_key_available:
+            health_info["warning"] = "GEMINI_API_KEY not configured - lesson generation will fail"
         
         if curriculum_exists:
             try:
