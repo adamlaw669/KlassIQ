@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 
-CURRICULUM_PATH = Path(__file__).resolve().parents[1] / "data" / "curriculum_map.json"
+CURRICULUM_PATH = Path(__file__).resolve().parents[2] / "data" / "curriculum_map.json"
 
 def get_curriculum_objectives(grade: str, subject: str, topic: str):
     try:
