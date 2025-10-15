@@ -23,7 +23,7 @@ import re # Keep regex for robust JSON parsing
 
 # Environment variables - hardcoded for deployment stability
 GEMINI_API_KEY = os.getenv('GEMINI_API_KEY', "AIzaSyAhkD0dv_JIv9ZVCqzLOPNUhkr6hjEf1eI")
-LLM_MODEL = os.getenv("LLM_MODEL", 'gemini-2.0-flash').strip()
+LLM_MODEL = 'gemini-flash-latest'  # Use latest stable flash model
 
 # Initialize Gemini Client (will be set when API key is available)
 CLIENT = None
@@ -193,7 +193,9 @@ def _call_llm(prompt: str, max_tokens: int = 1200, temperature: float = 0.15) ->
         print(f"✅ Client initialized successfully")
         
         # Count tokens for safety (optional, but good practice to keep)
-        print(f"🔢 Counting tokens for model: {LLM_MODEL}")
+        print(f"🔢 Counting tokens for model: '{LLM_MODEL}' (type: {type(LLM_MODEL)})")
+        print(f"🔍 Model name length: {len(LLM_MODEL)} chars")
+        print(f"🔍 Model name repr: {repr(LLM_MODEL)}")
         token_response = client.models.count_tokens(
             model=LLM_MODEL, 
             contents=prompt
