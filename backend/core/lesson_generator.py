@@ -1,71 +1,43 @@
 """
+LLM Service Module for Generating Lesson Plans
+
+This module provides functions to fetch curriculum data, normalize inputs, 
+and generate structured lesson plans by directly calling the Google Gemini API.
+
 Environment variables expected:
- - LLM_API_URL  -> the HTTP endpoint for your LLM 
- - LLM_API_KEY  -> the API key for that endpoint
- - LLM_MODEL    -> optional model identifier 
+ - GEMINI_API_KEY -> The API key for the Gemini service.
+ - LLM_MODEL      -> Optional model identifier (default: 'gemini-2.0-flash').
+ 
+NOTE: All debugging prints, caching, and fallback logic have been removed.
 """
 
 import os
 import json
-import time
-try:
-    import google.generativeai as genai
-    GEMINI_AVAILABLE = True
-except ImportError:
-    genai = None
-    GEMINI_AVAILABLE = False
-    print("Warning: google-generativeai not available. Install with: pip install google-generativeai")
-
-try:
-    import requests
-    REQUESTS_AVAILABLE = True
-except ImportError:
-    requests = None
-    REQUESTS_AVAILABLE = False
-    print("Warning: requests module not available.")
-
-import hashlib
 from pathlib import Path
 from typing import List, Dict, Optional, Union
+from google import genai
+from google.genai import types
+import re # Keep regex for robust JSON parsing
 
-# Simple file-based cache for generated plans (avoid repeat API calls during demo)
-CACHE_DIR = Path(__file__).resolve().parents[1] / "tmp_cache"
-CACHE_DIR.mkdir(parents=True, exist_ok=True)
+# --- Configuration & Initialization ---
 
-# Environment variables for LLM
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "").strip()
-LLM_API_KEY = os.environ.get("LLM_API_KEY", "").strip()  # Fallback to generic key
-LLM_API_URL = os.environ.get("LLM_API_URL", "").strip()
-LLM_MODEL = os.environ.get("LLM_MODEL").strip()
+# Environment variables
+GEMINI_API_KEY = os.getenv('GEMINI_API_KEY')
+LLM_MODEL = os.getenv("LLM_MODEL", 'gemini-2.0-flash').strip()
 
-# Configure Gemini if available
-if GEMINI_AVAILABLE and (GEMINI_API_KEY or LLM_API_KEY):
-    api_key = GEMINI_API_KEY or LLM_API_KEY
-    genai.configure(api_key=api_key)
-    print("Gemini AI configured successfully")
-    safety_settings = [
-    {"category": "HARM_CATEGORY_HARASSMENT", "threshold": "BLOCK_NONE"},
-    {"category": "HARM_CATEGORY_HATE_SPEECH", "threshold": "BLOCK_NONE"},
-    {"category": "HARM_CATEGORY_SEXUALLY_EXPLICIT", "threshold": "BLOCK_NONE"},
-    {"category": "HARM_CATEGORY_DANGEROUS_CONTENT", "threshold": "BLOCK_NONE"},
-]
-    print('Set the safety settings')
-elif GEMINI_AVAILABLE:
-    print("Warning: Gemini API key not found. Set GEMINI_API_KEY or LLM_API_KEY environment variable.")
-else:
-    print("Warning: Gemini SDK not available. The lesson generator will use local fallback.")
+# Initialize Gemini Client (Fail fast if key is missing)
+if not GEMINI_API_KEY:
+    raise ValueError(
+        "GEMINI_API_KEY environment variable is required for API client initialization."
+    )
 
+CLIENT = genai.Client(api_key=GEMINI_API_KEY)
+
+
+# --- Utility Functions: Normalization ---
 
 def normalize_grade(grade: str) -> str:
-    """
-    Normalize grade input to match curriculum structure.
-    
-    Args:
-        grade: Input grade (e.g., "JSS 1", "Primary 4", "Junior Secondary 1")
-        
-    Returns:
-        str: Normalized grade matching curriculum structure
-    """
+    """Normalize grade input to match curriculum structure."""
     grade_lower = grade.lower().strip()
     
     # JSS mappings
@@ -74,7 +46,6 @@ def normalize_grade(grade: str) -> str:
     
     # Primary mappings
     if 'primary' in grade_lower or 'pri' in grade_lower:
-        # Extract number if present
         for char in grade_lower:
             if char.isdigit():
                 num = int(char)
@@ -83,7 +54,6 @@ def normalize_grade(grade: str) -> str:
                 elif num in [4, 5, 6]:
                     return "Primary 4–6"
                 break
-        # Default to Primary 1-3 if no number found
         return "Primary 1–3"
     
     # Direct matches
@@ -97,18 +67,9 @@ def normalize_grade(grade: str) -> str:
 
 
 def normalize_subject(subject: str) -> str:
-    """
-    Normalize subject input to match curriculum structure.
-    
-    Args:
-        subject: Input subject name
-        
-    Returns:
-        str: Normalized subject name
-    """
+    """Normalize subject input to match curriculum structure."""
     subject_lower = subject.lower().strip()
     
-    # Subject mappings
     subject_mappings = {
         'english': 'english_studies',
         'mathematics': 'maths',
@@ -118,9 +79,8 @@ def normalize_subject(subject: str) -> str:
         'technology': 'basic_science_technology',
         'creative arts': 'cca',
         'arts': 'cca',
-        'cca': 'cca',
-        'christian religious studies': 'crs',
         'crs': 'crs',
+        'christian religious studies': 'crs',
         'islamic studies': 'islamic',
         'islamic': 'islamic',
         'hausa': 'hausa',
@@ -136,253 +96,118 @@ def normalize_subject(subject: str) -> str:
     return subject_mappings.get(subject_lower, subject)
 
 
+# --- Curriculum Retrieval ---
+
 def get_curriculum_objectives(grade: str, subject: str, topic: str) -> Dict[str, Union[List[str], str]]:
-    """
-    Fetch curriculum objectives for a specific grade, subject, and topic.
-    
-    Args:
-        grade: Grade level (e.g., "Primary 1–3", "Primary 4–6", "Junior Secondary 1–3")
-        subject: Subject name (e.g., "english_studies", "maths", "basic_science_technology")
-        topic: Topic name to search for
-        
-    Returns:
-        Dict containing objectives, content, activities, and resources or error message
-    """
+    """Fetch curriculum objectives for a specific grade, subject, and topic from the local map."""
     try:
-        # Normalize inputs
         grade = normalize_grade(grade)
         subject = normalize_subject(subject)
         
-        # Load the merged curriculum map
         curriculum_path = Path(__file__).resolve().parents[1] / "data" / "curriculum_map.json"
         
         if not curriculum_path.exists():
-            return {
-                "error": "Curriculum map not found. Please run merge_curriculums.py first.",
-                "objectives": [],
-                "content": [],
-                "teacher_activities": [],
-                "student_activities": [],
-                "resources": []
-            }
+            return {"error": "Curriculum map file not found."}
             
         with open(curriculum_path, 'r', encoding='utf-8') as f:
             curriculum_data = json.load(f)
             
-        # Check if grade level exists
         if grade not in curriculum_data:
-            available_grades = list(curriculum_data.keys())
-            return {
-                "error": f"Grade '{grade}' not found. Available grades: {available_grades}",
-                "objectives": [],
-                "content": [],
-                "teacher_activities": [],
-                "student_activities": [],
-                "resources": []
-            }
+            return {"error": f"Grade '{grade}' not found. Available: {list(curriculum_data.keys())}"}
             
         grade_data = curriculum_data[grade]
         
-        # Check if subject exists in this grade
         if subject not in grade_data:
-            available_subjects = list(grade_data.keys())
-            return {
-                "error": f"Subject '{subject}' not found in {grade}. Available subjects: {available_subjects}",
-                "objectives": [],
-                "content": [],
-                "teacher_activities": [],
-                "student_activities": [],
-                "resources": []
-            }
+            return {"error": f"Subject '{subject}' not found in {grade}. Available: {list(grade_data.keys())}"}
             
         subject_data = grade_data[subject]
         
-        # Search recursively for the topic in all levels, themes, sub-themes
-        def search_topic_recursive(data: Dict, search_topic: str) -> Optional[Dict]:
-            """Recursively search for a topic in the curriculum structure."""
+        # Recursive search function (kept simplified)
+        def search_topic_recursive(data: Union[Dict, List], search_topic: str) -> Optional[Dict]:
             search_topic_lower = search_topic.lower().strip()
             
             if isinstance(data, dict):
-                # Check if we're at a level with THEMES (like PRIMARY 1, JSS1, etc.)
-                if "THEMES" in data:
-                    themes = data["THEMES"]
-                    if isinstance(themes, list):
-                        for theme in themes:
-                            if isinstance(theme, dict) and "SUB THEMES" in theme:
-                                sub_themes = theme["SUB THEMES"]
-                                if isinstance(sub_themes, list):
-                                    for sub_theme in sub_themes:
-                                        if isinstance(sub_theme, dict) and "TOPICS" in sub_theme:
-                                            topics = sub_theme["TOPICS"]
-                                            if isinstance(topics, list):
-                                                for topic_item in topics:
-                                                    if isinstance(topic_item, dict) and "TOPIC NAME" in topic_item:
-                                                        topic_name = topic_item["TOPIC NAME"].lower().strip()
-                                                        if search_topic_lower in topic_name or topic_name in search_topic_lower:
-                                                            return topic_item
-                
-                # Recursively search in nested structures
-                for key, value in data.items():
-                    if isinstance(value, (dict, list)):
-                        result = search_topic_recursive(value, search_topic)
-                        if result:
-                            return result
+                if "TOPIC NAME" in data:
+                    topic_name = data["TOPIC NAME"].lower().strip()
+                    if search_topic_lower in topic_name or topic_name in search_topic_lower:
+                        return data
+
+                for value in data.values():
+                    result = search_topic_recursive(value, search_topic)
+                    if result:
+                        return result
                             
             elif isinstance(data, list):
                 for item in data:
-                    if isinstance(item, (dict, list)):
-                        result = search_topic_recursive(item, search_topic)
-                        if result:
-                            return result
+                    result = search_topic_recursive(item, search_topic)
+                    if result:
+                        return result
                             
             return None
         
-        # Search for the topic
         topic_data = search_topic_recursive(subject_data, topic)
         
         if not topic_data:
-            return {
-                "error": f"Topic '{topic}' not found in {subject} for {grade}",
-                "objectives": [],
-                "content": [],
-                "teacher_activities": [],
-                "student_activities": [],
-                "resources": []
-            }
+            return {"error": f"Topic '{topic}' not found in {subject} for {grade}"}
         
-        # Extract the curriculum information
+        # Extract and map the curriculum information
         result = {
             "objectives": topic_data.get("PERFORMANCE OBJECTIVES", []),
             "content": topic_data.get("CONTENT", []),
             "teacher_activities": topic_data.get("TEACHER ACTIVITIES", []),
             "student_activities": topic_data.get("STUDENTS ACTIVITIES", topic_data.get("PUPILS ACTIVITIES", [])),
-            "resources": topic_data.get("TEACHING AND LEARNING RESOURCES", [])
+            "resources": topic_data.get("TEACHING AND LEARNING RESOURCES", []),
+            "topic_name": topic_data.get("TOPIC NAME", topic)
         }
-        
-        # Add topic name for context
-        if "TOPIC NAME" in topic_data:
-            result["topic_name"] = topic_data["TOPIC NAME"]
-            
         return result
         
     except Exception as e:
-        return {
-            "error": f"Error retrieving curriculum objectives: {str(e)}",
-            "objectives": [],
-            "content": [],
-            "teacher_activities": [],
-            "student_activities": [],
-            "resources": []
-        }
+        # Catch file system or JSON errors
+        return {"error": f"Error retrieving curriculum objectives: {str(e)}"}
 
 
-def _cache_key(subject: str, grade: str, topic: str, teacher_input: Optional[str], language: str, summary_mode: bool):
-    raw = json.dumps([subject, grade, topic, teacher_input or "", language, summary_mode], sort_keys=True)
-    return hashlib.sha256(raw.encode("utf-8")).hexdigest()
+# --- LLM Call Function ---
 
+def _call_llm(prompt: str, max_tokens: int = 1200, temperature: float = 0.15) -> str:
+    """Directly call the Gemini API using the global client."""
+    try:           
+        generation_config = types.GenerationConfig(
+            max_output_tokens=max_tokens,
+            temperature=temperature,
+        )
+        
+        # Count tokens for safety (optional, but good practice to keep)
+        token_response = CLIENT.models.count_tokens(
+            model=LLM_MODEL, 
+            contents=prompt
+        )
+        prompt_tokens = token_response.total_tokens
+        
+        # NOTE: Using a simple print here to log the token count for performance monitoring
+        print(f"INFO: Prompt token count for {LLM_MODEL}: {prompt_tokens}")
 
-def _write_cache(key: str, value: Dict):
-    p = CACHE_DIR / f"{key}.json"
-    with open(p, "w", encoding="utf-8") as f:
-        json.dump(value, f, ensure_ascii=False, indent=2)
+        if prompt_tokens > 500000: 
+            raise RuntimeError(f"Input too large: {prompt_tokens} tokens (Max 500k advisory limit).")
 
-
-def _read_cache(key: str) -> Optional[Dict]:
-    p = CACHE_DIR / f"{key}.json"
-    if not p.exists():
-        return None
-    try:
-        with open(p, "r", encoding="utf-8") as f:
-            return json.load(f)
-    except Exception:
-        return None
-
-
-def _call_llm(prompt: str, max_tokens: int = 1200, temperature: float = 0.2) -> str:
-    """
-    Call LLM API (Gemini preferred, with fallbacks).
-    """
-    # Try Gemini first
-    if GEMINI_AVAILABLE and (GEMINI_API_KEY or LLM_API_KEY):
-        try:
-            model = genai.GenerativeModel(model_name='models/gemini-pro-latest',safety_settings=safety_settings)
+        response = CLIENT.models.generate_content(
+            model=LLM_MODEL, 
+            contents=prompt,
+            config=generation_config
+        )
+        
+        if response and response.text:
+            return response.text.strip()
+        else:
+            # Handle cases where the API call succeeds but the model returns no text (e.g., blocked content)
+            return json.dumps({"error": "Gemini returned empty response.", 
+                               "feedback": str(response.prompt_feedback)})
             
-            generation_config = genai.types.GenerationConfig(
-                max_output_tokens=max_tokens,
-                temperature=temperature,
-            )
-            
-            response = model.generate_content(
-                prompt,
-                generation_config=generation_config
-            )
-            
-            if response and response.text:
-                return response.candidates[0].content.parts[0].text.strip()
-            else:
-                print("Gemini returned empty response, using fallback")
-                
-        except Exception as e:
-            print(f"Gemini API error: {str(e)}, using fallback")
-    
-    # Fallback to generic HTTP API if configured
-    if REQUESTS_AVAILABLE and LLM_API_URL and (LLM_API_KEY or GEMINI_API_KEY):
-        try:
-            api_key = LLM_API_KEY or GEMINI_API_KEY
-            headers = {
-                "Authorization": f"Bearer {api_key}",
-                "Content-Type": "application/json",
-            }
-
-            payload = {
-                "model": LLM_MODEL or "default",
-                "messages": [
-                    {"role": "system", "content": "You are a clear, practical education expert who writes lesson plans for low-resource and high resource classrooms in Nigeria."},
-                    {"role": "user", "content": prompt}
-                ],
-                "temperature": temperature,
-                "max_tokens": max_tokens
-            }
-
-            resp = requests.post(LLM_API_URL, headers=headers, json=payload, timeout=30)
-            resp.raise_for_status()
-            data = resp.json()
-            
-            # Try common response formats
-            if isinstance(data, dict):
-                if "choices" in data and len(data["choices"]) > 0:
-                    return data["choices"][0]["message"]["content"]
-                elif "text" in data:
-                    return data["text"]
-                
-            return json.dumps(data)
-            
-        except Exception as e:
-            print(f"HTTP API error: {str(e)}, using fallback")
-    
-    # Final fallback: offline template
-    return json.dumps({
-        "title": "Sample Lesson Plan",
-        "objectives": ["Students will understand the topic", "Students will apply key concepts"],
-        "learning_outcomes": ["Demonstrate understanding", "Complete exercises correctly"],
-        "introduction": "Begin with a brief introduction to engage students and activate prior knowledge.",
-        "activities": [
-            "Warm-up activity (5 minutes)",
-            "Main lesson presentation (15 minutes)", 
-            "Guided practice (10 minutes)",
-            "Independent work (10 minutes)",
-            "Wrap-up and review (5 minutes)"
-        ],
-        "differentiation": ["Provide extra support for struggling learners", "Offer extension activities for advanced students"],
-        "materials": ["Chalkboard", "Textbooks", "Writing materials"],
-        "assessment": ["Observe student participation", "Check completed exercises", "Ask comprehension questions"],
-        "classroom_management": ["Ensure all students can see and hear", "Move around the classroom", "Use positive reinforcement"],
-        "extension": "Assign related homework or encourage students to explore the topic further",
-        "low_data_version": "Present key concepts clearly, have students practice with available materials, assess understanding through simple questions.",
-        "notes": "This is a fallback lesson plan template. Configure Gemini API for AI-generated content."
-    })
+    except Exception as e:
+        # Raise generic RuntimeError to be caught by generate_lesson_plan
+        raise RuntimeError(f"Gemini API call failed: {str(e)}")
 
 
+# --- Prompt Template (Unchanged) ---
 
 PROMPT_TEMPLATE = """
 You are a curriculum expert and instructional designer experienced in creating simple, practical lesson structures for low-resource learning environments.
@@ -427,7 +252,7 @@ END PROMPT.
 """
 
 
-
+# --- Main Logic ---
 
 def generate_lesson_plan(
     subject: str,
@@ -437,33 +262,18 @@ def generate_lesson_plan(
     teacher_input: Optional[str] = None,
     language: str = "English",
     classroom_context: str = "rural",
-    output_mode: str = "full",    # "full" or "short"
-    use_cache: bool = True
+    output_mode: str = "full",
 ) -> Dict:
     """
-    Main entry point for the backend.
-    - subject, grade, topic: provided by the frontend
-    - curriculum_context: brief string summarizing the objectives from curriculum JSON (if None, will auto-retrieve)
-    - teacher_input: optional free text describing materials or constraints
-    - language: lesson output language (basic support - instruct LLM)
-    - classroom_context: 'rural' or 'urban' (affects examples)
-    - output_mode: 'full' or 'short' (for low-data / quick plans)
+    Main entry point for the backend. Generates a lesson plan using Gemini.
     """
-
-    # 1) try cache
-    key = _cache_key(subject, grade, topic, teacher_input, language, output_mode == "short")
-    if use_cache:
-        cached = _read_cache(key)
-        if cached:
-            return {"from_cache": True, "result": cached}
-
-    # 2) Get curriculum context - either provided or auto-retrieve
+    
+    # 1) Get curriculum context
     if curriculum_context is None:
-        # Auto-retrieve curriculum objectives
         curriculum_objectives = get_curriculum_objectives(grade, subject, topic)
         
         if "error" not in curriculum_objectives:
-            # Format the curriculum context
+            # Format the curriculum context from the retrieved data
             context_parts = []
             
             if curriculum_objectives.get("topic_name"):
@@ -474,30 +284,31 @@ def generate_lesson_plan(
                 
             if curriculum_objectives.get("content"):
                 content_str = '; '.join(curriculum_objectives['content'])
-                if len(content_str) > 500:  # Truncate if too long
+                if len(content_str) > 500:  # Truncate content if too long
                     content_str = content_str[:497] + "..."
                 context_parts.append(f"Content: {content_str}")
                 
             if curriculum_objectives.get("teacher_activities"):
                 activities_str = '; '.join(curriculum_objectives['teacher_activities'])
-                if len(activities_str) > 300:  # Truncate if too long
+                if len(activities_str) > 300:  # Truncate activities if too long
                     activities_str = activities_str[:297] + "..."
                 context_parts.append(f"Teacher Activities: {activities_str}")
                 
             curriculum_context = " | ".join(context_parts)
         else:
-            curriculum_context = f"(auto-retrieval failed: {curriculum_objectives.get('error', 'unknown error')})"
+            # If curriculum retrieval failed, use the error message as context
+            error_msg = curriculum_objectives.get('error', 'unknown error')
+            curriculum_context = f"(Curriculum error: {error_msg})"
     
-    # Sanitize curriculum_context length - we must avoid huge prompts
+    # Sanitize curriculum_context length - hard cap to prevent API errors
     if curriculum_context:
-        # keep to reasonable length, trim if needed
         curriculum_context = curriculum_context.strip()
         if len(curriculum_context) > 4000:
             curriculum_context = curriculum_context[:3900] + " ... [truncated]"
     else:
-        curriculum_context = "(no curriculum context provided)"
-
-    # 3) build prompt
+        curriculum_context = "(No curriculum context available)"
+        
+    # 2) Build Prompt
     prompt = PROMPT_TEMPLATE.format(
         curriculum_context=curriculum_context,
         grade=grade,
@@ -508,28 +319,30 @@ def generate_lesson_plan(
         teacher_input=teacher_input or "None provided",
         output_mode=("short" if output_mode == "short" else "full"),
     )
+    
+    # 3) Call the LLM
+    try:
+        llm_response_text = _call_llm(prompt, max_tokens=1200, temperature=0.15)
+    except RuntimeError as e:
+        # Catch and structure the raised API error for the FastAPI endpoint
+        return {"from_cache": False, "result": {"error": str(e)}}
 
-    # 4) call the LLM
-    llm_response_text = _call_llm(prompt, max_tokens=1200, temperature=0.15)
-
-    # 5) attempt to parse as JSON
+    # 4) Attempt to parse as JSON
     parsed = None
     try:
         parsed = json.loads(llm_response_text)
     except Exception:
-        # some LLMs may return JSON inside text; try to extract the first JSON object
-        import re
+        # Robust parsing: Try to extract the first JSON object from the text
         match = re.search(r"(\{[\s\S]*\})", llm_response_text)
         if match:
             try:
                 parsed = json.loads(match.group(1))
             except Exception:
-                parsed = {"error": "Failed to parse JSON from LLM output", "raw": llm_response_text}
+                # Parsing failed even after extraction
+                parsed = {"error": "LLM returned invalid JSON (extraction failed)", "raw": llm_response_text}
         else:
-            parsed = {"error": "LLM did not return JSON", "raw": llm_response_text}
+            # LLM returned non-JSON/non-parseable text
+            parsed = {"error": "LLM did not return JSON format", "raw": llm_response_text}
 
-    # 6) store cache and return
-    if isinstance(parsed, dict):
-        _write_cache(key, parsed)
-
+    # 5) Return the result
     return {"from_cache": False, "result": parsed}

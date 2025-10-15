@@ -3,7 +3,11 @@ from pydantic import BaseModel
 from typing import List, Dict, Any, Optional
 from pathlib import Path
 import json
+import os
 from core.lesson_generator import get_curriculum_objectives, generate_lesson_plan
+from dotenv import load_dotenv
+load_dotenv()
+
 
 app = FastAPI(
     title="KlassIQ API",
@@ -175,33 +179,33 @@ def generate_plan(req: LessonRequest):
         if not curriculum_path.exists():
             raise HTTPException(status_code=500, detail="Curriculum map not found")
         
-        # Generate the lesson plan (this will auto-retrieve curriculum objectives)
-        result = generate_lesson_plan(
+        # 1. Generate the lesson plan 
+        # (The result dict here contains {"from_cache": bool, "result": plan_dict})
+        intermediate_result = generate_lesson_plan(
             subject=req.subject,
             grade=req.grade,
             topic=req.topic,
             teacher_input=req.teacher_input
         )
         
-        if not result:
+        if not intermediate_result:
             raise HTTPException(status_code=500, detail="Lesson plan generation failed")
             
-        if "error" in result.get("result", {}):
-            raise HTTPException(status_code=500, detail=result["result"]["error"])
+        # 2. Check for internal errors from LLM/parsing process
+        if "error" in intermediate_result.get("result", {}):
+            error_message = intermediate_result["result"]["error"]
+            raise HTTPException(status_code=500, detail=f"LLM Processing Error: {error_message}")
             
+        # 3. CORRECT RETURN STRUCTURE: Align keys with Streamlit's expectation
         return {
-            "grade": req.grade,
-            "subject": req.subject,
-            "topic": req.topic,
-            "lesson_plan": result.get("result"),
-            "from_cache": result.get("from_cache", False)
+            "result": intermediate_result.get("result"), 
+            "from_cache": intermediate_result.get("from_cache", False)
         }
         
     except HTTPException:
         raise
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error generating lesson plan: {str(e)}")
-
 
 # Additional utility endpoints
 @app.get("/curriculum/grades")
