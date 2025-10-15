@@ -180,13 +180,27 @@ def get_curriculum_topic_data(req: CurriculumRequest):
 @app.post("/generate-plan")
 def generate_plan(req: LessonRequest):
     """Generate a lesson plan based on curriculum objectives."""
+    print(f"\n" + "="*80)
+    print(f"🎯 NEW LESSON PLAN REQUEST RECEIVED")
+    print(f"📋 Request details:")
+    print(f"   - Grade: {req.grade}")
+    print(f"   - Subject: {req.subject}")
+    print(f"   - Topic: {req.topic}")
+    print(f"   - Term: {req.term}")
+    print(f"   - Teacher Input: {req.teacher_input}")
+    print(f"="*80)
+    
     try:
         # Check if curriculum file exists
+        print(f"📂 Checking curriculum file...")
         curriculum_path = Path(__file__).resolve().parent / "data" / "curriculum_map.json"
         if not curriculum_path.exists():
+            print(f"❌ Curriculum map not found at: {curriculum_path}")
             raise HTTPException(status_code=500, detail="Curriculum map not found")
+        print(f"✅ Curriculum map found at: {curriculum_path}")
         
         # 1. Generate the lesson plan 
+        print(f"🚀 Starting lesson plan generation...")
         # (The result dict here contains {"from_cache": bool, "result": plan_dict})
         intermediate_result = generate_lesson_plan(
             subject=req.subject,
@@ -194,24 +208,40 @@ def generate_plan(req: LessonRequest):
             topic=req.topic,
             teacher_input=req.teacher_input
         )
+        print(f"📤 Lesson plan generation completed")
+        print(f"🔍 Intermediate result type: {type(intermediate_result)}")
+        print(f"🔍 Intermediate result keys: {list(intermediate_result.keys()) if isinstance(intermediate_result, dict) else 'Not a dict'}")
         
         if not intermediate_result:
+            print(f"❌ No intermediate result returned")
             raise HTTPException(status_code=500, detail="Lesson plan generation failed")
             
         # 2. Check for internal errors from LLM/parsing process
-        if "error" in intermediate_result.get("result", {}):
-            error_message = intermediate_result["result"]["error"]
+        result_data = intermediate_result.get("result", {})
+        print(f"🔍 Result data type: {type(result_data)}")
+        print(f"🔍 Result data keys: {list(result_data.keys()) if isinstance(result_data, dict) else 'Not a dict'}")
+        
+        if "error" in result_data:
+            error_message = result_data["error"]
+            print(f"❌ Error in result data: {error_message}")
             raise HTTPException(status_code=500, detail=f"LLM Processing Error: {error_message}")
             
         # 3. CORRECT RETURN STRUCTURE: Align keys with Streamlit's expectation
-        return {
+        final_response = {
             "result": intermediate_result.get("result"), 
             "from_cache": intermediate_result.get("from_cache", False)
         }
+        print(f"✅ Returning successful response")
+        print(f"🔍 Final response keys: {list(final_response.keys())}")
+        return final_response
         
-    except HTTPException:
+    except HTTPException as he:
+        print(f"🚨 HTTPException caught: {he.status_code} - {he.detail}")
         raise
     except Exception as e:
+        print(f"💥 Unexpected exception in generate_plan: {type(e).__name__}: {str(e)}")
+        import traceback
+        print(f"📍 Full traceback: {traceback.format_exc()}")
         raise HTTPException(status_code=500, detail=f"Error generating lesson plan: {str(e)}")
 
 # Additional utility endpoints
