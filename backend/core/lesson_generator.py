@@ -216,7 +216,8 @@ def _call_llm(prompt: str, max_tokens: int = 1200, temperature: float = 0.15) ->
             contents=prompt,
             config=types.GenerateContentConfig(
                 temperature=temperature,
-                maxOutputTokens=max_tokens
+                maxOutputTokens=max_tokens,
+                responseMimeType="application/json"
             )
         )
         print(f"✅ API call completed successfully")
@@ -281,6 +282,7 @@ REQUIREMENTS:
 6) Ensure the plan is self-contained, neutral in tone, and instructional.
 7) Use simple English and context-neutral examples (e.g., “use local objects,” “draw on board”).
 8) Do not include markdown, explanations, or extra text—JSON only.
+9) CRITICAL: Start your response immediately with {{ and end with }}. No other text before or after.
 
 END PROMPT.
 """
@@ -412,6 +414,8 @@ def generate_lesson_plan(
         else:
             # LLM returned non-JSON/non-parseable text
             print(f"🚫 No JSON pattern found in response")
+            print(f"📄 Raw LLM response (first 500 chars): {llm_response_text[:500]}")
+            print(f"📄 Raw LLM response (last 200 chars): {llm_response_text[-200:]}")
             parsed = {"error": "LLM did not return JSON format", "raw": llm_response_text}
 
     # 5) Return the result
