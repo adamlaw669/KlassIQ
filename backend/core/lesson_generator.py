@@ -23,7 +23,7 @@ import re # Keep regex for robust JSON parsing
 
 # Environment variables - hardcoded for deployment stability
 GEMINI_API_KEY = os.getenv('GEMINI_API_KEY', "AIzaSyAhkD0dv_JIv9ZVCqzLOPNUhkr6hjEf1eI")
-LLM_MODEL = 'gemini-flash-latest'  # Use latest stable flash model
+LLM_MODEL = 'gemini-2.0-flash'  # Use latest stable flash model
 
 # Initialize Gemini Client (will be set when API key is available)
 CLIENT = None
